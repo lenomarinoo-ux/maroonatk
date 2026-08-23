@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog & Panduan Peralatan Kantor - MAROON ATK</title>
+  <meta name="description"
+    content="Kumpulan artikel, tips, & panduan pengadaan peralatan kantor, furniture ergonomis, teknologi videotron, dan smart display dari pakar MAROON ATK.">
+  <link rel="canonical" href="https://maroonatk.web.id/blog">
+  <link rel="icon" href="assets/image/favicon-maroon-atk.webp" type="image/webp">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://maroonatk.web.id/blog">
+  <meta property="og:title" content="Blog & Panduan Peralatan Kantor - MAROON ATK">
+  <meta property="og:description"
+    content="Edukasi seputar pemilihan vendor ATK, penataan interior kantor, dan teknologi rapat digital.">
+
+  <!-- Google Fonts & Font Awesome CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    /* ===== HERO FEATURES GRID (RAMPI) ===== */
+    .hero-features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .hero-feature-card {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      padding: 0.9rem 0.9rem;
+      border-radius: 12px;
+      backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      text-align: left;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .hero-feature-card:hover {
+      transform: translateY(-3px);
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    @media (max-width: 768px) {
+      .hero-features-grid {
+        grid-template-columns: 1fr;
+        gap: 0.7rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-feature-card {
+        padding: 0.7rem 0.7rem;
+      }
+
+      .hero-feature-card h4 {
+        font-size: 0.8rem !important;
+      }
+
+      .hero-feature-card p {
+        font-size: 0.65rem !important;
+      }
+    }
+
+    /* ===== BLOG LAYOUT - CLEAN GRID + POST 3 COLUMNS ===== */
+    .blog-layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 2.5rem;
+      margin-top: 1.5rem;
+      align-items: start;
+    }
+
+    /* ---------- SIDEBAR ---------- */
+    .blog-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .sidebar-section h3 {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-muted, #6c757d);
+      border-bottom: 2px solid var(--border-color, #e0e0e0);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+
+    /* ---- Terbaru dengan gambar ---- */
+    .sidebar-latest-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar-latest-item {
+      display: flex;
+      gap: 0.8rem;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+      padding-bottom: 0.8rem;
+      border-bottom: 1px solid var(--border-color, #e0e0e0);
+    }
+
+    .sidebar-latest-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .sidebar-latest-item .thumb {
+      flex-shrink: 0;
+      width: 60px;
+      height: 60px;
+      border-radius: 6px;
+      overflow: hidden;
+      background: var(--bg-gray, #f8f9fa);
+    }
+
+    .sidebar-latest-item .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .sidebar-latest-item:hover .thumb img {
+      transform: scale(1.05);
+    }
+
+    .sidebar-latest-item .content {
+      flex: 1;
+      min-width: 0;
+      /* mencegah overflow */
+    }
+
+    .sidebar-latest-item .content a {
+      text-decoration: none;
+      color: var(--text-dark, #111);
+      font-weight: 600;
+      font-size: 0.9rem;
+      line-height: 1.3;
+      transition: color 0.2s ease;
+      display: block;
+    }
+
+    .sidebar-latest-item .content a:hover {
+      color: var(--primary-maroon, #7a1a1a);
+    }
+
+    .sidebar-latest-item .post-date {
+      font-size: 0.7rem;
+      color: var(--text-muted, #6c757d);
+      display: block;
+      margin-top: 0.1rem;
+    }
+
+    /* ---- Sidebar Hero ---- */
+    .sidebar-hero {
+      background: var(--bg-gray, #f8f9fa);
+      border-radius: var(--radius-md, 8px);
+      padding: 1.25rem;
+      border: 1px solid var(--border-color, #e0e0e0);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .sidebar-hero:hover {
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    }
+
+    .sidebar-hero .hero-category {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--primary-maroon, #7a1a1a);
+      font-weight: 700;
+    }
+
+    .sidebar-hero h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0.3rem 0 0.2rem;
+      line-height: 1.3;
+    }
+
+    .sidebar-hero h4 a {
+      text-decoration: none;
+      color: var(--text-dark, #111);
+      transition: color 0.2s ease;
+    }
+
+    .sidebar-hero h4 a:hover {
+      color: var(--primary-maroon, #7a1a1a);
+    }
+
+    .sidebar-hero .post-date {
+      font-size: 0.75rem;
+      color: var(--text-muted, #6c757d);
+    }
+
+    /* ---------- MAIN CONTENT (3 COLUMNS) ---------- */
+    .blog-main {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.8rem;
+      align-items: start;
+    }
+
+    .blog-post-card {
+      display: flex;
+      flex-direction: column;
+      transition: all 0.3s ease;
+      border-radius: var(--radius-sm, 6px);
+      overflow: hidden;
+    }
+
+    .blog-post-card .post-thumb {
+      border-radius: var(--radius-sm, 6px);
+      overflow: hidden;
+      margin-bottom: 0.75rem;
+      background: var(--bg-gray, #f8f9fa);
+    }
+
+    .blog-post-card .post-thumb img {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+      display: block;
+    }
+
+    .blog-post-card:hover .post-thumb img {
+      transform: scale(1.03);
+    }
+
+    .blog-post-card .post-category {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--primary-maroon, #7a1a1a);
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+
+    .blog-post-card .post-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.35;
+      margin: 0 0 0.35rem;
+    }
+
+    .blog-post-card .post-title a {
+      text-decoration: none;
+      color: var(--text-dark, #111);
+      transition: color 0.2s ease;
+    }
+
+    .blog-post-card .post-title a:hover {
+      color: var(--primary-maroon, #7a1a1a);
+    }
+
+    .blog-post-card .post-date {
+      font-size: 0.75rem;
+      color: var(--text-muted, #6c757d);
+      margin-bottom: 0.6rem;
+    }
+
+    .blog-post-card .post-excerpt {
+      font-size: 0.88rem;
+      color: var(--text-muted, #6c757d);
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+    }
+
+    .blog-post-card .post-readmore {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--primary-maroon, #7a1a1a);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: gap 0.2s ease;
+    }
+
+    .blog-post-card .post-readmore:hover {
+      gap: 0.6rem;
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 1024px) {
+      .blog-main {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .blog-layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .blog-sidebar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+      }
+
+      .sidebar-hero {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .blog-main {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+      }
+
+      .blog-sidebar {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+      }
+
+      .sidebar-latest-item .thumb {
+        width: 50px;
+        height: 50px;
+      }
+
+      .sidebar-latest-item .content a {
+        font-size: 0.85rem;
+      }
+
+      .blog-post-card .post-title {
+        font-size: 0.95rem;
+      }
+
+      .blog-post-card .post-excerpt {
+        font-size: 0.82rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .blog-main {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+      }
+
+      .blog-sidebar {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+
+      .sidebar-latest-item .thumb {
+        width: 55px;
+        height: 55px;
+      }
+
+      .sidebar-latest-item .content a {
+        font-size: 0.9rem;
+      }
+
+      .sidebar-hero h4 {
+        font-size: 0.9rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .blog-main {
+        grid-template-columns: 1fr;
+        gap: 1.8rem;
+      }
+
+      .blog-sidebar {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+
+      .sidebar-latest-item {
+        gap: 0.7rem;
+        margin-bottom: 0.8rem;
+        padding-bottom: 0.8rem;
+      }
+
+      .sidebar-latest-item .thumb {
+        width: 60px;
+        height: 60px;
+      }
+
+      .sidebar-latest-item .content a {
+        font-size: 0.9rem;
+      }
+
+      .blog-post-card .post-title {
+        font-size: 0.95rem;
+      }
+
+      .blog-post-card .post-excerpt {
+        font-size: 0.85rem;
+      }
+
+      .blog-post-card .post-thumb img {
+        aspect-ratio: 16 / 9;
+      }
+
+      .sidebar-hero {
+        padding: 1rem;
+      }
+
+      .sidebar-hero h4 {
+        font-size: 0.9rem;
+      }
+
+      .section {
+        padding: 2rem 0;
+      }
+    }
+
+    @media (max-width: 360px) {
+      .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      .sidebar-latest-item .thumb {
+        width: 50px;
+        height: 50px;
+      }
+
+      .sidebar-latest-item .content a {
+        font-size: 0.8rem;
+      }
+
+      .blog-post-card .post-title {
+        font-size: 0.85rem;
+      }
+
+      .blog-post-card .post-excerpt {
+        font-size: 0.78rem;
+      }
+
+      .sidebar-hero h4 {
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Beranda",
+        "item": "https://maroonatk.web.id/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://maroonatk.web.id/blog"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <div class="container navbar-container">
+      <a href="/" class="brand-logo" style="display: flex; align-items: center; text-decoration: none;">
+        <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img"
+          style="height: 38px; width: auto; margin-right: 2px;" />
+        <span class="logo-text" style="font-weight: 700; font-size: 1.15rem; color: var(--text-dark, #1a1a2e);">MAROON
+          <span style="color: var(--primary-maroon, #7a1a1a);">ATK</span></span>
+      </a>
+      <button class="hamburger" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/" class="nav-link">Beranda</a></li>
+        <li class="nav-item"><a href="/tentang-kami" class="nav-link">Tentang Kami</a></li>
+        <li class="nav-item nav-item-dropdown">
+          <a href="/produk" class="nav-link dropdown-toggle">Produk <i class="fas fa-chevron-down"
+              style="font-size:0.75rem;"></i></a>
+          <div class="dropdown-menu">
+            <a href="/produk/atk" class="dropdown-item"><i class="fas fa-pen-nib"></i> Alat Tulis Kantor</a>
+            <a href="/produk/meja-kantor" class="dropdown-item"><i class="fas fa-table"></i> Meja Kantor</a>
+            <a href="/produk/kursi-kantor" class="dropdown-item"><i class="fas fa-chair"></i> Kursi Kantor</a>
+            <a href="/produk/lemari-arsip" class="dropdown-item"><i class="fas fa-archive"></i> Lemari Arsip</a>
+            <a href="/produk/furniture-kantor" class="dropdown-item"><i class="fas fa-couch"></i> Furniture Kantor</a>
+            <a href="/produk/videotron" class="dropdown-item"><i class="fas fa-tv"></i> Videotron</a>
+            <a href="/produk/interactive-flat-panel" class="dropdown-item"><i class="fas fa-chalkboard-teacher"></i>
+              Interactive Flat Panel</a>
+            <a href="/produk/papan-tulis-digital" class="dropdown-item"><i class="fas fa-digital-tachograph"></i> Papan
+              Tulis Digital</a>
+          </div>
+        </li>
+        <li class="nav-item"><a href="/paket" class="nav-link">Paket</a></li>
+        <li class="nav-item"><a href="/blog" class="nav-link active">Blog</a></li>
+        <li class="nav-item"><a href="/kontak" class="nav-link">Kontak</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20ATK"
+          target="_blank" class="btn btn-whatsapp btn-sm">
+          <i class="fas fa-headset"></i> <span>Hubungi Kami</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb-container">
+    <div class="container">
+      <ul class="breadcrumb-list">
+        <li class="breadcrumb-item"><a href="/">Beranda</a></li>
+        <li class="breadcrumb-separator"><i class="fas fa-chevron-right"></i></li>
+        <li class="breadcrumb-item active">Blog</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== HERO BLOG - RAMPI DENGAN GRID FITUR ===== -->
+  <section style="
+    background: linear-gradient(135deg, #7a1a1a 0%, #4a0f0f 100%);
+    padding: 3rem 0 3.5rem;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+  ">
+    <div class="container" style="
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    ">
+      <!-- Badge -->
+      <span style="
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: rgba(255, 255, 255, 0.12);
+        color: #ffffff;
+        padding: 0.35rem 1.1rem;
+        border-radius: 50px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin-bottom: 1rem;
+        backdrop-filter: blur(4px);
+      ">
+        <i class="fas fa-pen-fancy" style="color: #c9a84c;"></i> EDUKASI & INSIGHT
+      </span>
+
+      <!-- Title -->
+      <h1 style="
+        font-size: clamp(1.8rem, 4vw, 2.8rem);
+        font-weight: 800;
+        color: #ffffff;
+        margin: 0 0 0.5rem 0;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+      ">Blog & Panduan Peralatan Kantor</h1>
+
+      <!-- Description -->
+      <p style="
+        font-size: clamp(0.95rem, 1.1vw, 1.1rem);
+        color: rgba(255, 255, 255, 0.9);
+        max-width: 700px;
+        margin: 0 auto 1.5rem;
+        line-height: 1.6;
+        font-weight: 400;
+      ">
+        Kumpulan artikel referensi, tips praktis, dan panduan lengkap seputar pengadaan peralatan kantor, penataan
+        furniture ergonomis, serta teknologi smart display dari tim MAROON ATK.
+      </p>
+
+      <!-- Grid 3 Fitur Utama Blog -->
+      <div class="hero-features-grid">
+        <!-- Fitur 1: Edukasi & Tips -->
+        <div class="hero-feature-card">
+          <div style="
+            width: 38px;
+            height: 38px;
+            border-radius: 8px;
+            background: rgba(201, 168, 76, 0.2);
+            color: #c9a84c;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            flex-shrink: 0;
+          ">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div>
+            <h4 style="color: #ffffff; margin: 0; font-size: 0.85rem; font-weight: 700;">Edukasi & Tips</h4>
+            <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 0.7rem;">Pengetahuan seputar peralatan kantor
+            </p>
+          </div>
+        </div>
+
+        <!-- Fitur 2: Panduan Praktis -->
+        <div class="hero-feature-card">
+          <div style="
+            width: 38px;
+            height: 38px;
+            border-radius: 8px;
+            background: rgba(201, 168, 76, 0.2);
+            color: #c9a84c;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            flex-shrink: 0;
+          ">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <div>
+            <h4 style="color: #ffffff; margin: 0; font-size: 0.85rem; font-weight: 700;">Panduan Praktis</h4>
+            <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 0.7rem;">Prosedur & tata kelola pengadaan</p>
+          </div>
+        </div>
+
+        <!-- Fitur 3: Update Terbaru -->
+        <div class="hero-feature-card">
+          <div style="
+            width: 38px;
+            height: 38px;
+            border-radius: 8px;
+            background: rgba(201, 168, 76, 0.2);
+            color: #c9a84c;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            flex-shrink: 0;
+          ">
+            <i class="fas fa-newspaper"></i>
+          </div>
+          <div>
+            <h4 style="color: #ffffff; margin: 0; font-size: 0.85rem; font-weight: 700;">Update Terbaru</h4>
+            <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 0.7rem;">Info promo & produk terbaru</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Decorative Elements (ramping) -->
+    <div style="
+      position: absolute;
+      top: -20%;
+      right: -5%;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0) 70%);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 1;
+    "></div>
+    <div style="
+      position: absolute;
+      bottom: -15%;
+      left: -3%;
+      width: 280px;
+      height: 280px;
+      background: radial-gradient(circle, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0) 70%);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 1;
+    "></div>
+  </section>
+
+  <!-- ===== BLOG LAYOUT (CLEAN GRID + 3 COLUMNS) ===== -->
+  <section class="section" style="padding-top: 1.5rem;">
+    <div class="container">
+
+      <div class="blog-layout">
+
+        <!-- ===== SIDEBAR KIRI ===== -->
+        <aside class="blog-sidebar">
+
+          <!-- LATEST POSTS dengan thumbnail -->
+          <div class="sidebar-section">
+            <h3>TERBARU</h3>
+            <ul class="sidebar-latest-list">
+
+              <!-- Item 1 - Pengadaan Furniture Kantor -->
+              <li class="sidebar-latest-item">
+                <div class="thumb">
+                  <img src="assets/image/blog/pengadaan-furniture-kantor-hero.webp"
+                    alt="SOP Pengadaan Furniture Kantor B2B" loading="lazy">
+                </div>
+                <div class="content">
+                  <a href="/blog/pengadaan-furniture-kantor">SOP Pengadaan Furniture Kantor B2B: Panduan untuk
+                    Purchasing Team</a>
+                  <span class="post-date">22 Agustus 2026</span>
+                </div>
+              </li>
+
+              <!-- Item 2 - Harga Videotron LED Indoor -->
+              <li class="sidebar-latest-item">
+                <div class="thumb">
+                  <img src="assets/image/blog/harga-videotron-led-indoor-hero.webp"
+                    alt="Harga Videotron LED Indoor Jakarta" loading="lazy">
+                </div>
+                <div class="content">
+                  <a href="/blog/harga-videotron-led-indoor">Berapa Harga Videotron LED Indoor per m2 Terpasang di
+                    Jakarta?</a>
+                  <span class="post-date">22 Agustus 2026</span>
+                </div>
+              </li>
+
+              <!-- Item 3 - Interactive Flat Panel Sekolah -->
+              <li class="sidebar-latest-item">
+                <div class="thumb">
+                  <img src="assets/image/blog/interactive-flat-panel-sekolah-hero.webp"
+                    alt="Pengadaan Interactive Flat Panel Sekolah" loading="lazy">
+                </div>
+                <div class="content">
+                  <a href="/blog/interactive-flat-panel-sekolah">Pengadaan Interactive Flat Panel Sekolah: Transformasi
+                    Smart Classroom</a>
+                  <span class="post-date">22 Agustus 2026</span>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+          <!-- REKOMENDASI PRODUK / HERO POST -->
+          <div class="sidebar-hero">
+            <div class="hero-category">REKOMENDASI</div>
+            <h4><a href="/blog/interactive-flat-panel-sekolah">Pengadaan Interactive Flat Panel Sekolah: Transformasi
+                Smart Classroom</a></h4>
+            <span class="post-date">22 Agustus 2026</span>
+          </div>
+
+          <!-- PROMO SIDEBAR -->
+          <div class="sidebar-hero"
+            style="background: var(--maroon-soft, #f5e6e6); border-color: var(--primary-maroon, #7a1a1a);">
+            <div class="hero-category"
+              style="color: #fff; background: var(--primary-maroon); display: inline-block; padding: 0.1rem 0.6rem; border-radius: 4px;">
+              PROMO</div>
+            <h4><a href="/paket" style="color: var(--primary-maroon);">Paket Pengadaan Kantor Hemat 15% – Periode
+                Agustus 2026</a></h4>
+            <span class="post-date">Dapatkan harga spesial sekarang!</span>
+          </div>
+
+        </aside>
+
+        <!-- ===== MAIN CONTENT (3 COLUMNS) ===== -->
+        <div class="blog-main">
+
+          <!-- Card Slot 1 (ToFU) - Pengadaan Furniture Kantor -->
+          <article class="blog-post-card">
+            <div class="post-thumb">
+              <img src="assets/image/blog/pengadaan-furniture-kantor-hero.webp" alt="SOP Pengadaan Furniture Kantor B2B"
+                loading="lazy">
+            </div>
+            <div class="post-category">PENGADAAN</div>
+            <h3 class="post-title"><a href="/blog/pengadaan-furniture-kantor">SOP Pengadaan Furniture Kantor B2B:
+                Panduan untuk Purchasing Team</a></h3>
+            <div class="post-date">22 Agustus 2026</div>
+            <p class="post-excerpt">Panduan alur kerja SOP pengadaan furniture kantor B2B untuk purchasing team
+              korporat, mitigasi risiko vendor, standarisasi dokumen tender, dan manajemen garansi resmi.</p>
+            <a href="/blog/pengadaan-furniture-kantor" class="post-readmore">Baca Selengkapnya <i
+                class="fas fa-arrow-right"></i></a>
+          </article>
+
+          <!-- Card Slot 2 (MoFU) - Harga Videotron LED Indoor -->
+          <article class="blog-post-card">
+            <div class="post-thumb">
+              <img src="assets/image/blog/harga-videotron-led-indoor-hero.webp" alt="Harga Videotron LED Indoor Jakarta"
+                loading="lazy">
+            </div>
+            <div class="post-category">VIDEOTRON</div>
+            <h3 class="post-title"><a href="/blog/harga-videotron-led-indoor">Berapa Harga Videotron LED Indoor per m2
+                Terpasang di Jakarta?</a></h3>
+            <div class="post-date">22 Agustus 2026</div>
+            <p class="post-excerpt">Rincian estimasi biaya videotron LED indoor terpasang di Jakarta tahun 2026.
+              Analisis perbandingan pitch P1.5 hingga P2.5, processor video, dan instalasi bergaransi resmi.</p>
+            <a href="/blog/harga-videotron-led-indoor" class="post-readmore">Baca Selengkapnya <i
+                class="fas fa-arrow-right"></i></a>
+          </article>
+
+          <!-- Card Slot 3 (BoFU) - Interactive Flat Panel Sekolah -->
+          <article class="blog-post-card">
+            <div class="post-thumb">
+              <img src="assets/image/blog/interactive-flat-panel-sekolah-hero.webp"
+                alt="Pengadaan Interactive Flat Panel Sekolah" loading="lazy">
+            </div>
+            <div class="post-category">SMART CLASSROOM</div>
+            <h3 class="post-title"><a href="/blog/interactive-flat-panel-sekolah">Pengadaan Interactive Flat Panel
+                Sekolah: Transformasi Smart Classroom</a></h3>
+            <div class="post-date">22 Agustus 2026</div>
+            <p class="post-excerpt">Panduan pengadaan resmi papan tulis digital interaktif (IFP) untuk sekolah dan
+              yayasan. Spesifikasi panel 4K, dual OS Android/Windows, legalitas tender, dan garansi 3 tahun.</p>
+            <a href="/blog/interactive-flat-panel-sekolah" class="post-readmore">Baca Selengkapnya <i
+                class="fas fa-arrow-right"></i></a>
+          </article>
+
+        </div><!-- /blog-main -->
+
+      </div><!-- /blog-layout -->
+
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner">
+        <h2>Konsultasikan Kebutuhan Pengadaan Peralatan Kantor Anda</h2>
+        <p>Hubungi MAROON ATK sekarang untuk mendapatkan informasi produk terbaru, brosur, dan penawaran harga resmi.
+        </p>
+        <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20membaca%20blog%20dan%20ingin%20berkonsultasi."
+          target="_blank" class="btn btn-whatsapp">
+          <i class="fab fa-whatsapp"></i> Chat WhatsApp (0889-8964-3555)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="brand-logo"
+            style="display: flex; align-items: center; text-decoration: none; margin-bottom: 0.75rem;">
+            <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img"
+              style="height: 36px; width: auto; margin-right: 2px;" />
+            <span class="logo-text" style="font-weight: 700; font-size: 1.1rem; color: #ffffff;">MAROON <span
+                style="color: var(--primary-maroon, #7a1a1a);">ATK</span></span>
+          </a>
+          <p style="color: #e0e0e0;">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board
+            Terpercaya untuk Instansi Pemerintah, Pendidikan, dan Swasta.</p>
+          <div class="footer-social-strip">
+            <a href="https://wa.me/6288989643555" target="_blank" class="footer-social-btn wa-btn"
+              aria-label="WhatsApp MAROON ATK"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:info@maroonatk.web.id" class="footer-social-btn" aria-label="Email MAROON ATK"><i
+                class="fas fa-envelope"></i></a>
+            <a href="tel:088989643555" class="footer-social-btn" aria-label="Telepon MAROON ATK"><i
+                class="fas fa-phone-alt"></i></a>
+            <a href="https://maroonatk.web.id/" class="footer-social-btn" aria-label="Website MAROON ATK"><i
+                class="fas fa-globe"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Kategori Produk</h4>
+          <ul class="footer-links">
+            <li><a href="/produk/atk">Alat Tulis Kantor (ATK)</a></li>
+            <li><a href="/produk/meja-kantor">Meja Kantor Executive &amp; Staf</a></li>
+            <li><a href="/produk/kursi-kantor">Kursi Kerja Ergonomis</a></li>
+            <li><a href="/produk/lemari-arsip">Lemari Arsip &amp; Filing Cabinet</a></li>
+            <li><a href="/produk/videotron">Videotron LED Indoor / Outdoor</a></li>
+            <li><a href="/produk/interactive-flat-panel">Interactive Flat Panel Smart Board</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Navigasi Situs</h4>
+          <ul class="footer-links">
+            <li><a href="/tentang-kami">Tentang Kami</a></li>
+            <li><a href="/produk">Katalog Produk</a></li>
+            <li><a href="/paket">Paket Pengadaan</a></li>
+            <li><a href="/blog">Blog &amp; Panduan Kantor</a></li>
+            <li><a href="/kontak">Kontak &amp; Lokasi</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hubungi Kami</h4>
+          <ul class="footer-contact-list">
+            <li><i class="fas fa-phone-alt"></i> <span>0889-8964-3555</span></li>
+            <li><i class="fab fa-whatsapp"></i> <span>0889-8964-3555 (WhatsApp)</span></li>
+            <li><i class="fas fa-envelope"></i> <span>info@maroonatk.web.id</span></li>
+            <li><i class="fas fa-globe"></i> <span>https://maroonatk.web.id/</span></li>
+            <li><i class="fas fa-map-marker-alt"></i> <span>Layanan Pengadaan: Malang, Surabaya, Jakarta, Denpasar,
+                Makassar &amp; Seluruh Indonesia</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 MAROON ATK. All Rights Reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK" target="_blank" class="float-wa"
+    aria-label="Chat WhatsApp MAROON ATK">
+    <i class="fab fa-whatsapp"></i>
+    <span class="tooltip">Hubungi Kami (0889-8964-3555)</span>
+  </a>
+  <button class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
