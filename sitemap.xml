@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
@@ -10,7 +10,7 @@
   <!-- Beranda / Homepage -->
   <url>
     <loc>https://maroonatk.web.id/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -23,7 +23,7 @@
   <!-- Tentang Kami -->
   <url>
     <loc>https://maroonatk.web.id/tentang-kami</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -31,7 +31,7 @@
   <!-- Katalog Produk (induk) -->
   <url>
     <loc>https://maroonatk.web.id/produk</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
@@ -39,7 +39,7 @@
   <!-- Paket Pengadaan -->
   <url>
     <loc>https://maroonatk.web.id/paket</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -47,7 +47,7 @@
   <!-- Blog & Panduan Kantor -->
   <url>
     <loc>https://maroonatk.web.id/blog</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -55,7 +55,7 @@
   <!-- Kontak -->
   <url>
     <loc>https://maroonatk.web.id/kontak</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -67,7 +67,7 @@
   <!-- ATK - Alat Tulis Kantor -->
   <url>
     <loc>https://maroonatk.web.id/produk/atk</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
     <image:image>
@@ -80,7 +80,7 @@
   <!-- Meja Kantor -->
   <url>
     <loc>https://maroonatk.web.id/produk/meja-kantor</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -88,7 +88,7 @@
   <!-- Kursi Kantor -->
   <url>
     <loc>https://maroonatk.web.id/produk/kursi-kantor</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -96,7 +96,7 @@
   <!-- Lemari Arsip -->
   <url>
     <loc>https://maroonatk.web.id/produk/lemari-arsip</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -104,7 +104,7 @@
   <!-- Furniture Kantor -->
   <url>
     <loc>https://maroonatk.web.id/produk/furniture-kantor</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -112,7 +112,7 @@
   <!-- Videotron -->
   <url>
     <loc>https://maroonatk.web.id/produk/videotron</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -120,7 +120,7 @@
   <!-- Interactive Flat Panel -->
   <url>
     <loc>https://maroonatk.web.id/produk/interactive-flat-panel</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -128,7 +128,7 @@
   <!-- Papan Tulis Digital -->
   <url>
     <loc>https://maroonatk.web.id/produk/papan-tulis-digital</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -140,7 +140,7 @@
   <!-- Kertas HVS A4/F4 -->
   <url>
     <loc>https://maroonatk.web.id/detail/kertas-hvs-a4-f4</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
@@ -148,7 +148,7 @@
   <!-- Meja Kerja Staf M-120 -->
   <url>
     <loc>https://maroonatk.web.id/detail/meja-kerja-staf-m-120</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
@@ -156,7 +156,7 @@
   <!-- Kursi Direktur Executive K-80 -->
   <url>
     <loc>https://maroonatk.web.id/detail/kursi-direktur-executive-k-80</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
@@ -164,7 +164,7 @@
   <!-- Lemari Arsip Besi Pintu Geser Kaca L-180 -->
   <url>
     <loc>https://maroonatk.web.id/detail/lemari-arsip-besi-pintu-geser-kaca-l-180</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
@@ -172,7 +172,7 @@
   <!-- Set Sofa Tamu Kantor Leather 3-1-1 -->
   <url>
     <loc>https://maroonatk.web.id/detail/set-sofa-tamu-kantor-leather-3-1-1</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
@@ -180,7 +180,7 @@
   <!-- Videotron LED Indoor P2 -->
   <url>
     <loc>https://maroonatk.web.id/detail/videotron-led-indoor-p2</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
@@ -188,7 +188,7 @@
   <!-- Interactive Flat Panel 65 Inch 4K -->
   <url>
     <loc>https://maroonatk.web.id/detail/interactive-flat-panel-65-inch-4k</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
@@ -196,7 +196,7 @@
   <!-- Digital Whiteboard 55 Inch Portable -->
   <url>
     <loc>https://maroonatk.web.id/detail/digital-whiteboard-55-inch-portable</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
@@ -208,7 +208,7 @@
   <!-- Panduan Memilih Supplier ATK -->
   <url>
     <loc>https://maroonatk.web.id/blog/panduan-memilih-supplier-atk</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.72</priority>
     <news:news>
@@ -224,7 +224,7 @@
   <!-- Prosedur Pengadaan ATK Instansi Pemerintah -->
   <url>
     <loc>https://maroonatk.web.id/blog/prosedur-pengadaan-atk-instansi-pemerintah</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.72</priority>
     <news:news>
@@ -240,7 +240,7 @@
   <!-- Promo Paket Kantor 2026 -->
   <url>
     <loc>https://maroonatk.web.id/blog/promo-paket-kantor-2026</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.72</priority>
     <news:news>
@@ -256,7 +256,7 @@
   <!-- Tips Menata Furniture Kantor Produktif -->
   <url>
     <loc>https://maroonatk.web.id/blog/tips-menata-furniture-kantor-produktif</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
     <news:news>
@@ -269,10 +269,10 @@
     </news:news>
   </url>
 
-  <!-- Keunggulan Videotron LED Proyektor -->
+  <!-- Keunggulan Videotron LED vs Proyektor -->
   <url>
     <loc>https://maroonatk.web.id/blog/keunggulan-videotron-led-proyektor</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
     <news:news>
@@ -288,7 +288,7 @@
   <!-- Interactive Flat Panel untuk Rapat Modern -->
   <url>
     <loc>https://maroonatk.web.id/blog/interactive-flat-panel-untuk-rapat-modern</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
     <news:news>
@@ -304,7 +304,7 @@
   <!-- Digital Whiteboard Portable untuk Pendidikan -->
   <url>
     <loc>https://maroonatk.web.id/blog/digital-whiteboard-portable-untuk-pendidikan</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
     <news:news>
@@ -314,6 +314,54 @@
       </news:publication>
       <news:publication_date>2026-08-10</news:publication_date>
       <news:title>Digital Whiteboard Portable untuk Pendidikan: Solusi Belajar Modern</news:title>
+    </news:news>
+  </url>
+
+  <!-- Harga Videotron LED Indoor -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/harga-videotron-led-indoor</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>Harga Videotron LED Indoor Terbaru 2026 - MAROON ATK</news:title>
+    </news:news>
+  </url>
+
+  <!-- Interactive Flat Panel untuk Sekolah -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/interactive-flat-panel-sekolah</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>Interactive Flat Panel untuk Sekolah: Solusi Media Pembelajaran Modern</news:title>
+    </news:news>
+  </url>
+
+  <!-- Pengadaan Furniture Kantor -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/pengadaan-furniture-kantor</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>Panduan Pengadaan Furniture Kantor untuk Instansi &amp; Perusahaan 2026</news:title>
     </news:news>
   </url>
 
