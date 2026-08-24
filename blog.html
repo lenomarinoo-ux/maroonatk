@@ -218,7 +218,7 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 1.8rem;
-      align-items: start;
+      align-items: stretch;
     }
 
     .blog-post-card {
@@ -285,6 +285,7 @@
       color: var(--text-muted, #6c757d);
       line-height: 1.6;
       margin-bottom: 0.75rem;
+      flex-grow: 1;
     }
 
     .blog-post-card .post-readmore {
@@ -296,6 +297,7 @@
       align-items: center;
       gap: 0.35rem;
       transition: gap 0.2s ease;
+      margin-top: auto;
     }
 
     .blog-post-card .post-readmore:hover {
@@ -706,42 +708,39 @@
             <h3>TERBARU</h3>
             <ul class="sidebar-latest-list">
 
-              <!-- Item 1 - Pengadaan Furniture Kantor -->
+              <!-- Item 1 - Panduan Supplier ATK (24 Agt 2026) -->
               <li class="sidebar-latest-item">
                 <div class="thumb">
-                  <img src="assets/image/blog/pengadaan-furniture-kantor-hero.webp"
-                    alt="SOP Pengadaan Furniture Kantor B2B" loading="lazy">
+                  <img src="assets/image/blog/panduan-memilih-supplier-atk-jakarta-terpercaya-hero.webp"
+                    alt="Panduan Memilih Supplier ATK Jakarta Terpercaya" loading="lazy">
                 </div>
                 <div class="content">
-                  <a href="/blog/pengadaan-furniture-kantor">SOP Pengadaan Furniture Kantor B2B: Panduan untuk
-                    Purchasing Team</a>
-                  <span class="post-date">22 Agustus 2026</span>
+                  <a href="/blog/panduan-memilih-supplier-atk-jakarta-terpercaya">Panduan Memilih Supplier ATK Kantor Jakarta Terpercaya Berlegalitas</a>
+                  <span class="post-date">24 Agustus 2026</span>
                 </div>
               </li>
 
-              <!-- Item 2 - Harga Videotron LED Indoor -->
+              <!-- Item 2 - Paket ATK Bulanan (24 Agt 2026) -->
               <li class="sidebar-latest-item">
                 <div class="thumb">
-                  <img src="assets/image/blog/harga-videotron-led-indoor-hero.webp"
-                    alt="Harga Videotron LED Indoor Jakarta" loading="lazy">
+                  <img src="assets/image/blog/spesifikasi-paket-pengadaan-atk-bulanan-hero.webp"
+                    alt="Spesifikasi Paket Pengadaan ATK Bulanan B2B" loading="lazy">
                 </div>
                 <div class="content">
-                  <a href="/blog/harga-videotron-led-indoor">Berapa Harga Videotron LED Indoor per m2 Terpasang di
-                    Jakarta?</a>
-                  <span class="post-date">22 Agustus 2026</span>
+                  <a href="/blog/spesifikasi-paket-pengadaan-atk-bulanan">Spesifikasi dan Kelebihan Paket Pengadaan ATK Bulanan B2B</a>
+                  <span class="post-date">24 Agustus 2026</span>
                 </div>
               </li>
 
-              <!-- Item 3 - Interactive Flat Panel Sekolah -->
+              <!-- Item 3 - Smart Board (24 Agt 2026) -->
               <li class="sidebar-latest-item">
                 <div class="thumb">
-                  <img src="assets/image/blog/interactive-flat-panel-sekolah-hero.webp"
-                    alt="Pengadaan Interactive Flat Panel Sekolah" loading="lazy">
+                  <img src="assets/image/blog/mengenal-papan-tulis-digital-smart-board-hero.webp"
+                    alt="Mengenal Papan Tulis Digital Smart Board" loading="lazy">
                 </div>
                 <div class="content">
-                  <a href="/blog/interactive-flat-panel-sekolah">Pengadaan Interactive Flat Panel Sekolah: Transformasi
-                    Smart Classroom</a>
-                  <span class="post-date">22 Agustus 2026</span>
+                  <a href="/blog/mengenal-papan-tulis-digital-smart-board">Mengenal Papan Tulis Digital Smart Board: Spesifikasi &amp; Cara Memilih</a>
+                  <span class="post-date">24 Agustus 2026</span>
                 </div>
               </li>
 
@@ -772,7 +771,50 @@
         <!-- ===== MAIN CONTENT (3 COLUMNS) ===== -->
         <div class="blog-main">
 
-          <!-- Card Slot 1 (ToFU) - Pengadaan Furniture Kantor -->
+          <!-- ===== ARTIKEL TERBARU 24 AGUSTUS 2026 ===== -->
+
+          <!-- Card 1 - Panduan Supplier ATK (BoFU) -->
+          <article class="blog-post-card">
+            <div class="post-thumb">
+              <img src="assets/image/blog/panduan-memilih-supplier-atk-jakarta-terpercaya-hero.webp"
+                alt="Panduan Memilih Supplier ATK Kantor Jakarta Terpercaya" loading="lazy">
+            </div>
+            <div class="post-category">SUPPLIER ATK</div>
+            <h3 class="post-title"><a href="/blog/panduan-memilih-supplier-atk-jakarta-terpercaya">Panduan Memilih Supplier ATK Kantor Jakarta Terpercaya Berlegalitas</a></h3>
+            <div class="post-date">24 Agustus 2026</div>
+            <p class="post-excerpt">Checklist wajib verifikasi legalitas supplier ATK: PT resmi Kemenkumham, status PKP aktif, e-Faktur PPN 11% valid, SPH berkop perusahaan, dan matriks evaluasi 4 dimensi untuk procurement korporat.</p>
+            <a href="/blog/panduan-memilih-supplier-atk-jakarta-terpercaya" class="post-readmore">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+          </article>
+
+          <!-- Card 2 - Paket ATK Bulanan (MoFU) -->
+          <article class="blog-post-card">
+            <div class="post-thumb">
+              <img src="assets/image/blog/spesifikasi-paket-pengadaan-atk-bulanan-hero.webp"
+                alt="Spesifikasi Paket Pengadaan ATK Bulanan B2B" loading="lazy">
+            </div>
+            <div class="post-category">PAKET ATK</div>
+            <h3 class="post-title"><a href="/blog/spesifikasi-paket-pengadaan-atk-bulanan">Spesifikasi dan Kelebihan Paket Pengadaan Alat Tulis Kantor Bulanan B2B</a></h3>
+            <div class="post-date">24 Agustus 2026</div>
+            <p class="post-excerpt">Perbandingan tiga tingkatan paket ATK bulanan (Starter, Business, Corporate) beserta isi komponen, estimasi kuota pemakaian, dan kisaran harga per bulan disertai kelengkapan e-Faktur PPN.</p>
+            <a href="/blog/spesifikasi-paket-pengadaan-atk-bulanan" class="post-readmore">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+          </article>
+
+          <!-- Card 3 - Smart Board (ToFU) -->
+          <article class="blog-post-card">
+            <div class="post-thumb">
+              <img src="assets/image/blog/mengenal-papan-tulis-digital-smart-board-hero.webp"
+                alt="Mengenal Papan Tulis Digital Smart Board" loading="lazy">
+            </div>
+            <div class="post-category">SMART BOARD</div>
+            <h3 class="post-title"><a href="/blog/mengenal-papan-tulis-digital-smart-board">Mengenal Papan Tulis Digital Smart Board: Spesifikasi, Kelebihan, dan Cara Memilih yang Tepat</a></h3>
+            <div class="post-date">24 Agustus 2026</div>
+            <p class="post-excerpt">Panduan lengkap spesifikasi papan tulis digital (Smart Board/IFP) untuk ruang rapat, kelas, dan auditorium: perbandingan layar touch 4K, dual OS, konektivitas HDMI/USB-C, dan estimasi harga resmi 2026.</p>
+            <a href="/blog/mengenal-papan-tulis-digital-smart-board" class="post-readmore">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+          </article>
+
+          <!-- ===== ARTIKEL SEBELUMNYA (22 AGUSTUS 2026) ===== -->
+
+          <!-- Card 4 (ToFU) - Pengadaan Furniture Kantor -->
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/pengadaan-furniture-kantor-hero.webp" alt="SOP Pengadaan Furniture Kantor B2B"
@@ -788,7 +830,7 @@
                 class="fas fa-arrow-right"></i></a>
           </article>
 
-          <!-- Card Slot 2 (MoFU) - Harga Videotron LED Indoor -->
+          <!-- Card 5 (MoFU) - Harga Videotron LED Indoor -->
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/harga-videotron-led-indoor-hero.webp" alt="Harga Videotron LED Indoor Jakarta"
@@ -804,7 +846,7 @@
                 class="fas fa-arrow-right"></i></a>
           </article>
 
-          <!-- Card Slot 3 (BoFU) - Interactive Flat Panel Sekolah -->
+          <!-- Card 6 (BoFU) - Interactive Flat Panel Sekolah -->
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/interactive-flat-panel-sekolah-hero.webp"

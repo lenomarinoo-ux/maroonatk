@@ -365,4 +365,56 @@
     </news:news>
   </url>
 
+  <!-- ============================================================ -->
+  <!-- ARTIKEL BARU 24 AGUSTUS 2026                                  -->
+  <!-- ============================================================ -->
+
+  <!-- Mengenal Papan Tulis Digital Smart Board -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/mengenal-papan-tulis-digital-smart-board</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-24</news:publication_date>
+      <news:title>Mengenal Papan Tulis Digital Smart Board: Spesifikasi, Kelebihan, dan Cara Memilih yang Tepat</news:title>
+    </news:news>
+  </url>
+
+  <!-- Spesifikasi Paket Pengadaan ATK Bulanan B2B -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/spesifikasi-paket-pengadaan-atk-bulanan</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-24</news:publication_date>
+      <news:title>Spesifikasi dan Kelebihan Paket Pengadaan Alat Tulis Kantor Bulanan B2B</news:title>
+    </news:news>
+  </url>
+
+  <!-- Panduan Memilih Supplier ATK Jakarta Terpercaya -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/panduan-memilih-supplier-atk-jakarta-terpercaya</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-24</news:publication_date>
+      <news:title>Panduan Memilih Supplier ATK Kantor Jakarta Terpercaya Berlegalitas</news:title>
+    </news:news>
+  </url>
+
 </urlset>
