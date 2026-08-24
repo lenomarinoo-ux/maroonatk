@@ -309,16 +309,16 @@
   <!-- ===== NAVBAR ===== -->
 <nav class="navbar">
   <div class="container navbar-container">
-    <a href="/" class="brand-logo" style="display: flex; align-items: center; text-decoration: none;">
-      <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img" style="height: 38px; width: auto; margin-right: 2px;" />
-      <span class="logo-text" style="font-weight: 700; font-size: 1.15rem; color: var(--text-dark, #1a1a2e);">MAROON <span style="color: var(--primary-maroon, #7a1a1a);">ATK</span></span>
+    <a href="/" class="brand-logo brand-logo-wrap">
+      <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" />
+      <span class="logo-text brand-logo-text">MAROON <span class="text-maroon-primary">ATK</span></span>
     </a>
     <button class="hamburger" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
     <ul class="nav-menu">
       <li class="nav-item"><a href="/" class="nav-link">Beranda</a></li>
       <li class="nav-item"><a href="/tentang-kami" class="nav-link active">Tentang Kami</a></li>
       <li class="nav-item nav-item-dropdown">
-        <a href="/produk" class="nav-link dropdown-toggle">Produk <i class="fas fa-chevron-down" style="font-size:0.75rem;"></i></a>
+        <a href="/produk" class="nav-link dropdown-toggle">Produk <i class="fas fa-chevron-down dropdown-chevron-icon"></i></a>
         <div class="dropdown-menu">
           <a href="/produk/atk" class="dropdown-item"><i class="fas fa-pen-nib"></i> Alat Tulis Kantor</a>
           <a href="/produk/meja-kantor" class="dropdown-item"><i class="fas fa-table"></i> Meja Kantor</a>
@@ -354,63 +354,18 @@
   </div>
 
   <!-- ===== HERO TENTANG KAMI - RAMPI & KONTEN FITUR BARU ===== -->
-  <section style="
-    background: linear-gradient(135deg, #7a1a1a 0%, #4a0f0f 100%);
-    padding: 3rem 0 3.5rem;
-    margin: 0;
-    border: none;
-    box-shadow: none;
-    position: relative;
-    overflow: hidden;
-  ">
-    <div class="container" style="
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 0 1.5rem;
-      text-align: center;
-      position: relative;
-      z-index: 2;
-    ">
+  <section class="page-hero-banner">
+    <div class="container page-hero-container">
       <!-- Badge / Tag -->
-      <span style="
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        background: rgba(255, 255, 255, 0.12);
-        color: #ffffff;
-        padding: 0.35rem 1.1rem;
-        border-radius: 50px;
-        font-size: 0.75rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        margin-bottom: 1rem;
-        -webkit-backdrop-filter: blur(4px);
-        backdrop-filter: blur(4px);
-      ">
-        <i class="fas fa-building" style="color: #c9a84c;"></i> PROFIL PERUSAHAAN
+      <span class="page-hero-badge">
+        <i class="fas fa-building text-gold-accent"></i> PROFIL PERUSAHAAN
       </span>
 
       <!-- Title -->
-      <h1 style="
-        font-size: clamp(1.8rem, 4vw, 2.8rem);
-        font-weight: 800;
-        color: #ffffff;
-        margin: 0 0 0.5rem 0;
-        line-height: 1.15;
-        letter-spacing: -0.02em;
-      ">Mengenal MAROON ATK</h1>
+      <h1 class="page-hero-title">Mengenal MAROON ATK</h1>
 
       <!-- Description -->
-      <p style="
-        font-size: clamp(0.95rem, 1.1vw, 1.1rem);
-        color: rgba(255, 255, 255, 0.9);
-        max-width: 700px;
-        margin: 0 auto 1.5rem;
-        line-height: 1.6;
-        font-weight: 400;
-      ">
+      <p class="page-hero-desc">
         Penyedia terintegrasi kebutuhan Alat Tulis Kantor, Furniture, dan Smart Interactive Display terdepan untuk instansi pemerintah, institusi pendidikan, dan perusahaan swasta di Indonesia.
       </p>
 
@@ -418,115 +373,62 @@
       <div class="hero-features-grid">
         <!-- Item 1: Dipercaya -->
         <div class="hero-feature-card">
-          <div style="
-            width: 38px;
-            height: 38px;
-            border-radius: 8px;
-            background: rgba(201, 168, 76, 0.2);
-            color: #c9a84c;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1rem;
-            flex-shrink: 0;
-          ">
+          <div class="hero-trust-icon">
             <i class="fas fa-handshake"></i>
           </div>
           <div>
-            <h4 style="color: #ffffff; margin: 0; font-size: 0.85rem; font-weight: 700;">Dipercaya 1000+ Perusahaan</h4>
-            <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 0.7rem;">Mitra terpercaya sejak 2018</p>
+            <h4 class="hero-trust-title">Dipercaya 1000+ Perusahaan</h4>
+            <p class="hero-trust-sub">Mitra terpercaya sejak 2018</p>
           </div>
         </div>
 
         <!-- Item 2: Partner Resmi -->
         <div class="hero-feature-card">
-          <div style="
-            width: 38px;
-            height: 38px;
-            border-radius: 8px;
-            background: rgba(201, 168, 76, 0.2);
-            color: #c9a84c;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1rem;
-            flex-shrink: 0;
-          ">
+          <div class="hero-trust-icon">
             <i class="fas fa-building-columns"></i>
           </div>
           <div>
-            <h4 style="color: #ffffff; margin: 0; font-size: 0.85rem; font-weight: 700;">Partner Pengadaan Pemerintah</h4>
-            <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 0.7rem;">Kementerian & Instansi Daerah</p>
+            <h4 class="hero-trust-title">Partner Pengadaan Pemerintah</h4>
+            <p class="hero-trust-sub">Kementerian & Instansi Daerah</p>
           </div>
         </div>
 
         <!-- Item 3: Garansi & Purna Jual -->
         <div class="hero-feature-card">
-          <div style="
-            width: 38px;
-            height: 38px;
-            border-radius: 8px;
-            background: rgba(201, 168, 76, 0.2);
-            color: #c9a84c;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1rem;
-            flex-shrink: 0;
-          ">
+          <div class="hero-trust-icon">
             <i class="fas fa-shield-halved"></i>
           </div>
           <div>
-            <h4 style="color: #ffffff; margin: 0; font-size: 0.85rem; font-weight: 700;">Garansi & Purna Jual</h4>
-            <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 0.7rem;">Dukungan teknis terpercaya</p>
+            <h4 class="hero-trust-title">Garansi & Purna Jual</h4>
+            <p class="hero-trust-sub">Dukungan teknis terpercaya</p>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Decorative Elements (lebih kecil) -->
-    <div style="
-      position: absolute;
-      top: -20%;
-      right: -5%;
-      width: 300px;
-      height: 300px;
-      background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0) 70%);
-      border-radius: 50%;
-      pointer-events: none;
-      z-index: 1;
-    "></div>
-    <div style="
-      position: absolute;
-      bottom: -15%;
-      left: -3%;
-      width: 280px;
-      height: 280px;
-      background: radial-gradient(circle, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0) 70%);
-      border-radius: 50%;
-      pointer-events: none;
-      z-index: 1;
-    "></div>
+    <div class="page-hero-shape-1"></div>
+    <div class="page-hero-shape-2"></div>
   </section>
 
   <!-- Profil Utama -->
   <section class="section">
     <div class="container">
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 3rem; align-items: center;">
+      <div class="two-col-grid">
         <div>
           <h2>Komitmen Kami Dalam Dunia Peralatan Kantor</h2>
-          <p style="color: var(--text-muted); font-size: 1.05rem; margin-bottom: 1rem;">
+          <p class="text-muted-105 mb-1">
             MAROON ATK bergerak di bidang penyediaan perlengkapan kantor komprehensif. Kami menyadari bahwa ruang kerja yang nyaman, terorganisir, dan dilengkapi fasilitas modern dapat meningkatkan produktivitas serta efisiensi operasional organisasi.
           </p>
-          <p style="color: var(--text-muted); font-size: 1.05rem; margin-bottom: 1rem;">
+          <p class="text-muted-105 mb-1">
             Kami mendedikasikan layanan kami sebagai <strong>Supplier ATK, Vendor Furniture Kantor, Distributor Lemari Arsip, Penyedia Videotron, dan Smart Display</strong> yang mengedepankan kualitas produk, transparansi penawaran, dan kecepatan layanan.
           </p>
-          <p style="color: var(--text-muted); font-size: 1.05rem;">
+          <p class="text-muted-105">
             Setiap pesanan diolah dengan perhatian penuh terhadap standar spesifikasi barang dan jadwal pengiriman yang disepakati bersama.
           </p>
         </div>
         <div>
-          <img src="https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&w=800&q=80" alt="Ruang Kerja Modern MAROON ATK" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-md); border: 1px solid var(--border-color);" width="800" height="500" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&w=800&q=80" alt="Ruang Kerja Modern MAROON ATK" width="800" height="500" loading="lazy" class="img-rounded-shadow">
         </div>
       </div>
     </div>
@@ -589,14 +491,14 @@
         <div class="about-card">
           <div class="about-icon"><i class="fas fa-map-marked-alt"></i></div>
           <h3>Area Layanan Pengiriman</h3>
-          <p style="margin-bottom: 1rem;">MAROON ATK dapat melakukan pengadaan dan pengiriman unit ke seluruh Indonesia, dengan penanganan khusus di kota-kota utama:</p>
-          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-            <span style="background: var(--maroon-soft); color: var(--primary-maroon); padding: 0.35rem 0.85rem; border-radius: var(--radius-pill); font-size: 0.85rem; font-weight: 600;">Malang</span>
-            <span style="background: var(--maroon-soft); color: var(--primary-maroon); padding: 0.35rem 0.85rem; border-radius: var(--radius-pill); font-size: 0.85rem; font-weight: 600;">Surabaya</span>
-            <span style="background: var(--maroon-soft); color: var(--primary-maroon); padding: 0.35rem 0.85rem; border-radius: var(--radius-pill); font-size: 0.85rem; font-weight: 600;">Jakarta</span>
-            <span style="background: var(--maroon-soft); color: var(--primary-maroon); padding: 0.35rem 0.85rem; border-radius: var(--radius-pill); font-size: 0.85rem; font-weight: 600;">Denpasar</span>
-            <span style="background: var(--maroon-soft); color: var(--primary-maroon); padding: 0.35rem 0.85rem; border-radius: var(--radius-pill); font-size: 0.85rem; font-weight: 600;">Makassar</span>
-            <span style="background: var(--maroon-soft); color: var(--primary-maroon); padding: 0.35rem 0.85rem; border-radius: var(--radius-pill); font-size: 0.85rem; font-weight: 600;">Seluruh Indonesia</span>
+          <p class="mb-1">MAROON ATK dapat melakukan pengadaan dan pengiriman unit ke seluruh Indonesia, dengan penanganan khusus di kota-kota utama:</p>
+          <div class="city-badges-wrap">
+            <span class="city-badge-item">Malang</span>
+            <span class="city-badge-item">Surabaya</span>
+            <span class="city-badge-item">Jakarta</span>
+            <span class="city-badge-item">Denpasar</span>
+            <span class="city-badge-item">Makassar</span>
+            <span class="city-badge-item">Seluruh Indonesia</span>
           </div>
           <div class="about-hover-line"></div>
         </div>
@@ -605,7 +507,7 @@
   </section>
 
   <!-- CTA Banner -->
-  <section class="section" style="padding-top:0;">
+  <section class="section pt-0">
     <div class="container">
       <div class="cta-banner">
         <h2>Ingin Berdiskusi Mengenai Kebutuhan Peralatan Kantor Anda?</h2>
@@ -623,11 +525,11 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="/" class="brand-logo" style="display: flex; align-items: center; text-decoration: none; margin-bottom: 0.75rem;">
-                        <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img" style="height: 36px; width: auto; margin-right: 2px;" />
-                        <span class="logo-text" style="font-weight: 700; font-size: 1.1rem; color: #ffffff;">MAROON <span style="color: var(--primary-maroon, #7a1a1a);">ATK</span></span>
+                    <a href="/" class="brand-logo brand-logo-wrap-footer">
+                        <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" />
+                        <span class="logo-text brand-logo-text-footer">MAROON <span class="text-maroon-primary">ATK</span></span>
                     </a>
-                    <p style="color: #e0e0e0;">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board Terpercaya untuk Instansi Pemerintah, Pendidikan, dan Swasta.</p>
+                    <p class="text-footer-desc">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board Terpercaya untuk Instansi Pemerintah, Pendidikan, dan Swasta.</p>
                     <div class="footer-social-strip">
                         <a href="https://wa.me/6288989643555" target="_blank" class="footer-social-btn wa-btn" aria-label="WhatsApp MAROON ATK" rel="noopener"><i class="fab fa-whatsapp"></i></a>
                         <a href="mailto:info@maroonatk.web.id" class="footer-social-btn" aria-label="Email MAROON ATK"><i class="fas fa-envelope"></i></a>

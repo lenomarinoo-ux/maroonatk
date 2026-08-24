@@ -307,19 +307,17 @@
   <!-- ===== NAVBAR ===== -->
   <nav class="navbar">
     <div class="container navbar-container">
-      <a href="/" class="brand-logo" style="display: flex; align-items: center; text-decoration: none;">
-        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img"
-          style="height: 38px; width: auto; margin-right: 2px;" />
-        <span class="logo-text" style="font-weight: 700; font-size: 1.15rem; color: var(--text-dark, #1a1a2e);">MAROON
-          <span style="color: var(--primary-maroon, #7a1a1a);">ATK</span></span>
+      <a href="/" class="brand-logo brand-logo-wrap">
+        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" />
+        <span class="logo-text brand-logo-text">MAROON
+          <span class="text-maroon-primary">ATK</span></span>
       </a>
       <button class="hamburger" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
       <ul class="nav-menu">
         <li class="nav-item"><a href="/" class="nav-link">Beranda</a></li>
         <li class="nav-item"><a href="/tentang-kami" class="nav-link">Tentang Kami</a></li>
         <li class="nav-item nav-item-dropdown">
-          <a href="/produk" class="nav-link dropdown-toggle active">Produk <i class="fas fa-chevron-down"
-              style="font-size:0.75rem;"></i></a>
+          <a href="/produk" class="nav-link dropdown-toggle active">Produk <i class="fas fa-chevron-down dropdown-chevron-icon"></i></a>
           <div class="dropdown-menu">
             <a href="/produk/atk" class="dropdown-item"><i class="fas fa-pen-nib"></i> Alat Tulis Kantor</a>
             <a href="/produk/meja-kantor" class="dropdown-item"><i class="fas fa-table"></i> Meja Kantor</a>
@@ -361,63 +359,18 @@
   </div>
 
   <!-- ===== HERO KATEGORI - GRADASI MAROON ===== -->
-  <section style="
-    background: linear-gradient(135deg, #7a1a1a 0%, #4a0f0f 100%);
-    padding: 3rem 0 3.5rem;
-    margin: 0;
-    border: none;
-    box-shadow: none;
-    position: relative;
-    overflow: hidden;
-  ">
-    <div class="container" style="
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 0 1.5rem;
-      text-align: center;
-      position: relative;
-      z-index: 2;
-    ">
+  <section class="page-hero-banner">
+    <div class="container page-hero-container">
       <!-- Badge -->
-      <span style="
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        background: rgba(255, 255, 255, 0.12);
-        color: #ffffff;
-        padding: 0.35rem 1.1rem;
-        border-radius: 50px;
-        font-size: 0.75rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        margin-bottom: 1rem;
-        -webkit-backdrop-filter: blur(4px);
-        backdrop-filter: blur(4px);
-      ">
-        <i class="fas fa-tv" style="color: #c9a84c;"></i> TEKNOLOGI DISPLAY VISUAL
+      <span class="page-hero-badge">
+        <i class="fas fa-tv text-gold-accent"></i> TEKNOLOGI DISPLAY VISUAL
       </span>
 
       <!-- Title -->
-      <h1 style="
-        font-size: clamp(1.8rem, 4vw, 2.8rem);
-        font-weight: 800;
-        color: #ffffff;
-        margin: 0 0 0.5rem 0;
-        line-height: 1.15;
-        letter-spacing: -0.02em;
-      ">Videotron LED Indoor & Outdoor Berkualitas</h1>
+      <h1 class="page-hero-title">Videotron LED Indoor & Outdoor Berkualitas</h1>
 
       <!-- Deskripsi -->
-      <p style="
-        font-size: clamp(0.95rem, 1.1vw, 1.1rem);
-        color: rgba(255, 255, 255, 0.9);
-        max-width: 700px;
-        margin: 0 auto 1.5rem;
-        line-height: 1.6;
-        font-weight: 400;
-      ">
+      <p class="page-hero-desc">
         Solusi layar lebar LED Videotron kualitas tinggi dengan refresh rate mulus, warna akurat, dan garansi instalasi
         resmi untuk Aula, Ruang Rapat, Command Center, & Media Luar Ruang.
       </p>
@@ -425,73 +378,44 @@
       <!-- Grid Fitur Hero -->
       <div class="hero-features-grid">
         <div class="hero-feature-card">
-          <div style="
-            width: 38px; height: 38px; border-radius: 8px;
-            background: rgba(201, 168, 76, 0.2);
-            color: #c9a84c;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 1rem; flex-shrink: 0;
-          ">
+          <div class="hero-trust-icon">
             <i class="fas fa-building"></i>
           </div>
           <div>
-            <h4 style="color: #ffffff; margin: 0; font-size: 0.85rem; font-weight: 700;">Videotron Indoor</h4>
-            <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 0.7rem;">P1.8 – P2.5 HD</p>
+            <h4 class="hero-trust-title">Videotron Indoor</h4>
+            <p class="hero-trust-sub">P1.8 – P2.5 HD</p>
           </div>
         </div>
         <div class="hero-feature-card">
-          <div style="
-            width: 38px; height: 38px; border-radius: 8px;
-            background: rgba(201, 168, 76, 0.2);
-            color: #c9a84c;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 1rem; flex-shrink: 0;
-          ">
+          <div class="hero-trust-icon">
             <i class="fas fa-sun"></i>
           </div>
           <div>
-            <h4 style="color: #ffffff; margin: 0; font-size: 0.85rem; font-weight: 700;">Videotron Outdoor</h4>
-            <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 0.7rem;">IP65 – High Brightness</p>
+            <h4 class="hero-trust-title">Videotron Outdoor</h4>
+            <p class="hero-trust-sub">IP65 – High Brightness</p>
           </div>
         </div>
         <div class="hero-feature-card">
-          <div style="
-            width: 38px; height: 38px; border-radius: 8px;
-            background: rgba(201, 168, 76, 0.2);
-            color: #c9a84c;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 1rem; flex-shrink: 0;
-          ">
+          <div class="hero-trust-icon">
             <i class="fas fa-ruler-combined"></i>
           </div>
           <div>
-            <h4 style="color: #ffffff; margin: 0; font-size: 0.85rem; font-weight: 700;">Custom Size</h4>
-            <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 0.7rem;">Sesuai Kebutuhan Ruang</p>
+            <h4 class="hero-trust-title">Custom Size</h4>
+            <p class="hero-trust-sub">Sesuai Kebutuhan Ruang</p>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Dekorasi -->
-    <div style="
-      position: absolute; top: -20%; right: -5%;
-      width: 300px; height: 300px;
-      background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0) 70%);
-      border-radius: 50%; pointer-events: none; z-index: 1;
-    "></div>
-    <div style="
-      position: absolute; bottom: -15%; left: -3%;
-      width: 280px; height: 280px;
-      background: radial-gradient(circle, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0) 70%);
-      border-radius: 50%; pointer-events: none; z-index: 1;
-    "></div>
+    <div class="page-hero-shape-1"></div>
+    <div class="page-hero-shape-2"></div>
   </section>
 
   <!-- ===== PRODUCT GRID VIDEOTRON ===== -->
   <section class="section">
     <div class="container">
-      <h2
-        style="font-size:1.35rem; margin-bottom:1.5rem; border-left:4px solid var(--primary-maroon); padding-left:0.75rem;">
+      <h2 class="section-heading-bar">
         Pilihan Videotron LED Berkualitas</h2>
 
       <div class="product-grid-elegant">
@@ -614,14 +538,14 @@
 
   <!-- ===== EDUKASI & FAQ VIDEOTRON ===== -->
   <section class="section section-bg-light">
-    <div class="container" style="max-width: 850px; margin: 0 auto;">
-      <h2 style="margin-bottom: 1rem;">Panduan Memilih Videotron LED Yang Tepat</h2>
-      <p style="color: var(--text-muted); font-size: 1rem; margin-top:0.5rem; margin-bottom: 1.5rem;">
+    <div class="container max-w-850">
+      <h2 class="mb-1">Panduan Memilih Videotron LED Yang Tepat</h2>
+      <p class="text-muted-p mt-05 mb-15">
         Pemilihan videotron harus mempertimbangkan jarak pandang, resolusi yang dibutuhkan, dan kondisi lingkungan.
         Untuk ruang rapat dan aula, pilih pixel pitch kecil (P1.8–P2.5). Untuk outdoor, pastikan memiliki tingkat
         kecerahan tinggi dan sertifikasi tahan air IP65.
       </p>
-      <div class="faq-container" style="max-width: 100%;">
+      <div class="faq-container img-fluid-custom">
         <div class="faq-item active">
           <button class="faq-question" type="button">
             <div class="faq-q-badge"><i class="fas fa-display"></i></div>
@@ -672,14 +596,11 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="/" class="brand-logo"
-            style="display: flex; align-items: center; text-decoration: none; margin-bottom: 0.75rem;">
-            <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img"
-              style="height: 36px; width: auto; margin-right: 2px;" />
-            <span class="logo-text" style="font-weight: 700; font-size: 1.1rem; color: #ffffff;">MAROON <span
-                style="color: var(--primary-maroon, #7a1a1a);">ATK</span></span>
+          <a href="/" class="brand-logo brand-logo-wrap-footer">
+            <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" />
+            <span class="logo-text brand-logo-text-footer">MAROON <span class="text-maroon-primary">ATK</span></span>
           </a>
-          <p style="color: #e0e0e0;">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board
+          <p class="text-footer-desc">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board
             Terpercaya untuk Instansi Pemerintah, Pendidikan, dan Swasta.</p>
           <div class="footer-social-strip">
             <a href="https://wa.me/6288989643555" target="_blank" class="footer-social-btn wa-btn"

@@ -46,7 +46,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="../assets/css/style.css" as="style">
-  <link rel="preload" href="../assets/image/blog/harga-videotron-led-indoor-hero.webp" as="image" fetchpriority="high">
+  <link rel="preload" href="../assets/image/blog/harga-videotron-led-indoor-hero.webp" as="image">
 
   <!-- Fonts & Styles -->
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
@@ -148,19 +148,17 @@
   <!-- NAVBAR -->
   <nav class="navbar">
     <div class="container navbar-container">
-      <a href="/" class="brand-logo" style="display: flex; align-items: center; text-decoration: none;">
-        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img"
-          style="height: 38px; width: auto; margin-right: 2px;" />
-        <span class="logo-text" style="font-weight: 700; font-size: 1.15rem; color: var(--text-dark, #1a1a2e);">MAROON
-          <span style="color: var(--primary-maroon, #7a1a1a);">ATK</span></span>
+      <a href="/" class="brand-logo brand-logo-wrap">
+        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" />
+        <span class="logo-text brand-logo-text">MAROON
+          <span class="text-maroon-primary">ATK</span></span>
       </a>
       <button class="hamburger" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
       <ul class="nav-menu">
         <li class="nav-item"><a href="/" class="nav-link">Beranda</a></li>
         <li class="nav-item"><a href="/tentang-kami" class="nav-link">Tentang Kami</a></li>
         <li class="nav-item nav-item-dropdown">
-          <a href="/produk" class="nav-link dropdown-toggle">Produk <i class="fas fa-chevron-down"
-              style="font-size:0.75rem;"></i></a>
+          <a href="/produk" class="nav-link dropdown-toggle">Produk <i class="fas fa-chevron-down dropdown-chevron-icon"></i></a>
           <div class="dropdown-menu">
             <a href="/produk/atk" class="dropdown-item"><i class="fas fa-pen-nib"></i> Alat Tulis Kantor</a>
             <a href="/produk/meja-kantor" class="dropdown-item"><i class="fas fa-table"></i> Meja Kantor</a>
@@ -178,7 +176,7 @@
       </ul>
       <div class="nav-actions">
         <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20ingin%20konsultasi%20Harga%20Videotron%20LED%20Indoor"
-          target="_blank" class="btn btn-whatsapp btn-sm" rel="nofollow">
+          target="_blank" class="btn btn-whatsapp btn-sm" rel="noopener nofollow">
           <i class="fas fa-headset"></i> <span>Hubungi Kami</span>
         </a>
       </div>
@@ -199,7 +197,7 @@
   </div>
 
   <!-- MAIN ARTICLE SECTION -->
-  <section class="section" style="padding-top: 1.5rem;">
+  <section class="section pt-15">
     <div class="container">
       <div class="article-wrapper">
 
@@ -223,8 +221,7 @@
           <!-- HERO FEATURED IMAGE -->
           <div class="article-featured-image">
             <img src="../assets/image/blog/harga-videotron-led-indoor-hero.webp"
-              alt="Harga Videotron LED Indoor per m2 Terpasang di Jakarta - Maroon ATK" loading="eager"
-              fetchpriority="high">
+              alt="Harga Videotron LED Indoor per m2 Terpasang di Jakarta - Maroon ATK" loading="eager">
           </div>
           <p class="caption">Instalasi videotron LED indoor P2.0 pada boardroom perusahaan di Jakarta memberikan
             kualitas visual tajam tanpa hambatan garis sekat bezel.</p>
@@ -263,9 +260,8 @@
             </h2>
 
             <!-- ANSWER-FIRST BLOCK (AEO / GEO) -->
-            <div class="answer-first-box"
-              style="background-color: #f8fafc; border-left: 4px solid #7a1a1a; padding: 1.25rem; margin-bottom: 1.75rem; border-radius: 0 8px 8px 0;">
-              <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 0; color: #1e293b;">
+            <div class="answer-first-box callout-card-maroon">
+              <p class="text-slate-lead">
                 Perkiraan <strong>harga videotron LED</strong> indoor terpasang di wilayah Jakarta berada pada rentang
                 <strong>Rp 14.500.000,- hingga Rp 38.000.000,- per meter persegi (m2)</strong>. Variasi harga ini
                 ditentukan oleh nilai <strong>Pixel Pitch (P1.53, P1.86, P2.0, P2.5)</strong>, tingkat <strong>refresh
@@ -313,39 +309,39 @@
 
             <!-- MANDATORY TABLE -->
             <div class="table-responsive">
-              <table class="table-custom" style="width: 100%; border-collapse: collapse; margin: 1.5rem 0;">
+              <table class="table-custom table-full-collapse">
                 <thead>
-                  <tr style="background-color: #7a1a1a; color: #ffffff;">
-                    <th style="padding: 12px 15px; border: 1px solid #ddd;">Tipe Pitch LED</th>
-                    <th style="padding: 12px 15px; border: 1px solid #ddd;">Resolusi Rata-rata (Pixel/m2)</th>
-                    <th style="padding: 12px 15px; border: 1px solid #ddd;">Jarak Pandang Ideal (Meter)</th>
-                    <th style="padding: 12px 15px; border: 1px solid #ddd;">Kisaran Harga Terpasang/m2</th>
+                  <tr class="bg-maroon-text-white">
+                    <th class="table-header-pad">Tipe Pitch LED</th>
+                    <th class="table-header-pad">Resolusi Rata-rata (Pixel/m2)</th>
+                    <th class="table-header-pad">Jarak Pandang Ideal (Meter)</th>
+                    <th class="table-header-pad">Kisaran Harga Terpasang/m2</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;"><strong>Fine Pitch P1.53</strong></td>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;">427.777 Pixel/m2</td>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;">&ge; 1.5 Meter</td>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;">Rp 30.000.000 - Rp 38.000.000</td>
+                    <td class="table-pad-cell"><strong>Fine Pitch P1.53</strong></td>
+                    <td class="table-pad-cell">427.777 Pixel/m2</td>
+                    <td class="table-pad-cell">&ge; 1.5 Meter</td>
+                    <td class="table-pad-cell">Rp 30.000.000 - Rp 38.000.000</td>
                   </tr>
-                  <tr style="background-color: #f8fafc;">
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;"><strong>Ultra HD P1.86</strong></td>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;">288.906 Pixel/m2</td>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;">&ge; 1.8 Meter</td>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;">Rp 22.000.000 - Rp 28.000.000</td>
+                  <tr class="bg-slate-50">
+                    <td class="table-pad-cell"><strong>Ultra HD P1.86</strong></td>
+                    <td class="table-pad-cell">288.906 Pixel/m2</td>
+                    <td class="table-pad-cell">&ge; 1.8 Meter</td>
+                    <td class="table-pad-cell">Rp 22.000.000 - Rp 28.000.000</td>
                   </tr>
                   <tr>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;"><strong>Executive P2.0</strong></td>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;">250.000 Pixel/m2</td>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;">&ge; 2.0 Meter</td>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;">Rp 17.500.000 - Rp 22.000.000</td>
+                    <td class="table-pad-cell"><strong>Executive P2.0</strong></td>
+                    <td class="table-pad-cell">250.000 Pixel/m2</td>
+                    <td class="table-pad-cell">&ge; 2.0 Meter</td>
+                    <td class="table-pad-cell">Rp 17.500.000 - Rp 22.000.000</td>
                   </tr>
-                  <tr style="background-color: #f8fafc;">
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;"><strong>Auditorium P2.5</strong></td>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;">160.000 Pixel/m2</td>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;">&ge; 2.5 Meter</td>
-                    <td style="padding: 10px 15px; border: 1px solid #ddd;">Rp 14.500.000 - Rp 18.000.000</td>
+                  <tr class="bg-slate-50">
+                    <td class="table-pad-cell"><strong>Auditorium P2.5</strong></td>
+                    <td class="table-pad-cell">160.000 Pixel/m2</td>
+                    <td class="table-pad-cell">&ge; 2.5 Meter</td>
+                    <td class="table-pad-cell">Rp 14.500.000 - Rp 18.000.000</td>
                   </tr>
                 </tbody>
               </table>
@@ -447,7 +443,7 @@
                   tim teknis Maroon ATK.</p>
               </div>
               <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20ingin%20konsultasi%20Harga%20Videotron%20LED%20Indoor"
-                target="_blank" class="btn-wa" rel="nofollow">
+                target="_blank" class="btn-wa" rel="noopener nofollow">
                 <i class="fab fa-whatsapp"></i> Chat via WhatsApp
               </a>
             </div>
@@ -473,7 +469,7 @@
             <!-- FAQ SECTION -->
             <div class="faq-section">
               <h3><i class="fas fa-question-circle"></i> Pertanyaan Umum (FAQ) Biaya Videotron LED Indoor</h3>
-              <div class="faq-container" style="max-width: 100%;">
+              <div class="faq-container img-fluid-custom">
                 <div class="faq-item active">
                   <button class="faq-question" type="button">
                     <div class="faq-q-badge"><i class="fas fa-calculator"></i></div>
@@ -598,17 +594,13 @@
           </div>
 
           <!-- PROMO SIDEBAR -->
-          <div class="sidebar-hero"
-            style="background: var(--maroon-soft, #f5e6e6); border-color: var(--primary-maroon, #7a1a1a);">
-            <div class="hero-category"
-              style="color: #fff; background: var(--primary-maroon); display: inline-block; padding: 0.1rem 0.6rem; border-radius: 4px;">
+          <div class="sidebar-hero badge-maroon-soft-border">
+            <div class="hero-category tag-maroon-pill">
               PROMO VIDEOTRON</div>
-            <h4><a href="/produk/videotron" style="color: var(--primary-maroon);">Free Video Processor 4K Untuk Order
+            <h4><a href="/produk/videotron" class="text-maroon-primary">Free Video Processor 4K Untuk Order
                 Videotron > 10m2</a></h4>
             <span class="post-date">Penawaran terbatas hingga akhir bulan!</span>
-            <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20tertarik%20Promo%20Free%20Video%20Processor%20Videotron"
-              target="_blank" rel="nofollow"
-              style="display: inline-block; margin-top: 0.5rem; background: var(--primary-maroon); color: #fff; padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.8rem; font-weight: 600; text-decoration: none;">Klaim
+            <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20tertarik%20Promo%20Free%20Video%20Processor%20Videotron" target="_blank" rel="noopener nofollow" class="btn-cta-link">Klaim
               Promo</a>
           </div>
 
@@ -616,11 +608,9 @@
           <div class="sidebar-hero">
             <div class="hero-category">KONSULTASI</div>
             <h4>Butuh Survei Lokasi Videotron di Jakarta?</h4>
-            <p style="font-size: 0.85rem; color: var(--text-muted, #6c757d); margin: 0.3rem 0 0.5rem;">Tim teknis Maroon
+            <p class="prod-card-p">Tim teknis Maroon
               ATK siap melakukan pengukuran dinding dan pengukuran daya kelistrikan gedung Anda.</p>
-            <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20butuh%20Survei%20Lokasi%20Videotron"
-              target="_blank" rel="nofollow"
-              style="display: inline-block; background: #25D366; color: #fff; padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.8rem; font-weight: 600; text-decoration: none;"><i
+            <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20butuh%20Survei%20Lokasi%20Videotron" target="_blank" rel="noopener nofollow" class="btn-cta-wa"><i
                 class="fab fa-whatsapp"></i> Chat WhatsApp</a>
           </div>
         </aside>
@@ -629,7 +619,7 @@
 
       <!-- RECOMMENDATIONS -->
       <div class="recommendations">
-        <h3><i class="fas fa-boxes-stacked" style="color: var(--primary-maroon, #7a1a1a);"></i> Rekomendasi Produk
+        <h3><i class="fas fa-boxes-stacked text-maroon-primary"></i> Rekomendasi Produk
           Terkait</h3>
         <div class="recommend-grid">
           <div class="recommend-item">
@@ -638,14 +628,12 @@
                 loading="lazy">
             </div>
             <div class="body">
-              <span
-                style="font-size: 0.72rem; font-weight: 700; color: #7a1a1a; text-transform: uppercase; margin-bottom: 0.25rem;">Videotron
+              <span class="prod-cat-label mb-025">Videotron
                 Indoor</span>
               <h4><a href="/detail/videotron-led-indoor-p2">Videotron LED Indoor P2.0 Die-Cast</a></h4>
               <p>Layar visual rapat resolusi ultra-tinggi dengan refresh rate 3840Hz dan cabinet magnetik presisi.</p>
-              <a href="/detail/videotron-led-indoor-p2" class="readmore"
-                style="font-weight: 700; color: #7a1a1a; display: inline-flex; align-items: center; gap: 0.35rem; margin-top: auto;">Lihat
-                Detail Produk <i class="fas fa-arrow-right" style="font-size: 0.8rem;"></i></a>
+              <a href="/detail/videotron-led-indoor-p2" class="readmore prod-card-link-auto">Lihat
+                Detail Produk <i class="fas fa-arrow-right font-08"></i></a>
             </div>
           </div>
 
@@ -655,15 +643,13 @@
                 loading="lazy">
             </div>
             <div class="body">
-              <span
-                style="font-size: 0.72rem; font-weight: 700; color: #7a1a1a; text-transform: uppercase; margin-bottom: 0.25rem;">Videotron
+              <span class="prod-cat-label mb-025">Videotron
                 Auditorium</span>
               <h4><a href="/detail/videotron-led-indoor-p2-5">Videotron LED Indoor P2.5 Auditorium</a></h4>
               <p>Solusi display hall serbaguna dan auditorium skala besar dengan tingkat kecerahan tinggi dan efisien.
               </p>
-              <a href="/detail/videotron-led-indoor-p2-5" class="readmore"
-                style="font-weight: 700; color: #7a1a1a; display: inline-flex; align-items: center; gap: 0.35rem; margin-top: auto;">Lihat
-                Detail Produk <i class="fas fa-arrow-right" style="font-size: 0.8rem;"></i></a>
+              <a href="/detail/videotron-led-indoor-p2-5" class="readmore prod-card-link-auto">Lihat
+                Detail Produk <i class="fas fa-arrow-right font-08"></i></a>
             </div>
           </div>
 
@@ -673,14 +659,12 @@
                 alt="Interactive Flat Panel 75 Inch 4K" loading="lazy">
             </div>
             <div class="body">
-              <span
-                style="font-size: 0.72rem; font-weight: 700; color: #7a1a1a; text-transform: uppercase; margin-bottom: 0.25rem;">Smart
+              <span class="prod-cat-label mb-025">Smart
                 Display</span>
               <h4><a href="/detail/interactive-flat-panel-75-inch-4k">Interactive Flat Panel 75" 4K UHD</a></h4>
               <p>Layar interaktif 4K touch screen Dual OS Android &amp; Windows untuk pendukung rapat kolaboratif.</p>
-              <a href="/detail/interactive-flat-panel-75-inch-4k" class="readmore"
-                style="font-weight: 700; color: #7a1a1a; display: inline-flex; align-items: center; gap: 0.35rem; margin-top: auto;">Lihat
-                Detail Produk <i class="fas fa-arrow-right" style="font-size: 0.8rem;"></i></a>
+              <a href="/detail/interactive-flat-panel-75-inch-4k" class="readmore prod-card-link-auto">Lihat
+                Detail Produk <i class="fas fa-arrow-right font-08"></i></a>
             </div>
           </div>
         </div>
@@ -697,7 +681,7 @@
         <p>Hubungi tim spesialis AV Maroon ATK sekarang untuk estimasi biaya terpasang, perancangan diagram kelistrikan,
           dan opsi garansi purna jual.</p>
         <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20butuh%20SPH%20Resmi%20Videotron%20LED%20Indoor"
-          target="_blank" class="btn btn-whatsapp" rel="nofollow">
+          target="_blank" class="btn btn-whatsapp" rel="noopener nofollow">
           <i class="fab fa-whatsapp"></i> Chat WhatsApp (0889-8964-3555)
         </a>
       </div>
@@ -709,14 +693,11 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="/" class="brand-logo"
-            style="display: flex; align-items: center; text-decoration: none; margin-bottom: 0.75rem;">
-            <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img"
-              style="height: 36px; width: auto; margin-right: 2px;" />
-            <span class="logo-text" style="font-weight: 700; font-size: 1.1rem; color: #ffffff;">MAROON <span
-                style="color: var(--primary-maroon, #7a1a1a);">ATK</span></span>
+          <a href="/" class="brand-logo brand-logo-wrap-footer">
+            <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" />
+            <span class="logo-text brand-logo-text-footer">MAROON <span class="text-maroon-primary">ATK</span></span>
           </a>
-          <p style="color: #e0e0e0;">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board
+          <p class="text-footer-desc">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board
             Terpercaya untuk Instansi Pemerintah, Pendidikan, dan Swasta.</p>
           <div class="footer-social-strip">
             <a href="https://wa.me/6288989643555" target="_blank" class="footer-social-btn wa-btn"
@@ -769,7 +750,7 @@
   </footer>
 
   <!-- FLOATING WA & BACK TO TOP -->
-  <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK" target="_blank" class="float-wa" rel="nofollow"
+  <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK" target="_blank" class="float-wa" rel="noopener nofollow"
     aria-label="Hubungi MAROON ATK via WhatsApp">
     <i class="fab fa-whatsapp"></i>
     <span class="tooltip">Hubungi Kami (0889-8964-3555)</span>

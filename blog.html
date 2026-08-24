@@ -488,19 +488,17 @@
   <!-- ===== NAVBAR ===== -->
   <nav class="navbar">
     <div class="container navbar-container">
-      <a href="/" class="brand-logo" style="display: flex; align-items: center; text-decoration: none;">
-        <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img"
-          style="height: 38px; width: auto; margin-right: 2px;" />
-        <span class="logo-text" style="font-weight: 700; font-size: 1.15rem; color: var(--text-dark, #1a1a2e);">MAROON
-          <span style="color: var(--primary-maroon, #7a1a1a);">ATK</span></span>
+      <a href="/" class="brand-logo brand-logo-wrap">
+        <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" />
+        <span class="logo-text brand-logo-text">MAROON
+          <span class="text-maroon-primary">ATK</span></span>
       </a>
       <button class="hamburger" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
       <ul class="nav-menu">
         <li class="nav-item"><a href="/" class="nav-link">Beranda</a></li>
         <li class="nav-item"><a href="/tentang-kami" class="nav-link">Tentang Kami</a></li>
         <li class="nav-item nav-item-dropdown">
-          <a href="/produk" class="nav-link dropdown-toggle">Produk <i class="fas fa-chevron-down"
-              style="font-size:0.75rem;"></i></a>
+          <a href="/produk" class="nav-link dropdown-toggle">Produk <i class="fas fa-chevron-down dropdown-chevron-icon"></i></a>
           <div class="dropdown-menu">
             <a href="/produk/atk" class="dropdown-item"><i class="fas fa-pen-nib"></i> Alat Tulis Kantor</a>
             <a href="/produk/meja-kantor" class="dropdown-item"><i class="fas fa-table"></i> Meja Kantor</a>
@@ -539,63 +537,18 @@
   </div>
 
   <!-- ===== HERO BLOG - RAMPI DENGAN GRID FITUR ===== -->
-  <section style="
-    background: linear-gradient(135deg, #7a1a1a 0%, #4a0f0f 100%);
-    padding: 3rem 0 3.5rem;
-    margin: 0;
-    border: none;
-    box-shadow: none;
-    position: relative;
-    overflow: hidden;
-  ">
-    <div class="container" style="
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 0 1.5rem;
-      text-align: center;
-      position: relative;
-      z-index: 2;
-    ">
+  <section class="page-hero-banner">
+    <div class="container page-hero-container">
       <!-- Badge -->
-      <span style="
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        background: rgba(255, 255, 255, 0.12);
-        color: #ffffff;
-        padding: 0.35rem 1.1rem;
-        border-radius: 50px;
-        font-size: 0.75rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        margin-bottom: 1rem;
-        -webkit-backdrop-filter: blur(4px);
-        backdrop-filter: blur(4px);
-      ">
-        <i class="fas fa-pen-fancy" style="color: #c9a84c;"></i> EDUKASI & INSIGHT
+      <span class="page-hero-badge">
+        <i class="fas fa-pen-fancy text-gold-accent"></i> EDUKASI & INSIGHT
       </span>
 
       <!-- Title -->
-      <h1 style="
-        font-size: clamp(1.8rem, 4vw, 2.8rem);
-        font-weight: 800;
-        color: #ffffff;
-        margin: 0 0 0.5rem 0;
-        line-height: 1.15;
-        letter-spacing: -0.02em;
-      ">Blog & Panduan Peralatan Kantor</h1>
+      <h1 class="page-hero-title">Blog & Panduan Peralatan Kantor</h1>
 
       <!-- Description -->
-      <p style="
-        font-size: clamp(0.95rem, 1.1vw, 1.1rem);
-        color: rgba(255, 255, 255, 0.9);
-        max-width: 700px;
-        margin: 0 auto 1.5rem;
-        line-height: 1.6;
-        font-weight: 400;
-      ">
+      <p class="page-hero-desc">
         Kumpulan artikel referensi, tips praktis, dan panduan lengkap seputar pengadaan peralatan kantor, penataan
         furniture ergonomis, serta teknologi smart display dari tim MAROON ATK.
       </p>
@@ -604,100 +557,47 @@
       <div class="hero-features-grid">
         <!-- Fitur 1: Edukasi & Tips -->
         <div class="hero-feature-card">
-          <div style="
-            width: 38px;
-            height: 38px;
-            border-radius: 8px;
-            background: rgba(201, 168, 76, 0.2);
-            color: #c9a84c;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1rem;
-            flex-shrink: 0;
-          ">
+          <div class="hero-trust-icon">
             <i class="fas fa-graduation-cap"></i>
           </div>
           <div>
-            <h4 style="color: #ffffff; margin: 0; font-size: 0.85rem; font-weight: 700;">Edukasi & Tips</h4>
-            <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 0.7rem;">Pengetahuan seputar peralatan kantor
+            <h4 class="hero-trust-title">Edukasi & Tips</h4>
+            <p class="hero-trust-sub">Pengetahuan seputar peralatan kantor
             </p>
           </div>
         </div>
 
         <!-- Fitur 2: Panduan Praktis -->
         <div class="hero-feature-card">
-          <div style="
-            width: 38px;
-            height: 38px;
-            border-radius: 8px;
-            background: rgba(201, 168, 76, 0.2);
-            color: #c9a84c;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1rem;
-            flex-shrink: 0;
-          ">
+          <div class="hero-trust-icon">
             <i class="fas fa-book-open"></i>
           </div>
           <div>
-            <h4 style="color: #ffffff; margin: 0; font-size: 0.85rem; font-weight: 700;">Panduan Praktis</h4>
-            <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 0.7rem;">Prosedur & tata kelola pengadaan</p>
+            <h4 class="hero-trust-title">Panduan Praktis</h4>
+            <p class="hero-trust-sub">Prosedur & tata kelola pengadaan</p>
           </div>
         </div>
 
         <!-- Fitur 3: Update Terbaru -->
         <div class="hero-feature-card">
-          <div style="
-            width: 38px;
-            height: 38px;
-            border-radius: 8px;
-            background: rgba(201, 168, 76, 0.2);
-            color: #c9a84c;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1rem;
-            flex-shrink: 0;
-          ">
+          <div class="hero-trust-icon">
             <i class="fas fa-newspaper"></i>
           </div>
           <div>
-            <h4 style="color: #ffffff; margin: 0; font-size: 0.85rem; font-weight: 700;">Update Terbaru</h4>
-            <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 0.7rem;">Info promo & produk terbaru</p>
+            <h4 class="hero-trust-title">Update Terbaru</h4>
+            <p class="hero-trust-sub">Info promo & produk terbaru</p>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Decorative Elements (ramping) -->
-    <div style="
-      position: absolute;
-      top: -20%;
-      right: -5%;
-      width: 300px;
-      height: 300px;
-      background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0) 70%);
-      border-radius: 50%;
-      pointer-events: none;
-      z-index: 1;
-    "></div>
-    <div style="
-      position: absolute;
-      bottom: -15%;
-      left: -3%;
-      width: 280px;
-      height: 280px;
-      background: radial-gradient(circle, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0) 70%);
-      border-radius: 50%;
-      pointer-events: none;
-      z-index: 1;
-    "></div>
+    <div class="page-hero-shape-1"></div>
+    <div class="page-hero-shape-2"></div>
   </section>
 
   <!-- ===== BLOG LAYOUT (CLEAN GRID + 3 COLUMNS) ===== -->
-  <section class="section" style="padding-top: 1.5rem;">
+  <section class="section pt-15">
     <div class="container">
 
       <div class="blog-layout">
@@ -758,12 +658,10 @@
           </div>
 
           <!-- PROMO SIDEBAR -->
-          <div class="sidebar-hero"
-            style="background: var(--maroon-soft, #f5e6e6); border-color: var(--primary-maroon, #7a1a1a);">
-            <div class="hero-category"
-              style="color: #fff; background: var(--primary-maroon); display: inline-block; padding: 0.1rem 0.6rem; border-radius: 4px;">
+          <div class="sidebar-hero badge-maroon-soft-border">
+            <div class="hero-category tag-maroon-pill">
               PROMO</div>
-            <h4><a href="/paket" style="color: var(--primary-maroon);">Paket Pengadaan Kantor Hemat 15% – Periode
+            <h4><a href="/paket" class="text-maroon-primary">Paket Pengadaan Kantor Hemat 15% – Periode
                 Agustus 2026</a></h4>
             <span class="post-date">Dapatkan harga spesial sekarang!</span>
           </div>
@@ -892,14 +790,11 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="/" class="brand-logo"
-            style="display: flex; align-items: center; text-decoration: none; margin-bottom: 0.75rem;">
-            <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img"
-              style="height: 36px; width: auto; margin-right: 2px;" />
-            <span class="logo-text" style="font-weight: 700; font-size: 1.1rem; color: #ffffff;">MAROON <span
-                style="color: var(--primary-maroon, #7a1a1a);">ATK</span></span>
+          <a href="/" class="brand-logo brand-logo-wrap-footer">
+            <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" />
+            <span class="logo-text brand-logo-text-footer">MAROON <span class="text-maroon-primary">ATK</span></span>
           </a>
-          <p style="color: #e0e0e0;">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board
+          <p class="text-footer-desc">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board
             Terpercaya untuk Instansi Pemerintah, Pendidikan, dan Swasta.</p>
           <div class="footer-social-strip">
             <a href="https://wa.me/6288989643555" target="_blank" class="footer-social-btn wa-btn"

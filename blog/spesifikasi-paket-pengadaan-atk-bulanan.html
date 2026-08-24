@@ -26,7 +26,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" href="../assets/css/style.css" as="style">
-    <link rel="preload" href="../assets/image/blog/spesifikasi-paket-pengadaan-atk-bulanan-hero.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="../assets/image/blog/spesifikasi-paket-pengadaan-atk-bulanan-hero.webp" as="image">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -93,16 +93,16 @@
     <!-- NAVBAR -->
     <nav class="navbar">
         <div class="container navbar-container">
-            <a href="/" class="brand-logo" style="display: flex; align-items: center; text-decoration: none;">
-                <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img" style="height: 38px; width: auto; margin-right: 2px;" />
-                <span class="logo-text" style="font-weight: 700; font-size: 1.15rem; color: var(--text-dark, #1a1a2e);">MAROON <span style="color: var(--primary-maroon, #7a1a1a);">ATK</span></span>
+            <a href="/" class="brand-logo brand-logo-wrap">
+                <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" />
+                <span class="logo-text brand-logo-text">MAROON <span class="text-maroon-primary">ATK</span></span>
             </a>
             <button class="hamburger" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="/" class="nav-link">Beranda</a></li>
                 <li class="nav-item"><a href="/tentang-kami" class="nav-link">Tentang Kami</a></li>
                 <li class="nav-item nav-item-dropdown">
-                    <a href="/produk" class="nav-link dropdown-toggle">Produk <i class="fas fa-chevron-down" style="font-size:0.75rem;"></i></a>
+                    <a href="/produk" class="nav-link dropdown-toggle">Produk <i class="fas fa-chevron-down dropdown-chevron-icon"></i></a>
                     <div class="dropdown-menu">
                         <a href="/produk/atk" class="dropdown-item"><i class="fas fa-pen-nib"></i> Alat Tulis Kantor</a>
                         <a href="/produk/meja-kantor" class="dropdown-item"><i class="fas fa-table"></i> Meja Kantor</a>
@@ -118,7 +118,7 @@
                 <li class="nav-item"><a href="/kontak" class="nav-link">Kontak</a></li>
             </ul>
             <div class="nav-actions">
-                <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20ingin%20konsultasi%20Paket%20Pengadaan%20ATK%20Bulanan" target="_blank" class="btn btn-whatsapp btn-sm" rel="nofollow">
+                <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20ingin%20konsultasi%20Paket%20Pengadaan%20ATK%20Bulanan" target="_blank" class="btn btn-whatsapp btn-sm" rel="noopener nofollow">
                     <i class="fas fa-headset"></i> <span>Hubungi Kami</span>
                 </a>
             </div>
@@ -139,7 +139,7 @@
     </div>
 
     <!-- MAIN ARTICLE SECTION -->
-    <section class="section" style="padding-top: 1.5rem;">
+    <section class="section pt-15">
         <div class="container">
             <div class="article-wrapper">
 
@@ -160,7 +160,7 @@
 
                     <!-- HERO FEATURED IMAGE -->
                     <div class="article-featured-image">
-                        <img src="../assets/image/blog/spesifikasi-paket-pengadaan-atk-bulanan-hero.webp" alt="Paket Pengadaan Alat Tulis Kantor Bulanan B2B - Maroon ATK" loading="eager" fetchpriority="high">
+                        <img src="../assets/image/blog/spesifikasi-paket-pengadaan-atk-bulanan-hero.webp" alt="Paket Pengadaan Alat Tulis Kantor Bulanan B2B - Maroon ATK" loading="eager">
                     </div>
                     <p class="caption">Paket pengadaan alat tulis kantor (ATK) bulanan B2B dari Maroon ATK dirancang untuk menyederhanakan proses procurement rutin perusahaan dan instansi pemerintah secara efisien dan akuntabel.</p>
 
@@ -192,8 +192,8 @@
                         <h2 id="pentingnya-paket-pengadaan-atk-bulanan">Pentingnya Paket Pengadaan Alat Tulis Kantor Bulanan untuk Efisiensi Operasional B2B</h2>
 
                         <!-- ANSWER-FIRST BLOCK -->
-                        <div class="answer-first-box" style="background-color: #f8fafc; border-left: 4px solid #7a1a1a; padding: 1.25rem; margin-bottom: 1.75rem; border-radius: 0 8px 8px 0;">
-                            <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 0; color: #1e293b;">
+                        <div class="answer-first-box callout-card-maroon">
+                            <p class="text-slate-lead">
                                 <strong>Paket pengadaan alat tulis kantor</strong> bulanan B2B adalah bundling terstruktur yang mencakup <strong>kertas HVS A4/F4 80gr, toner cartridge original, map/ordner arsip, pulpen, dan perlengkapan administrasi</strong> lainnya dalam satu kontrak pengiriman periodik. Sistem paket ini memungkinkan tim GA dan Purchasing untuk <strong>mengunci harga kontrak</strong>, mengurangi frekuensi PO individual, dan menjamin ketersediaan stok operasional tanpa gangguan—disertai kelengkapan <strong>e-Faktur PPN 11%</strong> yang sah untuk audit akuntansi perusahaan.
                             </p>
                         </div>
@@ -250,33 +250,33 @@
 
                         <!-- MANDATORY TABLE -->
                         <div class="table-responsive">
-                            <table class="table-custom" style="width: 100%; border-collapse: collapse; margin: 1.5rem 0;">
+                            <table class="table-custom table-full-collapse">
                                 <thead>
-                                    <tr style="background-color: #7a1a1a; color: #ffffff;">
-                                        <th style="padding: 12px 15px; border: 1px solid #ddd;">Tingkatan Paket</th>
-                                        <th style="padding: 12px 15px; border: 1px solid #ddd;">Isi Komponen Utama</th>
-                                        <th style="padding: 12px 15px; border: 1px solid #ddd;">Estimasi Kuota Pemakaian / Bulan</th>
-                                        <th style="padding: 12px 15px; border: 1px solid #ddd;">Kisaran Harga / Bulan</th>
+                                    <tr class="bg-maroon-text-white">
+                                        <th class="table-header-pad">Tingkatan Paket</th>
+                                        <th class="table-header-pad">Isi Komponen Utama</th>
+                                        <th class="table-header-pad">Estimasi Kuota Pemakaian / Bulan</th>
+                                        <th class="table-header-pad">Kisaran Harga / Bulan</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td style="padding: 10px 15px; border: 1px solid #ddd;"><strong>Starter</strong><br><small style="color:#7a1a1a;">≤ 25 karyawan</small></td>
-                                        <td style="padding: 10px 15px; border: 1px solid #ddd;">Kertas HVS A4 80gr, Pulpen ballpoint, Map plastik, Amplop dinas, Stapler &amp; isi, Correction tape, Penggaris, Spidol whiteboard</td>
-                                        <td style="padding: 10px 15px; border: 1px solid #ddd;">3–5 rim kertas, 2 lusin pulpen, 1–2 pak map, 1 set perlengkapan meja dasar</td>
-                                        <td style="padding: 10px 15px; border: 1px solid #ddd;"><strong>Rp 800.000 – Rp 2.000.000</strong></td>
+                                        <td class="table-pad-cell"><strong>Starter</strong><br><small class="text-maroon-primary">≤ 25 karyawan</small></td>
+                                        <td class="table-pad-cell">Kertas HVS A4 80gr, Pulpen ballpoint, Map plastik, Amplop dinas, Stapler &amp; isi, Correction tape, Penggaris, Spidol whiteboard</td>
+                                        <td class="table-pad-cell">3–5 rim kertas, 2 lusin pulpen, 1–2 pak map, 1 set perlengkapan meja dasar</td>
+                                        <td class="table-pad-cell"><strong>Rp 800.000 – Rp 2.000.000</strong></td>
                                     </tr>
-                                    <tr style="background-color: #f8fafc;">
-                                        <td style="padding: 10px 15px; border: 1px solid #ddd;"><strong>Business</strong><br><small style="color:#7a1a1a;">25–100 karyawan</small></td>
-                                        <td style="padding: 10px 15px; border: 1px solid #ddd;">Kertas HVS A4 &amp; F4 75gr/80gr, Toner cartridge original (1–2 unit), Ordner/binder arsip, Pulpen &amp; pensil, Amplop dinas, Hanging folder, Label sticker, Materai, Spidol &amp; marker</td>
-                                        <td style="padding: 10px 15px; border: 1px solid #ddd;">5–15 rim kertas, 1–2 unit toner, 5–10 ordner, 3–5 lusin pulpen, kelengkapan administrasi standar</td>
-                                        <td style="padding: 10px 15px; border: 1px solid #ddd;"><strong>Rp 2.500.000 – Rp 7.500.000</strong></td>
+                                    <tr class="bg-slate-50">
+                                        <td class="table-pad-cell"><strong>Business</strong><br><small class="text-maroon-primary">25–100 karyawan</small></td>
+                                        <td class="table-pad-cell">Kertas HVS A4 &amp; F4 75gr/80gr, Toner cartridge original (1–2 unit), Ordner/binder arsip, Pulpen &amp; pensil, Amplop dinas, Hanging folder, Label sticker, Materai, Spidol &amp; marker</td>
+                                        <td class="table-pad-cell">5–15 rim kertas, 1–2 unit toner, 5–10 ordner, 3–5 lusin pulpen, kelengkapan administrasi standar</td>
+                                        <td class="table-pad-cell"><strong>Rp 2.500.000 – Rp 7.500.000</strong></td>
                                     </tr>
                                     <tr>
-                                        <td style="padding: 10px 15px; border: 1px solid #ddd;"><strong>Corporate</strong><br><small style="color:#7a1a1a;">&gt; 100 karyawan / Instansi</small></td>
-                                        <td style="padding: 10px 15px; border: 1px solid #ddd;">Kertas HVS A4 &amp; F4 (multi-merek), Toner cartridge original (multi-printer), Ordner, Map, Amplop, Kertas karbon, Binding cover, Stempel, Tinta stempel, Perlengkapan rapat, dan item custom sesuai TOR</td>
-                                        <td style="padding: 10px 15px; border: 1px solid #ddd;">15–50+ rim kertas, 3–10 unit toner, seluruh kelengkapan ATK operasional &amp; rapat, sesuai negosiasi kontrak</td>
-                                        <td style="padding: 10px 15px; border: 1px solid #ddd;"><strong>Rp 8.000.000 – Rp 30.000.000+</strong></td>
+                                        <td class="table-pad-cell"><strong>Corporate</strong><br><small class="text-maroon-primary">&gt; 100 karyawan / Instansi</small></td>
+                                        <td class="table-pad-cell">Kertas HVS A4 &amp; F4 (multi-merek), Toner cartridge original (multi-printer), Ordner, Map, Amplop, Kertas karbon, Binding cover, Stempel, Tinta stempel, Perlengkapan rapat, dan item custom sesuai TOR</td>
+                                        <td class="table-pad-cell">15–50+ rim kertas, 3–10 unit toner, seluruh kelengkapan ATK operasional &amp; rapat, sesuai negosiasi kontrak</td>
+                                        <td class="table-pad-cell"><strong>Rp 8.000.000 – Rp 30.000.000+</strong></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -319,7 +319,7 @@
                                 <p><strong>Konsultasi kebutuhan &amp; SPH gratis</strong></p>
                                 <p>Tim Maroon ATK siap membantu audit kebutuhan ATK bulanan dan menyusun penawaran harga terbaik yang sesuai anggaran operasional Anda.</p>
                             </div>
-                            <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20butuh%20Penawaran%20Paket%20ATK%20Bulanan%20untuk%20perusahaan%20saya" target="_blank" class="btn-wa" rel="nofollow">
+                            <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20butuh%20Penawaran%20Paket%20ATK%20Bulanan%20untuk%20perusahaan%20saya" target="_blank" class="btn-wa" rel="noopener nofollow">
                                 <i class="fab fa-whatsapp"></i> Chat via WhatsApp
                             </a>
                         </div>
@@ -339,7 +339,7 @@
                         <!-- FAQ SECTION -->
                         <div class="faq-section">
                             <h3><i class="fas fa-question-circle"></i> Pertanyaan Umum (FAQ) Paket Pengadaan ATK Bulanan</h3>
-                            <div class="faq-container" style="max-width: 100%;">
+                            <div class="faq-container img-fluid-custom">
                                 <div class="faq-item active">
                                     <button class="faq-question" type="button">
                                         <div class="faq-q-badge"><i class="fas fa-boxes"></i></div>
@@ -436,17 +436,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="sidebar-hero" style="background: var(--maroon-soft, #f5e6e6); border-color: var(--primary-maroon, #7a1a1a);">
-                        <div class="hero-category" style="color: #fff; background: var(--primary-maroon); display: inline-block; padding: 0.1rem 0.6rem; border-radius: 4px;">PAKET ATK</div>
-                        <h4><a href="/paket" style="color: var(--primary-maroon);">Paket ATK Bulanan — Harga Kontrak Terkunci</a></h4>
+                    <div class="sidebar-hero badge-maroon-soft-border">
+                        <div class="hero-category tag-maroon-pill">PAKET ATK</div>
+                        <h4><a href="/paket" class="text-maroon-primary">Paket ATK Bulanan — Harga Kontrak Terkunci</a></h4>
                         <span class="post-date">Mulai dari Rp 800.000 / bulan. Dapatkan SPH resmi!</span>
-                        <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20tertarik%20Paket%20ATK%20Bulanan" target="_blank" rel="nofollow" style="display: inline-block; margin-top: 0.5rem; background: var(--primary-maroon); color: #fff; padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.8rem; font-weight: 600; text-decoration: none;">Minta Penawaran Sekarang</a>
+                        <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20tertarik%20Paket%20ATK%20Bulanan" target="_blank" rel="noopener nofollow" class="btn-cta-link">Minta Penawaran Sekarang</a>
                     </div>
                     <div class="sidebar-hero">
                         <div class="hero-category">KONSULTASI</div>
                         <h4>Butuh Audit Kebutuhan ATK Kantor Anda?</h4>
-                        <p style="font-size: 0.85rem; color: var(--text-muted, #6c757d); margin: 0.3rem 0 0.5rem;">Konsultasikan volume kebutuhan ATK dan dapatkan rekomendasi paket terbaik dari tim Maroon ATK secara gratis.</p>
-                        <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20ingin%20konsultasi%20Paket%20ATK%20Bulanan" target="_blank" rel="nofollow" style="display: inline-block; background: #25d366; color: #fff; padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.8rem; font-weight: 600; text-decoration: none;"><i class="fab fa-whatsapp"></i> Chat WhatsApp</a>
+                        <p class="prod-card-p">Konsultasikan volume kebutuhan ATK dan dapatkan rekomendasi paket terbaik dari tim Maroon ATK secara gratis.</p>
+                        <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20ingin%20konsultasi%20Paket%20ATK%20Bulanan" target="_blank" rel="noopener nofollow" class="btn-cta-wa"><i class="fab fa-whatsapp"></i> Chat WhatsApp</a>
                     </div>
                 </aside>
 
@@ -455,35 +455,35 @@
     </section>
 
     <!-- PRODUCT RECOMMENDATIONS -->
-    <section class="section" style="padding-top: 0; padding-bottom: 2rem;">
+    <section class="section pt-0 pb-2">
         <div class="container">
-            <h2 style="font-size: 1.4rem; font-weight: 700; color: #1a1a2e; margin-bottom: 1.25rem; padding-bottom: 0.5rem; border-bottom: 3px solid #7a1a1a;"><i class="fas fa-star" style="color: #7a1a1a;"></i> Rekomendasi Produk Paket Pengadaan ATK</h2>
-            <div class="recommendations" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem;">
+            <h2 class="heading-underline-maroon"><i class="fas fa-star text-maroon-primary"></i> Rekomendasi Produk Paket Pengadaan ATK</h2>
+            <div class="recommendations grid-240">
                 <div class="recommend-item">
                     <div class="thumb"><img src="../assets/image/HVS/Kertas-HVS-SLIDE-6.webp" alt="Paket ATK Lengkap Kantor Starter" loading="lazy"></div>
                     <div class="body">
-                        <span style="font-size: 0.72rem; font-weight: 700; color: #7a1a1a; text-transform: uppercase; margin-bottom: 0.25rem;">Paket ATK</span>
+                        <span class="prod-cat-label mb-025">Paket ATK</span>
                         <h4><a href="/detail/paket-atk-lengkap-starter">Paket ATK Lengkap Kantor Starter</a></h4>
                         <p>Bundling ATK esensial bulanan untuk kantor kecil &le;25 karyawan lengkap dengan kertas, pulpen, map, dan perlengkapan meja dasar.</p>
-                        <a href="/detail/paket-atk-lengkap-starter" class="readmore" style="font-weight: 700; color: #7a1a1a; display: inline-flex; align-items: center; gap: 0.35rem; margin-top: auto;">Lihat Detail Produk <i class="fas fa-arrow-right" style="font-size: 0.8rem;"></i></a>
+                        <a href="/detail/paket-atk-lengkap-starter" class="readmore prod-card-link-auto">Lihat Detail Produk <i class="fas fa-arrow-right font-08"></i></a>
                     </div>
                 </div>
                 <div class="recommend-item">
                     <div class="thumb"><img src="../assets/image/HVS/Kertas-HVS-SLIDE-1.webp" alt="Kertas HVS SiDU PaperOne A4 F4 75/80gr" loading="lazy"></div>
                     <div class="body">
-                        <span style="font-size: 0.72rem; font-weight: 700; color: #7a1a1a; text-transform: uppercase; margin-bottom: 0.25rem;">Kertas HVS</span>
+                        <span class="prod-cat-label mb-025">Kertas HVS</span>
                         <h4><a href="/detail/kertas-hvs-a4-f4">Kertas HVS SiDU / PaperOne A4 &amp; F4 75/80gr</a></h4>
                         <p>Kertas HVS berkualitas tinggi dengan ISO Brightness 92%+ untuk hasil cetak optimal pada printer laser dan inkjet. Tersedia per rim dan per karton.</p>
-                        <a href="/detail/kertas-hvs-a4-f4" class="readmore" style="font-weight: 700; color: #7a1a1a; display: inline-flex; align-items: center; gap: 0.35rem; margin-top: auto;">Lihat Detail Produk <i class="fas fa-arrow-right" style="font-size: 0.8rem;"></i></a>
+                        <a href="/detail/kertas-hvs-a4-f4" class="readmore prod-card-link-auto">Lihat Detail Produk <i class="fas fa-arrow-right font-08"></i></a>
                     </div>
                 </div>
                 <div class="recommend-item">
                     <div class="thumb"><img src="../assets/image/HVS/Kertas-HVS-SLIDE-2.webp" alt="Toner Cartridge Original Multi-Brand" loading="lazy"></div>
                     <div class="body">
-                        <span style="font-size: 0.72rem; font-weight: 700; color: #7a1a1a; text-transform: uppercase; margin-bottom: 0.25rem;">Toner Printer</span>
+                        <span class="prod-cat-label mb-025">Toner Printer</span>
                         <h4><a href="/detail/toner-cartridge-original">Toner Cartridge Original Multi-Brand</a></h4>
                         <p>Toner cartridge original OEM untuk HP, Canon, Epson, Brother. Garansi keaslian produk dan yield cetak sesuai spesifikasi produsen.</p>
-                        <a href="/detail/toner-cartridge-original" class="readmore" style="font-weight: 700; color: #7a1a1a; display: inline-flex; align-items: center; gap: 0.35rem; margin-top: auto;">Lihat Detail Produk <i class="fas fa-arrow-right" style="font-size: 0.8rem;"></i></a>
+                        <a href="/detail/toner-cartridge-original" class="readmore prod-card-link-auto">Lihat Detail Produk <i class="fas fa-arrow-right font-08"></i></a>
                     </div>
                 </div>
             </div>
@@ -496,7 +496,7 @@
             <div class="cta-banner">
                 <h2>Mulai Paket Pengadaan ATK Bulanan yang Lebih Efisien Bersama Maroon ATK</h2>
                 <p>Hubungi Maroon ATK sekarang untuk audit kebutuhan ATK kantor Anda, permintaan penawaran SPH resmi, dan konsultasi pemilihan paket yang paling sesuai anggaran operasional.</p>
-                <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20ingin%20konsultasi%20Paket%20Pengadaan%20ATK%20Bulanan" target="_blank" class="btn btn-whatsapp" rel="nofollow">
+                <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK%2C%20saya%20ingin%20konsultasi%20Paket%20Pengadaan%20ATK%20Bulanan" target="_blank" class="btn btn-whatsapp" rel="noopener nofollow">
                     <i class="fab fa-whatsapp"></i> Chat WhatsApp (0889-8964-3555)
                 </a>
             </div>
@@ -508,11 +508,11 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="/" class="brand-logo" style="display: flex; align-items: center; text-decoration: none; margin-bottom: 0.75rem;">
-                        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img" style="height: 36px; width: auto; margin-right: 2px;" />
-                        <span class="logo-text" style="font-weight: 700; font-size: 1.1rem; color: #ffffff;">MAROON <span style="color: var(--primary-maroon, #7a1a1a);">ATK</span></span>
+                    <a href="/" class="brand-logo brand-logo-wrap-footer">
+                        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" />
+                        <span class="logo-text brand-logo-text-footer">MAROON <span class="text-maroon-primary">ATK</span></span>
                     </a>
-                    <p style="color: #e0e0e0;">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board Terpercaya untuk Instansi Pemerintah, Pendidikan, dan Swasta.</p>
+                    <p class="text-footer-desc">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board Terpercaya untuk Instansi Pemerintah, Pendidikan, dan Swasta.</p>
                     <div class="footer-social-strip">
                         <a href="https://wa.me/6288989643555" target="_blank" class="footer-social-btn wa-btn" aria-label="WhatsApp MAROON ATK" rel="noopener"><i class="fab fa-whatsapp"></i></a>
                         <a href="mailto:info@maroonatk.web.id" class="footer-social-btn" aria-label="Email MAROON ATK"><i class="fas fa-envelope"></i></a>
@@ -559,7 +559,7 @@
         </div>
     </footer>
 
-    <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK" target="_blank" class="float-wa" rel="nofollow" aria-label="Hubungi MAROON ATK via WhatsApp">
+    <a href="https://wa.me/6288989643555?text=Halo%20MAROON%20ATK" target="_blank" class="float-wa" rel="noopener nofollow" aria-label="Hubungi MAROON ATK via WhatsApp">
         <i class="fab fa-whatsapp"></i>
         <span class="tooltip">Hubungi Kami (0889-8964-3555)</span>
     </a>
