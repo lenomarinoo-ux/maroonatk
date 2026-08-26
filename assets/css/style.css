@@ -6595,9 +6595,8 @@ br.d-desktop-block {
 .callout-card-maroon { background-color: #f8fafc; border-left: 4px solid #7a1a1a; padding: 1.25rem; margin-bottom: 1.75rem; border-radius: 0 8px 8px 0; }
 .badge-tag-maroon { background-color: var(--maroon-soft); color: var(--primary-maroon); padding: 0.35rem 1rem; border-radius: var(--radius-pill); font-size: 0.85rem; font-weight: 600; border: 1px solid var(--maroon-border); }
 .badge-maroon-soft-border { background: var(--maroon-soft, #f5e6e6) !important; border-color: var(--primary-maroon, #7a1a1a) !important; }
-.btn-no-border { border: none !important; cursor: pointer; }
-.tag-maroon-pill { color: #fff; background: var(--primary-maroon); display: inline-block; padding: 0.1rem 0.6rem; border-radius: 4px; }
-.text-muted-105 { color: var(--text-muted); font-size: 1.05rem; }
+.tag-maroon-pill,
+.sidebar-hero .hero-category.tag-maroon-pill { color: #ffffff !important; background: var(--primary-maroon, #7a1a1a) !important; display: inline-block; padding: 0.15rem 0.6rem; border-radius: 4px; font-weight: 700; }
 .text-muted-lead { color: var(--text-muted); font-size: 1.05rem; line-height: 1.7; margin-bottom: 1.5rem; }
 .text-muted-09 { font-size: 0.9rem; font-weight: 400; color: var(--text-muted); }
 .mt-05 { margin-top: 0.5rem !important; }

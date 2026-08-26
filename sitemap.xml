@@ -47,7 +47,7 @@
   <!-- Blog & Panduan Kantor -->
   <url>
     <loc>https://maroonatk.web.id/blog</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -414,6 +414,58 @@
       </news:publication>
       <news:publication_date>2026-08-24</news:publication_date>
       <news:title>Panduan Memilih Supplier ATK Kantor Jakarta Terpercaya Berlegalitas</news:title>
+    </news:news>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- ARTIKEL BARU 26 AGUSTUS 2026                                  -->
+  <!-- ============================================================ -->
+
+  <!-- Keuntungan Paket Pengadaan Alat Tulis Kantor B2B -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/keuntungan-paket-pengadaan-alat-tulis-kantor</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-26</news:publication_date>
+      <news:title>Mengenal Keuntungan Sistem Paket Pengadaan Alat Tulis Kantor B2B</news:title>
+    </news:news>
+  </url>
+
+  <!-- Contoh Format Proposal Pengajuan Pengadaan ATK -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/format-proposal-pengajuan-pengadaan-atk</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-26</news:publication_date>
+      <news:title>Contoh Format Proposal Pengajuan Pengadaan ATK &amp; Inventaris Kantor</news:title>
+    </news:news>
+  </url>
+
+  <!-- SOP Pengadaan Furniture Kantor B2B -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/sop-pengadaan-furniture-kantor-b2b</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-26</news:publication_date>
+      <news:title>SOP Pengadaan Furniture Kantor B2B: Panduan Lengkap Purchasing Team</news:title>
     </news:news>
   </url>
 
