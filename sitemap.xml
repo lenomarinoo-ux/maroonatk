@@ -10,7 +10,7 @@
   <!-- Beranda / Homepage -->
   <url>
     <loc>https://maroonatk.web.id/</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -47,7 +47,7 @@
   <!-- Blog & Panduan Kantor -->
   <url>
     <loc>https://maroonatk.web.id/blog</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -467,6 +467,73 @@
       <news:publication_date>2026-08-26</news:publication_date>
       <news:title>SOP Pengadaan Furniture Kantor B2B: Panduan Lengkap Purchasing Team</news:title>
     </news:news>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- ARTIKEL BARU 27 AGUSTUS 2026                                  -->
+  <!-- ============================================================ -->
+
+  <!-- Cara Menghitung Kebutuhan ATK Kantor Bulanan -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/cara-menghitung-kebutuhan-atk-kantor-bulanan</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Cara Menghitung Kebutuhan ATK Kantor Bulanan Secara Akurat</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/cara-menghitung-kebutuhan-atk-kantor-bulanan-hero.webp</image:loc>
+      <image:title>Cara Menghitung Kebutuhan ATK Kantor Bulanan Secara Akurat - MAROON ATK</image:title>
+      <image:caption>Panduan lengkap purchasing staff menghitung kuantitas ATK bulanan: rumus konsumsi, safety stock, dan lead time supplier.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Berapa Harga Paket Furniture Kantor per Workstation di Jakarta -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/harga-paket-furniture-kantor-workstation-jakarta</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Berapa Harga Paket Furniture Kantor per Workstation di Jakarta?</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/harga-paket-furniture-kantor-workstation-jakarta-hero.webp</image:loc>
+      <image:title>Berapa Harga Paket Furniture Kantor per Workstation di Jakarta? - MAROON ATK</image:title>
+      <image:caption>Estimasi biaya paket furniture workstation kantor di Jakarta: perbandingan paket Basic, Standard, Premium, dan mitigasi hidden cost.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Maroon ATK: Vendor Interactive Flat Panel Indonesia Bergaransi Resmi -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/vendor-interactive-flat-panel-indonesia-maroon</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Maroon ATK: Vendor Interactive Flat Panel Indonesia Bergaransi Resmi</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/vendor-interactive-flat-panel-indonesia-maroon-hero.webp</image:loc>
+      <image:title>Maroon ATK: Vendor Interactive Flat Panel Indonesia Bergaransi Resmi</image:title>
+      <image:caption>Solusi pengadaan Interactive Flat Panel bergaransi resmi untuk smart classroom dan ruang rapat di Indonesia.</image:caption>
+    </image:image>
   </url>
 
 </urlset>
