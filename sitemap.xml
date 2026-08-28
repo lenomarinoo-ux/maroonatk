@@ -10,7 +10,7 @@
   <!-- Beranda / Homepage -->
   <url>
     <loc>https://maroonatk.web.id/</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -47,7 +47,7 @@
   <!-- Blog & Panduan Kantor -->
   <url>
     <loc>https://maroonatk.web.id/blog</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -533,6 +533,73 @@
       <image:loc>https://maroonatk.web.id/assets/image/blog/vendor-interactive-flat-panel-indonesia-maroon-hero.webp</image:loc>
       <image:title>Maroon ATK: Vendor Interactive Flat Panel Indonesia Bergaransi Resmi</image:title>
       <image:caption>Solusi pengadaan Interactive Flat Panel bergaransi resmi untuk smart classroom dan ruang rapat di Indonesia.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- ARTIKEL BARU 28 AGUSTUS 2026                                  -->
+  <!-- ============================================================ -->
+
+  <!-- Inspirasi Desain Meja Kerja Modern Minimalis -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/desain-meja-kerja-modern-minimalis</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Inspirasi Desain Meja Kerja Modern Minimalis untuk Ruang Kerja Sempit</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/desain-meja-kerja-modern-minimalis-hero.webp</image:loc>
+      <image:title>Inspirasi Desain Meja Kerja Modern Minimalis untuk Ruang Kerja Sempit - MAROON ATK</image:title>
+      <image:caption>Panduan konsep desain meja kantor modern minimalis hemat tempat untuk efisiensi ruang kerja staf B2B.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Faktor yang Mempengaruhi Harga Interactive Flat Panel Jakarta Terbaru -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/harga-interactive-flat-panel-jakarta</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Faktor yang Mempengaruhi Harga Interactive Flat Panel Jakarta Terbaru</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/harga-interactive-flat-panel-jakarta-hero.webp</image:loc>
+      <image:title>Faktor yang Mempengaruhi Harga Interactive Flat Panel Jakarta Terbaru - MAROON ATK</image:title>
+      <image:caption>Analisis faktor penentu harga Interactive Flat Panel 65, 75, 86 inch dan spesifikasi modul OPS untuk meeting room Jakarta.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Sistem Kontrak Borongan Custom Furniture Kantor untuk Ruang Kerja B2B -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/kontrak-borongan-custom-furniture-kantor-b2b</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Sistem Kontrak Borongan Custom Furniture Kantor untuk Ruang Kerja B2B</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/kontrak-borongan-custom-furniture-kantor-b2b-hero.webp</image:loc>
+      <image:title>Sistem Kontrak Borongan Custom Furniture Kantor untuk Ruang Kerja B2B - MAROON ATK</image:title>
+      <image:caption>Panduan sistem kontrak borongan custom furniture kantor B2B: dari site survey, shop drawing, SPK hingga serah terima BAST.</image:caption>
     </image:image>
   </url>
 
