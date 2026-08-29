@@ -10,7 +10,7 @@
   <!-- Beranda / Homepage -->
   <url>
     <loc>https://maroonatk.web.id/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -47,7 +47,7 @@
   <!-- Blog & Panduan Kantor -->
   <url>
     <loc>https://maroonatk.web.id/blog</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -600,6 +600,73 @@
       <image:loc>https://maroonatk.web.id/assets/image/blog/kontrak-borongan-custom-furniture-kantor-b2b-hero.webp</image:loc>
       <image:title>Sistem Kontrak Borongan Custom Furniture Kantor untuk Ruang Kerja B2B - MAROON ATK</image:title>
       <image:caption>Panduan sistem kontrak borongan custom furniture kantor B2B: dari site survey, shop drawing, SPK hingga serah terima BAST.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- ARTIKEL BARU 29 AGUSTUS 2026                                  -->
+  <!-- ============================================================ -->
+
+  <!-- Apa Itu Interactive Flat Panel (IFP) dan Manfaatnya Bagi Ruang Rapat -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/apa-itu-interactive-flat-panel-ifp</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-29</news:publication_date>
+      <news:title>Apa Itu Interactive Flat Panel (IFP) dan Manfaatnya Bagi Ruang Rapat</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/apa-itu-interactive-flat-panel-ifp-hero.webp</image:loc>
+      <image:title>Apa Itu Interactive Flat Panel IFP untuk Ruang Rapat Perusahaan - Maroon ATK</image:title>
+      <image:caption>Interactive Flat Panel (IFP) menghadirkan transformasi digital ruang rapat modern dengan menggabungkan layar sentuh 4K UHD, digital whiteboard kolaboratif, dan konektivitas nirkabel multi-platform.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Sistem Custom Furniture Kantor: Meja Resepsionis & Kabinet Arsip Minimalis -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/sistem-custom-furniture-meja-resepsionis-kabinet</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-29</news:publication_date>
+      <news:title>Sistem Custom Furniture Kantor: Meja Resepsionis &amp; Kabinet Arsip Minimalis</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/sistem-custom-furniture-meja-resepsionis-kabinet-hero.webp</image:loc>
+      <image:title>Custom Furniture Kantor Meja Resepsionis dan Kabinet Arsip Minimalis - Maroon ATK</image:title>
+      <image:caption>Penerapan sistem custom furniture kantor menghadirkan meja resepsionis lobi yang elegan dan kabinet arsip vertikal hemat ruang yang presisi dengan dimensi denah arsitektur bangunan.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Prosedur Pengadaan ATK Instansi Pemerintah yang Transparan dan Sesuai LKPP -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/prosedur-pengadaan-atk-pemerintah-lkpp</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-29</news:publication_date>
+      <news:title>Prosedur Pengadaan ATK Instansi Pemerintah yang Transparan dan Sesuai LKPP</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/prosedur-pengadaan-atk-pemerintah-lkpp-hero.webp</image:loc>
+      <image:title>Prosedur Pengadaan ATK Instansi Pemerintah Transparan dan Sesuai LKPP - Maroon ATK</image:title>
+      <image:caption>Tata kelola pengadaan ATK instansi pemerintah yang disiplin, mulai dari perumusan spesifikasi teknis, verifikasi legalitas penyedia PT, hingga tertib administrasi BAST, menjamin akuntabilitas belanja APBN/APBD.</image:caption>
     </image:image>
   </url>
 
