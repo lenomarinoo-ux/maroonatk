@@ -36,6 +36,70 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 
+    <!-- JSON-LD Schema: LocalBusiness & Product with Aggregate Rating (Google Star Rating Rich Snippet) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://maroonatk.web.id/#organization",
+          "name": "MAROON ATK",
+          "url": "https://maroonatk.web.id/",
+          "logo": "https://maroonatk.web.id/assets/image/favicon-maroon-atk.webp",
+          "image": "https://maroonatk.web.id/assets/image/favicon-maroon-atk.webp",
+          "description": "Supplier, vendor & distributor resmi peralatan kantor, ATK, furniture kantor, videotron, interactive flat panel & papan tulis digital.",
+          "telephone": "0889-8964-3555",
+          "priceRange": "Rp 15.000 - Rp 150.000.000",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "ID",
+            "addressRegion": "Jawa Timur"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "260",
+            "reviewCount": "260"
+          }
+        },
+        {
+          "@type": "Product",
+          "@id": "https://maroonatk.web.id/#product-service",
+          "name": "Pengadaan Peralatan Kantor & ATK Lengkap - MAROON ATK",
+          "description": "Layanan penyedia dan pengadaan Alat Tulis Kantor, Meja Kursi, Lemari Arsip, Videotron & Interactive Flat Panel.",
+          "brand": {
+            "@type": "Brand",
+            "name": "MAROON ATK"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "260",
+            "reviewCount": "260"
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "url": "https://maroonatk.web.id/",
+            "priceCurrency": "IDR",
+            "lowPrice": "15000",
+            "highPrice": "150000000",
+            "offerCount": "50",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@type": "Organization",
+              "name": "MAROON ATK"
+            }
+          }
+        }
+      ]
+    }
+    </script>
+
     <style>
         /* ===== CARD EFFECTS UNIFORM ===== */
         /* Category Card */
