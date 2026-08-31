@@ -10,7 +10,7 @@
   <!-- Beranda / Homepage -->
   <url>
     <loc>https://maroonatk.web.id/</loc>
-    <lastmod>2026-08-29</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -47,7 +47,7 @@
   <!-- Blog & Panduan Kantor -->
   <url>
     <loc>https://maroonatk.web.id/blog</loc>
-    <lastmod>2026-08-29</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -667,6 +667,73 @@
       <image:loc>https://maroonatk.web.id/assets/image/blog/prosedur-pengadaan-atk-pemerintah-lkpp-hero.webp</image:loc>
       <image:title>Prosedur Pengadaan ATK Instansi Pemerintah Transparan dan Sesuai LKPP - Maroon ATK</image:title>
       <image:caption>Tata kelola pengadaan ATK instansi pemerintah yang disiplin, mulai dari perumusan spesifikasi teknis, verifikasi legalitas penyedia PT, hingga tertib administrasi BAST, menjamin akuntabilitas belanja APBN/APBD.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- ARTIKEL BARU 31 AGUSTUS 2026                                  -->
+  <!-- ============================================================ -->
+
+  <!-- Mengapa Memilih Custom Furniture Kantor Lebih Hemat Dibanding Siap Pakai -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/mengapa-custom-furniture-kantor-lebih-hemat</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31</news:publication_date>
+      <news:title>Mengapa Memilih Custom Furniture Kantor Lebih Hemat Dibanding Siap Pakai</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/mengapa-custom-furniture-kantor-lebih-hemat-hero.webp</image:loc>
+      <image:title>Mengapa Memilih Custom Furniture Kantor Lebih Hemat Dibanding Siap Pakai - MAROON ATK</image:title>
+      <image:caption>Custom furniture kantor dirancang secara presisi mengikuti kontur pilar dan sudut ruangan arsitektural guna mengeliminasi area kosong mati serta menekan total cost of ownership.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Kriteria Evaluasi Supplier ATK Kantor Jakarta untuk Kontrak Jangka Panjang -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/kriteria-evaluasi-supplier-atk-jakarta</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31</news:publication_date>
+      <news:title>Kriteria Evaluasi Supplier ATK Kantor Jakarta untuk Kontrak Jangka Panjang</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/kriteria-evaluasi-supplier-atk-jakarta-hero.webp</image:loc>
+      <image:title>Kriteria Evaluasi Supplier ATK Kantor Jakarta untuk Kontrak Jangka Panjang - MAROON ATK</image:title>
+      <image:caption>Evaluasi objektif parameter supplier ATK Jakarta mencakup ketersediaan buffer stock, audit ketepatan SLA pengiriman, kepatuhan dokumen e-Faktur PPN 11%, dan komitmen garansi retur produk.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Mengapa Maroon ATK Adalah Supplier Furniture Kantor Jakarta B2B Terpercaya -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/maroon-atk-supplier-furniture-kantor-jakarta</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31</news:publication_date>
+      <news:title>Mengapa Maroon ATK Adalah Supplier Furniture Kantor Jakarta B2B Terpercaya</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/maroon-atk-supplier-furniture-kantor-jakarta-hero.webp</image:loc>
+      <image:title>Mengapa Maroon ATK Adalah Supplier Furniture Kantor Jakarta B2B Terpercaya - MAROON ATK</image:title>
+      <image:caption>Solusi pengadaan furniture kantor B2B terpadu di Jakarta: integrasi perancangan denah layout 2D/3D gratis, seleksi material modular bermutu tinggi, dan eksekusi perakitan profesional bergaransi resmi.</image:caption>
     </image:image>
   </url>
 
