@@ -737,4 +737,67 @@
     </image:image>
   </url>
 
+  <!-- 10 Kesalahan Fatal dalam Pengadaan ATK Kantor yang Bikin Pemborosan -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/kesalahan-dalam-pengadaan-atk-pemborosan</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-01</news:publication_date>
+      <news:title>10 Kesalahan Fatal dalam Pengadaan ATK Kantor yang Bikin Pemborosan</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/kesalahan-dalam-pengadaan-atk-pemborosan-hero.webp</image:loc>
+      <image:title>10 Kesalahan Fatal dalam Pengadaan ATK Kantor yang Bikin Pemborosan - MAROON ATK</image:title>
+      <image:caption>Pengadaan ATK tanpa perencanaan matang sering memicu penumpukan barang tidak terpakai, pembelian berulang, dan kebocoran anggaran operasional kantor.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Panduan Teknis Memilih Material Pengadaan Furniture Kantor yang Awet -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/panduan-material-pengadaan-furniture-kantor</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-01</news:publication_date>
+      <news:title>Panduan Teknis Memilih Material Pengadaan Furniture Kantor yang Awet</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/panduan-material-pengadaan-furniture-kantor-hero.webp</image:loc>
+      <image:title>Panduan Teknis Memilih Material Pengadaan Furniture Kantor yang Awet - MAROON ATK</image:title>
+      <image:caption>Pemilihan material inti, laminasi permukaan, dan struktur penopang menjadi kunci keawetan aset furniture kantor dalam jangka panjang.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Layanan Pengadaan dan Pemasangan Videotron LED dari Distributor Videotron Jakarta -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/layanan-pemasangan-videotron-jakarta-maroon</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-01</news:publication_date>
+      <news:title>Layanan Pengadaan dan Pemasangan Videotron LED dari Distributor Videotron Jakarta</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/layanan-pemasangan-videotron-jakarta-maroon-hero.webp</image:loc>
+      <image:title>Layanan Pengadaan dan Pemasangan Videotron LED dari Distributor Videotron Jakarta - MAROON ATK</image:title>
+      <image:caption>Instalasi Videotron LED indoor lobby modern di Jakarta memadukan ketajaman resolusi pixel pitch rapat dengan konstruksi bracket baja presisi tinggi.</image:caption>
+    </image:image>
+  </url>
+
 </urlset>
