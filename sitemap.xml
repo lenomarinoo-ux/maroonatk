@@ -863,4 +863,67 @@
     </image:image>
   </url>
 
+  <!-- Perbedaan Smart Board dan Proyektor Biasa: Mana Lebih Untung untuk Kantor? -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/perbedaan-smart-board-dan-proyektor-biasa</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-03</news:publication_date>
+      <news:title>Perbedaan Smart Board dan Proyektor Biasa: Mana Lebih Untung untuk Kantor?</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/perbedaan-smart-board-dan-proyektor-biasa-hero.webp</image:loc>
+      <image:title>Perbedaan Smart Board dan Proyektor Biasa: Mana Lebih Untung untuk Kantor? - MAROON ATK</image:title>
+      <image:caption>Perbandingan antara Smart Board interaktif dan proyektor konvensional untuk menentukan efisiensi kolaborasi ruang rapat kantor.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Perbandingan Biaya Paket Pengadaan Alat Tulis Kantor vs Pembelian Satuan -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/perbandingan-biaya-paket-atk-vs-satuan</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-03</news:publication_date>
+      <news:title>Perbandingan Biaya Paket Pengadaan Alat Tulis Kantor vs Pembelian Satuan</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/perbandingan-biaya-paket-atk-vs-satuan-hero.webp</image:loc>
+      <image:title>Perbandingan Biaya Paket Pengadaan Alat Tulis Kantor vs Pembelian Satuan - MAROON ATK</image:title>
+      <image:caption>Analisis komparasi metode belanja ATK perusahaan antara paket pengadaan terencana dan belanja retail satuan.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Mengapa Maroon ATK adalah Supplier ATK B2B Terbaik untuk Korporat -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/maroon-atk-supplier-atk-b2b-terbaik</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-03</news:publication_date>
+      <news:title>Mengapa Maroon ATK adalah Supplier ATK B2B Terbaik untuk Korporat</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/maroon-atk-supplier-atk-b2b-terbaik-hero.webp</image:loc>
+      <image:title>Mengapa Maroon ATK adalah Supplier ATK B2B Terbaik untuk Korporat - MAROON ATK</image:title>
+      <image:caption>Konsep one-stop procurement perlengkapan kantor B2B membantu korporasi menyederhanakan rantai pasok dan administrasi tagihan.</image:caption>
+    </image:image>
+  </url>
+
 </urlset>
