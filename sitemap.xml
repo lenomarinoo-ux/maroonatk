@@ -47,7 +47,7 @@
   <!-- Blog & Panduan Kantor -->
   <url>
     <loc>https://maroonatk.web.id/blog</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -923,6 +923,69 @@
       <image:loc>https://maroonatk.web.id/assets/image/blog/maroon-atk-supplier-atk-b2b-terbaik-hero.webp</image:loc>
       <image:title>Mengapa Maroon ATK adalah Supplier ATK B2B Terbaik untuk Korporat - MAROON ATK</image:title>
       <image:caption>Konsep one-stop procurement perlengkapan kantor B2B membantu korporasi menyederhanakan rantai pasok dan administrasi tagihan.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Daftar Inventaris Wajib dalam Paket Pengadaan Alat Tulis Kantor Baru -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/daftar-inventaris-paket-pengadaan-atk-baru</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-04</news:publication_date>
+      <news:title>Daftar Inventaris Wajib dalam Paket Pengadaan Alat Tulis Kantor Baru</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/daftar-inventaris-paket-pengadaan-atk-baru-hero.webp</image:loc>
+      <image:title>Daftar Inventaris Wajib dalam Paket Pengadaan Alat Tulis Kantor Baru - MAROON ATK</image:title>
+      <image:caption>Penyusunan starter office kit yang terstruktur membantu memperlancar proses onboarding karyawan baru serta menjaga kerapian inventaris operasional kantor.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Keuntungan Membeli Langsung dari Distributor ATK Resmi untuk B2B -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/keuntungan-membeli-distributor-atk-resmi</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-04</news:publication_date>
+      <news:title>Keuntungan Membeli Langsung dari Distributor ATK Resmi untuk B2B</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/keuntungan-membeli-distributor-atk-resmi-hero.webp</image:loc>
+      <image:title>Keuntungan Membeli Langsung dari Distributor ATK Resmi untuk B2B - MAROON ATK</image:title>
+      <image:caption>Pengadaan ATK melalui jalur distributor resmi B2B memberikan kepastian pasokan inventaris, tata kelola dokumen yang tertib, serta transparansi faktur pajak.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Rekomendasi Kursi Kantor Ergonomis Terpopuler Menghindari Sakit Punggung -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/rekomendasi-kursi-kantor-ergonomis-sakit-punggung</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-04</news:publication_date>
+      <news:title>Rekomendasi Kursi Kantor Ergonomis Terpopuler Menghindari Sakit Punggung</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/rekomendasi-kursi-kantor-ergonomis-sakit-punggung-hero.webp</image:loc>
+      <image:title>Rekomendasi Kursi Kantor Ergonomis Terpopuler Menghindari Sakit Punggung - MAROON ATK</image:title>
+      <image:caption>Kursi kerja ergonomis dengan fitur penyesuaian multi-arah dirancang untuk mendukung postur tubuh alami dan meningkatkan kenyamanan duduk saat beraktivitas kerja.</image:caption>
     </image:image>
   </url>
 
