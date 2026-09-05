@@ -47,7 +47,7 @@
   <!-- Blog & Panduan Kantor -->
   <url>
     <loc>https://maroonatk.web.id/blog</loc>
-    <lastmod>2026-09-04</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -986,6 +986,69 @@
       <image:loc>https://maroonatk.web.id/assets/image/blog/rekomendasi-kursi-kantor-ergonomis-sakit-punggung-hero.webp</image:loc>
       <image:title>Rekomendasi Kursi Kantor Ergonomis Terpopuler Menghindari Sakit Punggung - MAROON ATK</image:title>
       <image:caption>Kursi kerja ergonomis dengan fitur penyesuaian multi-arah dirancang untuk mendukung postur tubuh alami dan meningkatkan kenyamanan duduk saat beraktivitas kerja.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Tips Menghemat OPEX ATK Kantor Tanpa Mengurangi Kualitas Kerja -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/cara-menghemat-opex-atk-kantor</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-05</news:publication_date>
+      <news:title>Tips Menghemat OPEX ATK Kantor Tanpa Mengurangi Kualitas Kerja</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/cara-menghemat-opex-atk-kantor-hero.webp</image:loc>
+      <image:title>Tips Menghemat OPEX ATK Kantor Tanpa Mengurangi Kualitas Kerja - MAROON ATK</image:title>
+      <image:caption>Pengendalian inventaris ATK yang terorganisir membantu manajemen menekan biaya operasional rutin tanpa mengorbankan produktivitas staf.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Kriteria Memilih Supplier Furniture Kantor Jakarta Bergaransi Resmi -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/kriteria-supplier-furniture-kantor-jakarta-garansi</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-05</news:publication_date>
+      <news:title>Kriteria Memilih Supplier Furniture Kantor Jakarta Bergaransi Resmi</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/kriteria-supplier-furniture-kantor-jakarta-garansi-hero.webp</image:loc>
+      <image:title>Kriteria Memilih Supplier Furniture Kantor Jakarta Bergaransi Resmi - MAROON ATK</image:title>
+      <image:caption>Evaluasi menyeluruh terhadap ketersediaan suku cadang dan garansi resmi merupakan faktor penentu keberlanjutan aset perabot kantor.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Mengapa Memilih Jasa Vendor Videotron LED Jakarta Maroon ATK -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/jasa-vendor-videotron-led-jakarta-maroon</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-05</news:publication_date>
+      <news:title>Mengapa Memilih Jasa Vendor Videotron LED Jakarta Maroon ATK</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/jasa-vendor-videotron-led-jakarta-maroon-hero.webp</image:loc>
+      <image:title>Mengapa Memilih Jasa Vendor Videotron LED Jakarta Maroon ATK - MAROON ATK</image:title>
+      <image:caption>Integrasi sistem Videotron LED indoor beresolusi tinggi membutuhkan ketepatan perancangan struktur, kalibrasi warna, dan pengujian kualitas yang ketat.</image:caption>
     </image:image>
   </url>
 
