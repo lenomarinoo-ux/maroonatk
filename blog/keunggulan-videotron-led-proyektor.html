@@ -59,9 +59,11 @@
   <!-- ============================================================ -->
   <!-- FONTS & STYLES                                              -->
   <!-- ============================================================ -->
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /></noscript>
   <link rel="stylesheet" href="../assets/css/style.css">
 
 
@@ -176,7 +178,7 @@
   <nav class="navbar">
     <div class="container navbar-container">
       <a href="/" class="brand-logo brand-logo-wrap">
-        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" />
+        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" width="40" height="40" decoding="async" loading="lazy" />
         <span class="logo-text brand-logo-text">MAROON
           <span class="text-maroon-primary">ATK</span></span>
       </a>
@@ -245,7 +247,7 @@
             <div class="article-meta">
               <div class="author-avatar">
                 <img src="../assets/image/AUTHOR-ARTIKEL/author-artikel-arby-ardiansyah.webp"
-                  alt="Arby Ardiansyah - Penulis Artikel MAROON ATK" loading="lazy">
+                  alt="Arby Ardiansyah - Penulis Artikel MAROON ATK" loading="lazy" width="700" height="810" decoding="async">
               </div>
               <div class="author-info">
                 <span class="author-name">Arby Ardiansyah</span>
@@ -260,7 +262,7 @@
           <!-- ========================================================== -->
           <div class="article-featured-image">
             <img src="../assets/image/VIDEOTRON/Videotron-LED-SLIDE-3.webp"
-              alt="Videotron LED untuk Ruang Rapat Modern - MAROON ATK" loading="eager">
+              alt="Videotron LED untuk Ruang Rapat Modern - MAROON ATK" loading="eager" width="900" height="502" decoding="async">
           </div>
           <p class="caption">Videotron LED memberikan tampilan visual yang jernih, terang, dan profesional untuk ruang
             rapat modern di Indonesia.</p>
@@ -319,7 +321,7 @@
               <div class="icon"><i class="fas fa-book-open"></i></div>
               <div class="thumb">
                 <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-1.webp"
-                  alt="Interactive Flat Panel" loading="lazy">
+                  alt="Interactive Flat Panel" loading="lazy" width="900" height="502" decoding="async">
               </div>
               <div class="content">
                 <div class="label">Baca Juga</div>
@@ -373,7 +375,7 @@
             <!-- FOTO PENDUKUNG 1 -->
             <div class="supporting-image">
               <img src="../assets/image/VIDEOTRON/Videotron-LED-SLIDE-1.webp"
-                alt="Videotron LED menampilkan presentasi dengan kecerahan tinggi" loading="lazy">
+                alt="Videotron LED menampilkan presentasi dengan kecerahan tinggi" loading="lazy" width="900" height="502" decoding="async">
               <p class="caption">Videotron LED mampu menampilkan presentasi dengan kecerahan tinggi tanpa perlu
                 meredupkan lampu ruangan.</p>
             </div>
@@ -405,7 +407,7 @@
             <div class="baca-juga-box">
               <div class="icon"><i class="fas fa-book-open"></i></div>
               <div class="thumb">
-                <img src="../assets/image/PAKET/Paket-Kantor-Baru.webp" alt="Paket Kantor Baru" loading="lazy">
+                <img src="../assets/image/PAKET/Paket-Kantor-Baru.webp" alt="Paket Kantor Baru" loading="lazy" width="900" height="502" decoding="async">
               </div>
               <div class="content">
                 <div class="label">Baca Juga</div>
@@ -441,7 +443,7 @@
             <!-- FOTO PENDUKUNG 2 -->
             <div class="supporting-image">
               <img src="../assets/image/VIDEOTRON/Videotron-LED-SLIDE-2.webp"
-                alt="Instalasi Videotron LED di ruang rapat" loading="lazy">
+                alt="Instalasi Videotron LED di ruang rapat" loading="lazy" width="900" height="502" decoding="async">
               <p class="caption">Instalasi Videotron LED yang rapi dan modern, cocok untuk ruang rapat dengan desain
                 minimalis.</p>
             </div>
@@ -561,7 +563,7 @@
             <div class="author-bio">
               <div class="avatar">
                 <img src="../assets/image/AUTHOR-ARTIKEL/author-artikel-arby-ardiansyah.webp"
-                  alt="Arby Ardiansyah - Spesialis Teknologi Visual MAROON ATK" loading="lazy">
+                  alt="Arby Ardiansyah - Spesialis Teknologi Visual MAROON ATK" loading="lazy" width="700" height="810" decoding="async">
               </div>
               <div class="info">
                 <h4>Arby Ardiansyah</h4>
@@ -606,7 +608,7 @@
             <div class="related-item">
               <div class="thumb">
                 <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-3.webp"
-                  alt="Interactive Flat Panel" loading="lazy">
+                  alt="Interactive Flat Panel" loading="lazy" width="900" height="502" decoding="async">
               </div>
               <div class="content">
                 <h4><a href="/blog/interactive-flat-panel-untuk-rapat-modern">Mengapa Interactive Flat Panel (IFP) Wajib
@@ -618,7 +620,7 @@
 
             <div class="related-item">
               <div class="thumb">
-                <img src="../assets/image/PAKET/Paket-Kantor-Baru.webp" alt="Paket Kantor Baru" loading="lazy">
+                <img src="../assets/image/PAKET/Paket-Kantor-Baru.webp" alt="Paket Kantor Baru" loading="lazy" width="900" height="502" decoding="async">
               </div>
               <div class="content">
                 <h4><a href="/blog/promo-paket-kantor-2026">Promo Paket Kantor Baru 2026 – Diskon 15%</a></h4>
@@ -630,7 +632,7 @@
             <div class="related-item">
               <div class="thumb">
                 <img src="../assets/image/DIGITAL-WHITEBOARD/Digital-Whiteboard-SLIDE-2.webp" alt="Digital Whiteboard"
-                  loading="lazy">
+                  loading="lazy" width="900" height="502" decoding="async">
               </div>
               <div class="content">
                 <h4><a href="/blog/digital-whiteboard-portable-untuk-pendidikan">Digital Whiteboard Portable 55" – Solusi
@@ -678,7 +680,7 @@
           <div class="recommend-item">
             <div class="thumb">
               <img src="../assets/image/VIDEOTRON/Videotron-LED-SLIDE-1.webp"
-                alt="Videotron LED Indoor P2.5 High Refresh Rate" loading="lazy">
+                alt="Videotron LED Indoor P2.5 High Refresh Rate" loading="lazy" width="900" height="502" decoding="async">
             </div>
             <div class="body">
               <span class="prod-cat-label mb-025">Display
@@ -694,7 +696,7 @@
           <div class="recommend-item">
             <div class="thumb">
               <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-1.webp"
-                alt="Interactive Flat Panel 65 Inch 4K UHD" loading="lazy">
+                alt="Interactive Flat Panel 65 Inch 4K UHD" loading="lazy" width="900" height="502" decoding="async">
             </div>
             <div class="body">
               <span class="prod-cat-label mb-025">Smart
@@ -710,7 +712,7 @@
           <div class="recommend-item">
             <div class="thumb">
               <img src="../assets/image/SET-SOFA-TAMU/Set-Sofa-Tamu-SLIDE-1.webp"
-                alt="Set Sofa Tamu Kantor VIP Leather 3-1-1" loading="lazy">
+                alt="Set Sofa Tamu Kantor VIP Leather 3-1-1" loading="lazy" width="900" height="502" decoding="async">
             </div>
             <div class="body">
               <span class="prod-cat-label mb-025">VIP
@@ -749,7 +751,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="/" class="brand-logo brand-logo-wrap-footer">
-            <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" />
+            <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" width="40" height="40" decoding="async" loading="lazy" />
             <span class="logo-text brand-logo-text-footer">MAROON <span class="text-maroon-primary">ATK</span></span>
           </a>
           <p class="text-footer-desc">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board
@@ -766,7 +768,7 @@
           </div>
         </div>
         <div class="footer-col">
-          <h4>Kategori Produk</h4>
+                    <h3 class="footer-col-title">Kategori Produk</h3>
           <ul class="footer-links">
             <li><a href="/produk/atk">Alat Tulis Kantor (ATK)</a></li>
             <li><a href="/produk/meja-kantor">Meja Kantor Executive &amp; Staf</a></li>
@@ -777,7 +779,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Navigasi Situs</h4>
+                    <h3 class="footer-col-title">Navigasi Situs</h3>
           <ul class="footer-links">
             <li><a href="/tentang-kami">Tentang Kami</a></li>
             <li><a href="/produk">Katalog Produk</a></li>
@@ -787,7 +789,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Hubungi Kami</h4>
+                    <h3 class="footer-col-title">Hubungi Kami</h3>
           <ul class="footer-contact-list">
             <li><i class="fas fa-phone-alt"></i> <span>0889-8964-3555</span></li>
             <li><i class="fab fa-whatsapp"></i> <span>0889-8964-3555 (WhatsApp)</span></li>

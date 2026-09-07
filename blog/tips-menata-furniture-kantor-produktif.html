@@ -55,8 +55,11 @@
   <!-- ============================================================ -->
   <!-- FONTS & STYLES                                              -->
   <!-- ============================================================ -->
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /></noscript>
   <link rel="stylesheet" href="../assets/css/style.css">
 
 
@@ -170,7 +173,7 @@
 <nav class="navbar">
   <div class="container navbar-container">
     <a href="/" class="brand-logo brand-logo-wrap">
-      <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" />
+      <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" width="40" height="40" decoding="async" loading="lazy" />
       <span class="logo-text brand-logo-text">MAROON <span class="text-maroon-primary">ATK</span></span>
     </a>
     <button class="hamburger" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
@@ -233,7 +236,7 @@
 
             <div class="article-meta">
               <div class="author-avatar">
-                <img src="../assets/image/AUTHOR-ARTIKEL/author-artikel-arby-ardiansyah.webp" alt="Arby Ardiansyah - Penulis Artikel MAROON ATK" loading="lazy">
+                <img src="../assets/image/AUTHOR-ARTIKEL/author-artikel-arby-ardiansyah.webp" alt="Arby Ardiansyah - Penulis Artikel MAROON ATK" loading="lazy" width="700" height="810" decoding="async">
               </div>
               <div class="author-info">
                 <span class="author-name">Arby Ardiansyah</span>
@@ -246,7 +249,7 @@
           <!-- GAMBAR UTAMA                                               -->
           <!-- ========================================================== -->
           <div class="article-featured-image">
-            <img src="../assets/image/SET-SOFA-TAMU/Set-Sofa-Tamu-SLIDE-4.webp" alt="Penataan Furniture Kantor Modern dan Ergonomis - MAROON ATK" loading="eager">
+            <img src="../assets/image/SET-SOFA-TAMU/Set-Sofa-Tamu-SLIDE-4.webp" alt="Penataan Furniture Kantor Modern dan Ergonomis - MAROON ATK" loading="eager" width="900" height="502" decoding="async">
           </div>
           <p class="caption">Penataan furniture kantor yang ergonomis dan estetis dapat meningkatkan produktivitas staf hingga 30%.</p>
 
@@ -296,7 +299,7 @@
             <div class="baca-juga-box">
               <div class="icon"><i class="fas fa-book-open"></i></div>
               <div class="thumb">
-                <img src="../assets/image/KURSI-DIREKTUR/Kursi-Direktur-SLIDE-1.webp" alt="Kursi Direktur Ergonomis" loading="lazy">
+                <img src="../assets/image/KURSI-DIREKTUR/Kursi-Direktur-SLIDE-1.webp" alt="Kursi Direktur Ergonomis" loading="lazy" width="900" height="502" decoding="async">
               </div>
               <div class="content">
                 <div class="label">Baca Juga</div>
@@ -323,7 +326,7 @@
             <div class="baca-juga-box">
               <div class="icon"><i class="fas fa-book-open"></i></div>
               <div class="thumb">
-                <img src="../assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-1.webp" alt="Meja Kerja Staf Minimalis" loading="lazy">
+                <img src="../assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-1.webp" alt="Meja Kerja Staf Minimalis" loading="lazy" width="900" height="502" decoding="async">
               </div>
               <div class="content">
                 <div class="label">Baca Juga</div>
@@ -350,7 +353,7 @@
 
             <!-- FOTO PENDUKUNG 1 -->
             <div class="supporting-image">
-              <img src="../assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-2.webp" alt="Meja Kerja dengan Monitor dan Keyboard Ergonomis" loading="lazy">
+              <img src="../assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-2.webp" alt="Meja Kerja dengan Monitor dan Keyboard Ergonomis" loading="lazy" width="900" height="502" decoding="async">
               <p class="caption">Meja kerja dengan monitor pada ketinggian mata dan keyboard tray untuk posisi mengetik yang ideal.</p>
             </div>
 
@@ -372,7 +375,7 @@
             <div class="baca-juga-box">
               <div class="icon"><i class="fas fa-book-open"></i></div>
               <div class="thumb">
-                <img src="../assets/image/LEMARI-ARSIP/Lemari-Arsip-SLIDE-1.webp" alt="Lemari Arsip Besi" loading="lazy">
+                <img src="../assets/image/LEMARI-ARSIP/Lemari-Arsip-SLIDE-1.webp" alt="Lemari Arsip Besi" loading="lazy" width="900" height="502" decoding="async">
               </div>
               <div class="content">
                 <div class="label">Baca Juga</div>
@@ -397,7 +400,7 @@
 
             <!-- FOTO PENDUKUNG 2 -->
             <div class="supporting-image">
-              <img src="../assets/image/SET-SOFA-TAMU/Set-Sofa-Tamu-SLIDE-1.webp" alt="Set Sofa Tamu Kantor Modern" loading="lazy">
+              <img src="../assets/image/SET-SOFA-TAMU/Set-Sofa-Tamu-SLIDE-1.webp" alt="Set Sofa Tamu Kantor Modern" loading="lazy" width="900" height="502" decoding="async">
               <p class="caption">Area ruang tunggu yang nyaman dengan sofa modern menciptakan kesan profesional dan ramah bagi tamu.</p>
             </div>
 
@@ -451,7 +454,7 @@
 
             <!-- FOTO PENDUKUNG 3 -->
             <div class="supporting-image">
-              <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-3.webp" alt="Ruang Rapat Modern dengan Interactive Flat Panel" loading="lazy">
+              <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-3.webp" alt="Ruang Rapat Modern dengan Interactive Flat Panel" loading="lazy" width="900" height="502" decoding="async">
               <p class="caption">Ruang rapat modern dengan Interactive Flat Panel 65" untuk presentasi dan kolaborasi tim yang lebih efektif.</p>
             </div>
 
@@ -539,7 +542,7 @@
             <!-- ========================================================== -->
             <div class="author-bio">
               <div class="avatar">
-                <img src="../assets/image/AUTHOR-ARTIKEL/author-artikel-arby-ardiansyah.webp" alt="Arby Ardiansyah - Praktisi Furniture Kantor MAROON ATK" loading="lazy">
+                <img src="../assets/image/AUTHOR-ARTIKEL/author-artikel-arby-ardiansyah.webp" alt="Arby Ardiansyah - Praktisi Furniture Kantor MAROON ATK" loading="lazy" width="700" height="810" decoding="async">
               </div>
               <div class="info">
                 <h4>Arby Ardiansyah</h4>
@@ -575,7 +578,7 @@
 
             <div class="related-item">
               <div class="thumb">
-                <img src="../assets/image/KURSI-DIREKTUR/Kursi-Direktur-SLIDE-1.webp" alt="Kursi Ergonomis" loading="lazy">
+                <img src="../assets/image/KURSI-DIREKTUR/Kursi-Direktur-SLIDE-1.webp" alt="Kursi Ergonomis" loading="lazy" width="900" height="502" decoding="async">
               </div>
               <div class="content">
                 <h4><a href="/blog/tips-memilih-kursi-ergonomis">Tips Memilih Kursi Ergonomis untuk Kesehatan Staf</a></h4>
@@ -586,7 +589,7 @@
 
             <div class="related-item">
               <div class="thumb">
-                <img src="../assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-1.webp" alt="Meja Kerja Staf" loading="lazy">
+                <img src="../assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-1.webp" alt="Meja Kerja Staf" loading="lazy" width="900" height="502" decoding="async">
               </div>
               <div class="content">
                 <h4><a href="/detail/meja-kerja-staf-m-120">Meja Kerja Staf Minimalis M-120 – Solusi Efisien</a></h4>
@@ -597,7 +600,7 @@
 
             <div class="related-item">
               <div class="thumb">
-                <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-3.webp" alt="Interactive Flat Panel" loading="lazy">
+                <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-3.webp" alt="Interactive Flat Panel" loading="lazy" width="900" height="502" decoding="async">
               </div>
               <div class="content">
                 <h4><a href="/blog/interactive-flat-panel-untuk-rapat-modern">Mengapa Interactive Flat Panel (IFP) Wajib Ada di Ruang Rapat Modern</a></h4>
@@ -637,7 +640,7 @@
 
           <div class="recommend-item">
             <div class="thumb">
-              <img src="../assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-1.webp" alt="Meja Kerja Staf Minimalis M-120" loading="lazy">
+              <img src="../assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-1.webp" alt="Meja Kerja Staf Minimalis M-120" loading="lazy" width="900" height="502" decoding="async">
             </div>
             <div class="body">
               <span class="prod-cat-label mb-025">Workspace Staf</span>
@@ -649,7 +652,7 @@
 
           <div class="recommend-item">
             <div class="thumb">
-              <img src="../assets/image/KURSI-DIREKTUR/Kursi-Direktur-SLIDE-1.webp" alt="Kursi Direktur Executive K-80" loading="lazy">
+              <img src="../assets/image/KURSI-DIREKTUR/Kursi-Direktur-SLIDE-1.webp" alt="Kursi Direktur Executive K-80" loading="lazy" width="900" height="502" decoding="async">
             </div>
             <div class="body">
               <span class="prod-cat-label mb-025">Kursi Kerja Pimpinan</span>
@@ -661,7 +664,7 @@
 
           <div class="recommend-item">
             <div class="thumb">
-              <img src="../assets/image/SET-SOFA-TAMU/Set-Sofa-Tamu-SLIDE-1.webp" alt="Set Sofa Tamu Kantor VIP Leather 3-1-1" loading="lazy">
+              <img src="../assets/image/SET-SOFA-TAMU/Set-Sofa-Tamu-SLIDE-1.webp" alt="Set Sofa Tamu Kantor VIP Leather 3-1-1" loading="lazy" width="900" height="502" decoding="async">
             </div>
             <div class="body">
               <span class="prod-cat-label mb-025">Ruang Tamu &amp; Lounge</span>
@@ -696,7 +699,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="/" class="brand-logo brand-logo-wrap-footer">
-            <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" />
+            <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" width="40" height="40" decoding="async" loading="lazy" />
             <span class="logo-text brand-logo-text-footer">MAROON <span class="text-maroon-primary">ATK</span></span>
           </a>
           <p class="text-footer-desc">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board Terpercaya untuk Instansi Pemerintah, Pendidikan, dan Swasta.</p>
@@ -708,7 +711,7 @@
           </div>
         </div>
         <div class="footer-col">
-          <h4>Kategori Produk</h4>
+                    <h3 class="footer-col-title">Kategori Produk</h3>
           <ul class="footer-links">
             <li><a href="/produk/atk">Alat Tulis Kantor (ATK)</a></li>
             <li><a href="/produk/meja-kantor">Meja Kantor Executive &amp; Staf</a></li>
@@ -719,7 +722,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Navigasi Situs</h4>
+                    <h3 class="footer-col-title">Navigasi Situs</h3>
           <ul class="footer-links">
             <li><a href="/tentang-kami">Tentang Kami</a></li>
             <li><a href="/produk">Katalog Produk</a></li>
@@ -729,7 +732,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Hubungi Kami</h4>
+                    <h3 class="footer-col-title">Hubungi Kami</h3>
           <ul class="footer-contact-list">
             <li><i class="fas fa-phone-alt"></i> <span>0889-8964-3555</span></li>
             <li><i class="fab fa-whatsapp"></i> <span>0889-8964-3555 (WhatsApp)</span></li>

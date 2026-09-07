@@ -19,9 +19,11 @@
   <!-- Google Fonts & Font Awesome CDN -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /></noscript>
   <link rel="stylesheet" href="assets/css/style.css">
 
   <style>
@@ -493,7 +495,7 @@
   <nav class="navbar">
     <div class="container navbar-container">
       <a href="/" class="brand-logo brand-logo-wrap">
-        <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" />
+        <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" width="40" height="40" decoding="async" loading="lazy" />
         <span class="logo-text brand-logo-text">MAROON
           <span class="text-maroon-primary">ATK</span></span>
       </a>
@@ -528,6 +530,9 @@
       </div>
     </div>
   </nav>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main id="main-content">
 
   <!-- Breadcrumb -->
   <div class="breadcrumb-container">
@@ -617,7 +622,7 @@
               <li class="sidebar-latest-item">
                 <div class="thumb">
                   <img src="assets/image/blog/feng-shui-menata-furniture-kantor-hero.webp"
-                    alt="Konsep Feng Shui dalam Cara Menata Furniture Kantor dan Efeknya pada Fokus" loading="lazy">
+                    alt="Konsep Feng Shui dalam Cara Menata Furniture Kantor dan Efeknya pada Fokus" loading="lazy" width="1000" height="562" decoding="async">
                 </div>
                 <div class="content">
                   <a href="/blog/feng-shui-menata-furniture-kantor">Konsep Feng Shui dalam Cara Menata Furniture Kantor dan Efeknya pada Fokus</a>
@@ -629,7 +634,7 @@
               <li class="sidebar-latest-item">
                 <div class="thumb">
                   <img src="assets/image/blog/distributor-smart-board-jakarta-after-sales-hero.webp"
-                    alt="Tips Memilih Distributor Smart Board Jakarta dengan Dukungan After Sales" loading="lazy">
+                    alt="Tips Memilih Distributor Smart Board Jakarta dengan Dukungan After Sales" loading="lazy" width="1000" height="562" decoding="async">
                 </div>
                 <div class="content">
                   <a href="/blog/distributor-smart-board-jakarta-after-sales">Tips Memilih Distributor Smart Board Jakarta dengan Dukungan After Sales</a>
@@ -641,7 +646,7 @@
               <li class="sidebar-latest-item">
                 <div class="thumb">
                   <img src="assets/image/blog/portfolio-custom-furniture-kantor-executive-hero.webp"
-                    alt="Portfolio Pengerjaan Custom Furniture Kantor Executive di Segitiga Emas Jakarta" loading="lazy">
+                    alt="Portfolio Pengerjaan Custom Furniture Kantor Executive di Segitiga Emas Jakarta" loading="lazy" width="1000" height="562" decoding="async">
                 </div>
                 <div class="content">
                   <a href="/blog/portfolio-custom-furniture-kantor-executive">Portfolio Pengerjaan Custom Furniture Kantor Executive di Segitiga Emas Jakarta</a>
@@ -653,7 +658,7 @@
               <li class="sidebar-latest-item">
                 <div class="thumb">
                   <img src="assets/image/blog/cara-menghemat-opex-atk-kantor-hero.webp"
-                    alt="Tips Menghemat OPEX ATK Kantor Tanpa Mengurangi Kualitas Kerja" loading="lazy">
+                    alt="Tips Menghemat OPEX ATK Kantor Tanpa Mengurangi Kualitas Kerja" loading="lazy" width="1000" height="562" decoding="async">
                 </div>
                 <div class="content">
                   <a href="/blog/cara-menghemat-opex-atk-kantor">Tips Menghemat OPEX ATK Kantor Tanpa Mengurangi Kualitas Kerja</a>
@@ -665,7 +670,7 @@
               <li class="sidebar-latest-item">
                 <div class="thumb">
                   <img src="assets/image/blog/kriteria-supplier-furniture-kantor-jakarta-garansi-hero.webp"
-                    alt="Kriteria Memilih Supplier Furniture Kantor Jakarta Bergaransi Resmi" loading="lazy">
+                    alt="Kriteria Memilih Supplier Furniture Kantor Jakarta Bergaransi Resmi" loading="lazy" width="1000" height="562" decoding="async">
                 </div>
                 <div class="content">
                   <a href="/blog/kriteria-supplier-furniture-kantor-jakarta-garansi">Kriteria Memilih Supplier Furniture Kantor Jakarta Bergaransi Resmi</a>
@@ -677,7 +682,7 @@
               <li class="sidebar-latest-item">
                 <div class="thumb">
                   <img src="assets/image/blog/jasa-vendor-videotron-led-jakarta-maroon-hero.webp"
-                    alt="Mengapa Memilih Jasa Vendor Videotron LED Jakarta Maroon ATK" loading="lazy">
+                    alt="Mengapa Memilih Jasa Vendor Videotron LED Jakarta Maroon ATK" loading="lazy" width="1000" height="562" decoding="async">
                 </div>
                 <div class="content">
                   <a href="/blog/jasa-vendor-videotron-led-jakarta-maroon">Mengapa Memilih Jasa Vendor Videotron LED Jakarta Maroon ATK</a>
@@ -715,7 +720,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/feng-shui-menata-furniture-kantor-hero.webp"
-                alt="Konsep Feng Shui dalam Cara Menata Furniture Kantor dan Efeknya pada Fokus" loading="lazy">
+                alt="Konsep Feng Shui dalam Cara Menata Furniture Kantor dan Efeknya pada Fokus" loading="lazy" width="1000" height="562" decoding="async">
             </div>
             <div class="post-category">FURNITURE KANTOR</div>
             <h3 class="post-title"><a href="/blog/feng-shui-menata-furniture-kantor">Konsep Feng Shui dalam Cara Menata Furniture Kantor dan Efeknya pada Fokus</a></h3>
@@ -728,7 +733,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/distributor-smart-board-jakarta-after-sales-hero.webp"
-                alt="Tips Memilih Distributor Smart Board Jakarta dengan Dukungan After Sales" loading="lazy">
+                alt="Tips Memilih Distributor Smart Board Jakarta dengan Dukungan After Sales" loading="lazy" width="1000" height="562" decoding="async">
             </div>
             <div class="post-category">TEKNOLOGI INTERAKTIF</div>
             <h3 class="post-title"><a href="/blog/distributor-smart-board-jakarta-after-sales">Tips Memilih Distributor Smart Board Jakarta dengan Dukungan After Sales</a></h3>
@@ -741,7 +746,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/portfolio-custom-furniture-kantor-executive-hero.webp"
-                alt="Portfolio Pengerjaan Custom Furniture Kantor Executive di Segitiga Emas Jakarta" loading="lazy">
+                alt="Portfolio Pengerjaan Custom Furniture Kantor Executive di Segitiga Emas Jakarta" loading="lazy" width="1000" height="562" decoding="async">
             </div>
             <div class="post-category">CUSTOM FURNITURE</div>
             <h3 class="post-title"><a href="/blog/portfolio-custom-furniture-kantor-executive">Portfolio Pengerjaan Custom Furniture Kantor Executive di Segitiga Emas Jakarta</a></h3>
@@ -757,7 +762,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/cara-menghemat-opex-atk-kantor-hero.webp"
-                alt="Tips Menghemat OPEX ATK Kantor Tanpa Mengurangi Kualitas Kerja" loading="lazy">
+                alt="Tips Menghemat OPEX ATK Kantor Tanpa Mengurangi Kualitas Kerja" loading="lazy" width="1000" height="562" decoding="async">
             </div>
             <div class="post-category">PENGADAAN ATK</div>
             <h3 class="post-title"><a href="/blog/cara-menghemat-opex-atk-kantor">Tips Menghemat OPEX ATK Kantor Tanpa Mengurangi Kualitas Kerja</a></h3>
@@ -770,7 +775,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/kriteria-supplier-furniture-kantor-jakarta-garansi-hero.webp"
-                alt="Kriteria Memilih Supplier Furniture Kantor Jakarta Bergaransi Resmi" loading="lazy">
+                alt="Kriteria Memilih Supplier Furniture Kantor Jakarta Bergaransi Resmi" loading="lazy" width="1000" height="562" decoding="async">
             </div>
             <div class="post-category">FURNITURE KANTOR</div>
             <h3 class="post-title"><a href="/blog/kriteria-supplier-furniture-kantor-jakarta-garansi">Kriteria Memilih Supplier Furniture Kantor Jakarta Bergaransi Resmi</a></h3>
@@ -783,7 +788,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/jasa-vendor-videotron-led-jakarta-maroon-hero.webp"
-                alt="Mengapa Memilih Jasa Vendor Videotron LED Jakarta Maroon ATK" loading="lazy">
+                alt="Mengapa Memilih Jasa Vendor Videotron LED Jakarta Maroon ATK" loading="lazy" width="1000" height="562" decoding="async">
             </div>
             <div class="post-category">TEKNOLOGI INTERAKTIF</div>
             <h3 class="post-title"><a href="/blog/jasa-vendor-videotron-led-jakarta-maroon">Mengapa Memilih Jasa Vendor Videotron LED Jakarta Maroon ATK</a></h3>
@@ -798,7 +803,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/daftar-inventaris-paket-pengadaan-atk-baru-hero.webp"
-                alt="Daftar Inventaris Wajib dalam Paket Pengadaan Alat Tulis Kantor Baru" loading="lazy">
+                alt="Daftar Inventaris Wajib dalam Paket Pengadaan Alat Tulis Kantor Baru" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">PAKET PENGADAAN</div>
             <h3 class="post-title"><a href="/blog/daftar-inventaris-paket-pengadaan-atk-baru">Daftar Inventaris Wajib dalam Paket Pengadaan Alat Tulis Kantor Baru</a></h3>
@@ -811,7 +816,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/keuntungan-membeli-distributor-atk-resmi-hero.webp"
-                alt="Keuntungan Membeli Langsung dari Distributor ATK Resmi untuk B2B" loading="lazy">
+                alt="Keuntungan Membeli Langsung dari Distributor ATK Resmi untuk B2B" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">DISTRIBUTOR ATK</div>
             <h3 class="post-title"><a href="/blog/keuntungan-membeli-distributor-atk-resmi">Keuntungan Membeli Langsung dari Distributor ATK Resmi untuk B2B</a></h3>
@@ -824,7 +829,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/rekomendasi-kursi-kantor-ergonomis-sakit-punggung-hero.webp"
-                alt="Rekomendasi Kursi Kantor Ergonomis Terpopuler Menghindari Sakit Punggung" loading="lazy">
+                alt="Rekomendasi Kursi Kantor Ergonomis Terpopuler Menghindari Sakit Punggung" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">FURNITURE KANTOR</div>
             <h3 class="post-title"><a href="/blog/rekomendasi-kursi-kantor-ergonomis-sakit-punggung">Rekomendasi Kursi Kantor Ergonomis Terpopuler Menghindari Sakit Punggung</a></h3>
@@ -839,7 +844,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/perbedaan-smart-board-dan-proyektor-biasa-hero.webp"
-                alt="Perbedaan Smart Board dan Proyektor Biasa: Mana Lebih Untung untuk Kantor?" loading="lazy">
+                alt="Perbedaan Smart Board dan Proyektor Biasa: Mana Lebih Untung untuk Kantor?" loading="lazy" width="1000" height="562" decoding="async">
             </div>
             <div class="post-category">TEKNOLOGI INTERAKTIF</div>
             <h3 class="post-title"><a href="/blog/perbedaan-smart-board-dan-proyektor-biasa">Perbedaan Smart Board dan Proyektor Biasa: Mana Lebih Untung untuk Kantor?</a></h3>
@@ -852,7 +857,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/perbandingan-biaya-paket-atk-vs-satuan-hero.webp"
-                alt="Perbandingan Biaya Paket Pengadaan Alat Tulis Kantor vs Pembelian Satuan" loading="lazy">
+                alt="Perbandingan Biaya Paket Pengadaan Alat Tulis Kantor vs Pembelian Satuan" loading="lazy" width="1000" height="562" decoding="async">
             </div>
             <div class="post-category">PAKET PENGADAAN</div>
             <h3 class="post-title"><a href="/blog/perbandingan-biaya-paket-atk-vs-satuan">Perbandingan Biaya Paket Pengadaan Alat Tulis Kantor vs Pembelian Satuan</a></h3>
@@ -865,7 +870,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/maroon-atk-supplier-atk-b2b-terbaik-hero.webp"
-                alt="Mengapa Maroon ATK adalah Supplier ATK B2B Terbaik untuk Korporat" loading="lazy">
+                alt="Mengapa Maroon ATK adalah Supplier ATK B2B Terbaik untuk Korporat" loading="lazy" width="1000" height="562" decoding="async">
             </div>
             <div class="post-category">SUPPLIER ATK</div>
             <h3 class="post-title"><a href="/blog/maroon-atk-supplier-atk-b2b-terbaik">Mengapa Maroon ATK adalah Supplier ATK B2B Terbaik untuk Korporat</a></h3>
@@ -878,7 +883,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/pentingnya-kursi-kantor-ergonomis-karyawan-hero.webp"
-                alt="Mengapa Kursi Kantor Ergonomis Sangat Penting untuk Karyawan Back-Office?" loading="lazy">
+                alt="Mengapa Kursi Kantor Ergonomis Sangat Penting untuk Karyawan Back-Office?" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">FURNITURE KANTOR</div>
             <h3 class="post-title"><a href="/blog/pentingnya-kursi-kantor-ergonomis-karyawan">Mengapa Kursi Kantor Ergonomis Sangat Penting untuk Karyawan Back-Office?</a></h3>
@@ -891,7 +896,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/pengadaan-interactive-flat-panel-sekolah-hero.webp"
-                alt="Pengadaan Interactive Flat Panel Sekolah: Transformasi Smart Classroom Modern" loading="lazy">
+                alt="Pengadaan Interactive Flat Panel Sekolah: Transformasi Smart Classroom Modern" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">TEKNOLOGI INTERAKTIF</div>
             <h3 class="post-title"><a href="/blog/pengadaan-interactive-flat-panel-sekolah">Pengadaan Interactive Flat Panel Sekolah: Transformasi Smart Classroom Modern</a></h3>
@@ -904,7 +909,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/layanan-paket-atk-eksklusif-korporat-maroon-hero.webp"
-                alt="Layanan Paket Pengadaan Alat Tulis Kantor Eksklusif Khusus Korporat" loading="lazy">
+                alt="Layanan Paket Pengadaan Alat Tulis Kantor Eksklusif Khusus Korporat" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">PAKET PENGADAAN</div>
             <h3 class="post-title"><a href="/blog/layanan-paket-atk-eksklusif-korporat-maroon">Layanan Paket Pengadaan Alat Tulis Kantor Eksklusif Khusus Korporat</a></h3>
@@ -919,7 +924,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/kesalahan-dalam-pengadaan-atk-pemborosan-hero.webp"
-                alt="10 Kesalahan Fatal dalam Pengadaan ATK Kantor yang Bikin Pemborosan" loading="lazy">
+                alt="10 Kesalahan Fatal dalam Pengadaan ATK Kantor yang Bikin Pemborosan" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">PENGADAAN ATK</div>
             <h3 class="post-title"><a href="/blog/kesalahan-dalam-pengadaan-atk-pemborosan">10 Kesalahan Fatal dalam Pengadaan ATK Kantor yang Bikin Pemborosan</a></h3>
@@ -932,7 +937,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/panduan-material-pengadaan-furniture-kantor-hero.webp"
-                alt="Panduan Teknis Memilih Material Pengadaan Furniture Kantor yang Awet" loading="lazy">
+                alt="Panduan Teknis Memilih Material Pengadaan Furniture Kantor yang Awet" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">FURNITURE KANTOR</div>
             <h3 class="post-title"><a href="/blog/panduan-material-pengadaan-furniture-kantor">Panduan Teknis Memilih Material Pengadaan Furniture Kantor yang Awet</a></h3>
@@ -945,7 +950,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/layanan-pemasangan-videotron-jakarta-maroon-hero.webp"
-                alt="Layanan Pengadaan dan Pemasangan Videotron LED dari Distributor Videotron Jakarta" loading="lazy">
+                alt="Layanan Pengadaan dan Pemasangan Videotron LED dari Distributor Videotron Jakarta" loading="lazy" width="1000" height="562" decoding="async">
             </div>
             <div class="post-category">TEKNOLOGI INTERAKTIF</div>
             <h3 class="post-title"><a href="/blog/layanan-pemasangan-videotron-jakarta-maroon">Layanan Pengadaan dan Pemasangan Videotron LED dari Distributor Videotron Jakarta</a></h3>
@@ -960,7 +965,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/mengapa-custom-furniture-kantor-lebih-hemat-hero.webp"
-                alt="Mengapa Memilih Custom Furniture Kantor Lebih Hemat Dibanding Siap Pakai" loading="lazy">
+                alt="Mengapa Memilih Custom Furniture Kantor Lebih Hemat Dibanding Siap Pakai" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">PAKET PENGADAAN</div>
             <h3 class="post-title"><a href="/blog/mengapa-custom-furniture-kantor-lebih-hemat">Mengapa Memilih Custom Furniture Kantor Lebih Hemat Dibanding Siap Pakai</a></h3>
@@ -973,7 +978,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/kriteria-evaluasi-supplier-atk-jakarta-hero.webp"
-                alt="Kriteria Evaluasi Supplier ATK Kantor Jakarta untuk Kontrak Jangka Panjang" loading="lazy">
+                alt="Kriteria Evaluasi Supplier ATK Kantor Jakarta untuk Kontrak Jangka Panjang" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">PENGADAAN ATK</div>
             <h3 class="post-title"><a href="/blog/kriteria-evaluasi-supplier-atk-jakarta">Kriteria Evaluasi Supplier ATK Kantor Jakarta untuk Kontrak Jangka Panjang</a></h3>
@@ -986,7 +991,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/maroon-atk-supplier-furniture-kantor-jakarta-hero.webp"
-                alt="Mengapa Maroon ATK Adalah Supplier Furniture Kantor Jakarta B2B Terpercaya" loading="lazy">
+                alt="Mengapa Maroon ATK Adalah Supplier Furniture Kantor Jakarta B2B Terpercaya" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">FURNITURE KANTOR</div>
             <h3 class="post-title"><a href="/blog/maroon-atk-supplier-furniture-kantor-jakarta">Mengapa Maroon ATK Adalah Supplier Furniture Kantor Jakarta B2B Terpercaya</a></h3>
@@ -1001,7 +1006,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/apa-itu-interactive-flat-panel-ifp-hero.webp"
-                alt="Apa Itu Interactive Flat Panel (IFP) dan Manfaatnya Bagi Ruang Rapat" loading="lazy">
+                alt="Apa Itu Interactive Flat Panel (IFP) dan Manfaatnya Bagi Ruang Rapat" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">TEKNOLOGI INTERAKTIF</div>
             <h3 class="post-title"><a href="/blog/apa-itu-interactive-flat-panel-ifp">Apa Itu Interactive Flat Panel (IFP) dan Manfaatnya Bagi Ruang Rapat</a></h3>
@@ -1014,7 +1019,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/sistem-custom-furniture-meja-resepsionis-kabinet-hero.webp"
-                alt="Sistem Custom Furniture Kantor: Meja Resepsionis & Kabinet Arsip Minimalis" loading="lazy">
+                alt="Sistem Custom Furniture Kantor: Meja Resepsionis & Kabinet Arsip Minimalis" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">PAKET PENGADAAN</div>
             <h3 class="post-title"><a href="/blog/sistem-custom-furniture-meja-resepsionis-kabinet">Sistem Custom Furniture Kantor: Meja Resepsionis &amp; Kabinet Arsip Minimalis</a></h3>
@@ -1027,7 +1032,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/prosedur-pengadaan-atk-pemerintah-lkpp-hero.webp"
-                alt="Prosedur Pengadaan ATK Instansi Pemerintah yang Transparan dan Sesuai LKPP" loading="lazy">
+                alt="Prosedur Pengadaan ATK Instansi Pemerintah yang Transparan dan Sesuai LKPP" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">PENGADAAN ATK</div>
             <h3 class="post-title"><a href="/blog/prosedur-pengadaan-atk-pemerintah-lkpp">Prosedur Pengadaan ATK Instansi Pemerintah yang Transparan dan Sesuai LKPP</a></h3>
@@ -1042,7 +1047,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/desain-meja-kerja-modern-minimalis-hero.webp"
-                alt="Inspirasi Desain Meja Kerja Modern Minimalis untuk Ruang Kerja Sempit" loading="lazy">
+                alt="Inspirasi Desain Meja Kerja Modern Minimalis untuk Ruang Kerja Sempit" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">FURNITURE KANTOR</div>
             <h3 class="post-title"><a href="/blog/desain-meja-kerja-modern-minimalis">Inspirasi Desain Meja Kerja Modern Minimalis untuk Ruang Kerja Sempit</a></h3>
@@ -1055,7 +1060,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/harga-interactive-flat-panel-jakarta-hero.webp"
-                alt="Faktor yang Mempengaruhi Harga Interactive Flat Panel Jakarta Terbaru" loading="lazy">
+                alt="Faktor yang Mempengaruhi Harga Interactive Flat Panel Jakarta Terbaru" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">TEKNOLOGI INTERAKTIF</div>
             <h3 class="post-title"><a href="/blog/harga-interactive-flat-panel-jakarta">Faktor yang Mempengaruhi Harga Interactive Flat Panel Jakarta Terbaru</a></h3>
@@ -1068,7 +1073,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/kontrak-borongan-custom-furniture-kantor-b2b-hero.webp"
-                alt="Sistem Kontrak Borongan Custom Furniture Kantor untuk Ruang Kerja B2B" loading="lazy">
+                alt="Sistem Kontrak Borongan Custom Furniture Kantor untuk Ruang Kerja B2B" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">PAKET PENGADAAN</div>
             <h3 class="post-title"><a href="/blog/kontrak-borongan-custom-furniture-kantor-b2b">Sistem Kontrak Borongan Custom Furniture Kantor untuk Ruang Kerja B2B</a></h3>
@@ -1083,7 +1088,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/cara-menghitung-kebutuhan-atk-kantor-bulanan-hero.webp"
-                alt="Cara Menghitung Kebutuhan ATK Kantor Bulanan Secara Akurat" loading="lazy">
+                alt="Cara Menghitung Kebutuhan ATK Kantor Bulanan Secara Akurat" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">PENGADAAN ATK</div>
             <h3 class="post-title"><a href="/blog/cara-menghitung-kebutuhan-atk-kantor-bulanan">Cara Menghitung Kebutuhan ATK Kantor Bulanan Secara Akurat</a></h3>
@@ -1096,7 +1101,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/harga-paket-furniture-kantor-workstation-jakarta-hero.webp"
-                alt="Berapa Harga Paket Furniture Kantor per Workstation di Jakarta?" loading="lazy">
+                alt="Berapa Harga Paket Furniture Kantor per Workstation di Jakarta?" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">FURNITURE KANTOR</div>
             <h3 class="post-title"><a href="/blog/harga-paket-furniture-kantor-workstation-jakarta">Berapa Harga Paket Furniture Kantor per Workstation di Jakarta?</a></h3>
@@ -1109,7 +1114,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/vendor-interactive-flat-panel-indonesia-maroon-hero.webp"
-                alt="Maroon ATK: Vendor Interactive Flat Panel Indonesia Bergaransi Resmi" loading="lazy">
+                alt="Maroon ATK: Vendor Interactive Flat Panel Indonesia Bergaransi Resmi" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">TEKNOLOGI INTERAKTIF</div>
             <h3 class="post-title"><a href="/blog/vendor-interactive-flat-panel-indonesia-maroon">Maroon ATK: Vendor Interactive Flat Panel Indonesia Bergaransi Resmi</a></h3>
@@ -1124,7 +1129,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/keuntungan-paket-pengadaan-alat-tulis-kantor-hero.webp"
-                alt="Keuntungan Paket Pengadaan Alat Tulis Kantor B2B" loading="lazy">
+                alt="Keuntungan Paket Pengadaan Alat Tulis Kantor B2B" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">PAKET ATK</div>
             <h3 class="post-title"><a href="/blog/keuntungan-paket-pengadaan-alat-tulis-kantor">Mengenal Keuntungan Sistem Paket Pengadaan Alat Tulis Kantor B2B</a></h3>
@@ -1137,7 +1142,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/format-proposal-pengajuan-pengadaan-atk-hero.webp"
-                alt="Contoh Format Proposal Pengajuan Pengadaan ATK dan Inventaris Kantor" loading="lazy">
+                alt="Contoh Format Proposal Pengajuan Pengadaan ATK dan Inventaris Kantor" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">PROPOSAL PENGADAAN</div>
             <h3 class="post-title"><a href="/blog/format-proposal-pengajuan-pengadaan-atk">Contoh Format Proposal Pengajuan Pengadaan ATK &amp; Inventaris Kantor</a></h3>
@@ -1150,7 +1155,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/sop-pengadaan-furniture-kantor-b2b-hero.webp"
-                alt="SOP Pengadaan Furniture Kantor B2B untuk Purchasing Team" loading="lazy">
+                alt="SOP Pengadaan Furniture Kantor B2B untuk Purchasing Team" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">FURNITURE KANTOR</div>
             <h3 class="post-title"><a href="/blog/sop-pengadaan-furniture-kantor-b2b">SOP Pengadaan Furniture Kantor B2B: Panduan Lengkap Purchasing Team</a></h3>
@@ -1165,7 +1170,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/panduan-memilih-supplier-atk-jakarta-terpercaya-hero.webp"
-                alt="Panduan Memilih Supplier ATK Kantor Jakarta Terpercaya" loading="lazy">
+                alt="Panduan Memilih Supplier ATK Kantor Jakarta Terpercaya" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">SUPPLIER ATK</div>
             <h3 class="post-title"><a href="/blog/panduan-memilih-supplier-atk-jakarta-terpercaya">Panduan Memilih Supplier ATK Kantor Jakarta Terpercaya Berlegalitas</a></h3>
@@ -1178,7 +1183,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/spesifikasi-paket-pengadaan-atk-bulanan-hero.webp"
-                alt="Spesifikasi Paket Pengadaan ATK Bulanan B2B" loading="lazy">
+                alt="Spesifikasi Paket Pengadaan ATK Bulanan B2B" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">PAKET ATK</div>
             <h3 class="post-title"><a href="/blog/spesifikasi-paket-pengadaan-atk-bulanan">Spesifikasi dan Kelebihan Paket Pengadaan Alat Tulis Kantor Bulanan B2B</a></h3>
@@ -1191,7 +1196,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/mengenal-papan-tulis-digital-smart-board-hero.webp"
-                alt="Mengenal Papan Tulis Digital Smart Board" loading="lazy">
+                alt="Mengenal Papan Tulis Digital Smart Board" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">SMART BOARD</div>
             <h3 class="post-title"><a href="/blog/mengenal-papan-tulis-digital-smart-board">Mengenal Papan Tulis Digital Smart Board: Spesifikasi, Kelebihan, dan Cara Memilih yang Tepat</a></h3>
@@ -1206,7 +1211,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/pengadaan-furniture-kantor-hero.webp" alt="SOP Pengadaan Furniture Kantor B2B"
-                loading="lazy">
+                loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">PENGADAAN</div>
             <h3 class="post-title"><a href="/blog/pengadaan-furniture-kantor">SOP Pengadaan Furniture Kantor B2B:
@@ -1222,7 +1227,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/harga-videotron-led-indoor-hero.webp" alt="Harga Videotron LED Indoor Jakarta"
-                loading="lazy">
+                loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">VIDEOTRON</div>
             <h3 class="post-title"><a href="/blog/harga-videotron-led-indoor">Berapa Harga Videotron LED Indoor per m2
@@ -1238,7 +1243,7 @@
           <article class="blog-post-card">
             <div class="post-thumb">
               <img src="assets/image/blog/interactive-flat-panel-sekolah-hero.webp"
-                alt="Pengadaan Interactive Flat Panel Sekolah" loading="lazy">
+                alt="Pengadaan Interactive Flat Panel Sekolah" loading="lazy" width="1000" height="558" decoding="async">
             </div>
             <div class="post-category">SMART CLASSROOM</div>
             <h3 class="post-title"><a href="/blog/interactive-flat-panel-sekolah">Pengadaan Interactive Flat Panel
@@ -1274,12 +1279,14 @@
 
   <!-- Footer -->
   <!-- ===== FOOTER ===== -->
-  <footer class="footer">
+  </main>
+
+    <footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="/" class="brand-logo brand-logo-wrap-footer">
-            <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" />
+            <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" width="40" height="40" decoding="async" loading="lazy" />
             <span class="logo-text brand-logo-text-footer">MAROON <span class="text-maroon-primary">ATK</span></span>
           </a>
           <p class="text-footer-desc">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board
@@ -1296,7 +1303,7 @@
           </div>
         </div>
         <div class="footer-col">
-          <h4>Kategori Produk</h4>
+                    <h3 class="footer-col-title">Kategori Produk</h3>
           <ul class="footer-links">
             <li><a href="/produk/atk">Alat Tulis Kantor (ATK)</a></li>
             <li><a href="/produk/meja-kantor">Meja Kantor Executive &amp; Staf</a></li>
@@ -1307,7 +1314,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Navigasi Situs</h4>
+                    <h3 class="footer-col-title">Navigasi Situs</h3>
           <ul class="footer-links">
             <li><a href="/tentang-kami">Tentang Kami</a></li>
             <li><a href="/produk">Katalog Produk</a></li>
@@ -1317,7 +1324,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Hubungi Kami</h4>
+                    <h3 class="footer-col-title">Hubungi Kami</h3>
           <ul class="footer-contact-list">
             <li><i class="fas fa-phone-alt"></i> <span>0889-8964-3555</span></li>
             <li><i class="fab fa-whatsapp"></i> <span>0889-8964-3555 (WhatsApp)</span></li>

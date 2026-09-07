@@ -28,12 +28,17 @@
     <meta property="twitter:description"
         content="Supplier & Vendor Terpercaya ATK, Meja Kursi Kantor, Lemari Arsip, Videotron & Interactive Flat Panel." />
 
-    <!-- Google Fonts & Font Awesome CDN -->
+    <!-- Preload Critical LCP Image -->
+    <link rel="preload" as="image" href="assets/image/gambar_hero_beranda.webp" fetchpriority="high" type="image/webp" />
+
+    <!-- Google Fonts & Font Awesome CDN (Asynchronous & Non-Blocking) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /></noscript>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /></noscript>
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- JSON-LD Schema: LocalBusiness & Product with Aggregate Rating (Google Star Rating Rich Snippet) -->
@@ -100,430 +105,7 @@
     }
     </script>
 
-    <style>
-        /* ===== CARD EFFECTS UNIFORM ===== */
-        /* Category Card */
-        .category-card {
-            position: relative;
-            background: var(--bg-card, #ffffff);
-            padding: 2rem 1.5rem;
-            border-radius: var(--radius-md, 12px);
-            border: 1px solid var(--border-color, #e0e0e0);
-            text-align: center;
-            text-decoration: none;
-            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-            display: block;
-            color: var(--text-dark, #111);
-        }
-
-        .category-card .category-icon {
-            width: 60px;
-            height: 60px;
-            background-color: var(--maroon-soft, #f5e6e6);
-            color: var(--primary-maroon, #7a1a1a);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            margin: 0 auto 1rem auto;
-            transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-
-        .category-card h3 {
-            font-size: 1.1rem;
-            margin-bottom: 0.3rem;
-            color: var(--text-dark, #111);
-            transition: color 0.3s ease;
-        }
-
-        .category-card p {
-            color: var(--text-muted, #6c757d);
-            font-size: 0.9rem;
-            margin: 0;
-            transition: color 0.3s ease;
-        }
-
-        .category-card .category-hover-line {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--primary-maroon, #7a1a1a), var(--secondary-gold, #c9a84c));
-            border-radius: 4px 4px 0 0;
-            transition: width 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        }
-
-        .category-card:hover {
-            transform: translateY(-10px) scale(1.02);
-            box-shadow: 0 20px 40px rgba(122, 26, 26, 0.15), 0 6px 16px rgba(0, 0, 0, 0.06);
-            border-color: var(--primary-maroon, #7a1a1a);
-        }
-
-        .category-card:hover .category-hover-line {
-            width: 70%;
-        }
-
-        .category-card:hover .category-icon {
-            transform: scale(1.15) rotate(-4deg);
-            background-color: var(--primary-maroon, #7a1a1a);
-            color: #ffffff;
-        }
-
-        .category-card:hover h3 {
-            color: var(--primary-maroon, #7a1a1a);
-        }
-
-        .category-card:hover p {
-            color: var(--text-dark, #111);
-        }
-
-        /* Value Card (Keunggulan) */
-        .value-card {
-            position: relative;
-            background: var(--bg-card, #ffffff);
-            padding: 2rem 1.5rem;
-            border-radius: var(--radius-md, 12px);
-            border: 1px solid var(--border-color, #e0e0e0);
-            display: flex;
-            gap: 1.25rem;
-            align-items: flex-start;
-            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-        }
-
-        .value-card .value-icon {
-            width: 48px;
-            height: 48px;
-            flex-shrink: 0;
-            background-color: var(--maroon-soft, #f5e6e6);
-            color: var(--primary-maroon, #7a1a1a);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.2rem;
-            transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-
-        .value-card .value-content h3 {
-            font-size: 1.05rem;
-            margin-bottom: 0.3rem;
-            color: var(--text-dark, #111);
-            transition: color 0.3s ease;
-        }
-
-        .value-card .value-content p {
-            color: var(--text-muted, #6c757d);
-            font-size: 0.92rem;
-            margin: 0;
-            transition: color 0.3s ease;
-        }
-
-        .value-card .value-hover-line {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--primary-maroon, #7a1a1a), var(--secondary-gold, #c9a84c));
-            border-radius: 4px 4px 0 0;
-            transition: width 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        }
-
-        .value-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 16px 32px rgba(122, 26, 26, 0.12), 0 4px 12px rgba(0, 0, 0, 0.04);
-            border-color: var(--primary-maroon, #7a1a1a);
-        }
-
-        .value-card:hover .value-hover-line {
-            width: 70%;
-        }
-
-        .value-card:hover .value-icon {
-            transform: scale(1.12) rotate(-4deg);
-            background-color: var(--primary-maroon, #7a1a1a);
-            color: #ffffff;
-        }
-
-        .value-card:hover .value-content h3 {
-            color: var(--primary-maroon, #7a1a1a);
-        }
-
-        .value-card:hover .value-content p {
-            color: var(--text-dark, #111);
-        }
-
-        /* Reason Card (Alasan Memilih) */
-        .reason-card {
-            position: relative;
-            background: var(--bg-card, #ffffff);
-            padding: 2rem 1.5rem;
-            border-radius: var(--radius-md, 12px);
-            border: 1px solid var(--border-color, #e0e0e0);
-            text-align: center;
-            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-        }
-
-        .reason-card .reason-icon {
-            width: 60px;
-            height: 60px;
-            background-color: var(--maroon-soft, #f5e6e6);
-            color: var(--primary-maroon, #7a1a1a);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.4rem;
-            margin: 0 auto 1rem auto;
-            transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-
-        .reason-card h3 {
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
-            color: var(--text-dark, #111);
-            transition: color 0.3s ease;
-        }
-
-        .reason-card p {
-            color: var(--text-muted, #6c757d);
-            font-size: 0.92rem;
-            margin: 0;
-            transition: color 0.3s ease;
-        }
-
-        .reason-card .reason-hover-line {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--primary-maroon, #7a1a1a), var(--secondary-gold, #c9a84c));
-            border-radius: 4px 4px 0 0;
-            transition: width 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        }
-
-        .reason-card:hover {
-            transform: translateY(-10px) scale(1.02);
-            box-shadow: 0 20px 40px rgba(122, 26, 26, 0.15), 0 6px 16px rgba(0, 0, 0, 0.06);
-            border-color: var(--primary-maroon, #7a1a1a);
-        }
-
-        .reason-card:hover .reason-hover-line {
-            width: 70%;
-        }
-
-        .reason-card:hover .reason-icon {
-            transform: scale(1.15) rotate(-4deg);
-            background-color: var(--primary-maroon, #7a1a1a);
-            color: #ffffff;
-        }
-
-        .reason-card:hover h3 {
-            color: var(--primary-maroon, #7a1a1a);
-        }
-
-        .reason-card:hover p {
-            color: var(--text-dark, #111);
-        }
-
-        /* Testimonial Card */
-        .testimonial-card-modern {
-            position: relative;
-            background: var(--bg-card, #ffffff);
-            padding: 2rem 1.5rem;
-            border-radius: var(--radius-md, 12px);
-            border: 1px solid var(--border-color, #e0e0e0);
-            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-        }
-
-        .testimonial-card-modern .testi-icon-modern {
-            color: var(--primary-maroon, #7a1a1a);
-            font-size: 1.8rem;
-            opacity: 0.3;
-            margin-bottom: 0.5rem;
-            transition: all 0.4s ease;
-        }
-
-        .testimonial-card-modern .testi-stars-modern {
-            color: #f5a623;
-            font-size: 1rem;
-            margin-bottom: 0.75rem;
-            letter-spacing: 2px;
-        }
-
-        .testimonial-card-modern .testi-text-modern {
-            color: var(--text-dark, #111);
-            font-size: 0.95rem;
-            line-height: 1.7;
-            margin-bottom: 1.25rem;
-            font-style: italic;
-            transition: color 0.3s ease;
-        }
-
-        .testimonial-card-modern .testi-author-modern {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-        }
-
-        .testimonial-card-modern .testi-avatar-modern {
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 2px solid var(--border-color, #e0e0e0);
-            transition: border-color 0.3s ease;
-        }
-
-        .testimonial-card-modern .testi-name-modern {
-            font-weight: 600;
-            font-size: 0.95rem;
-            color: var(--text-dark, #111);
-            margin: 0;
-            transition: color 0.3s ease;
-        }
-
-        .testimonial-card-modern .testi-role-modern {
-            color: var(--text-muted, #6c757d);
-            font-size: 0.8rem;
-            margin: 0;
-            transition: color 0.3s ease;
-        }
-
-        .testimonial-card-modern .testi-hover-line {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--primary-maroon, #7a1a1a), var(--secondary-gold, #c9a84c));
-            border-radius: 4px 4px 0 0;
-            transition: width 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        }
-
-        .testimonial-card-modern:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 20px 40px rgba(122, 26, 26, 0.12), 0 6px 16px rgba(0, 0, 0, 0.04);
-            border-color: var(--primary-maroon, #7a1a1a);
-        }
-
-        .testimonial-card-modern:hover .testi-hover-line {
-            width: 70%;
-        }
-
-        .testimonial-card-modern:hover .testi-icon-modern {
-            opacity: 0.8;
-            transform: scale(1.05);
-        }
-
-        .testimonial-card-modern:hover .testi-avatar-modern {
-            border-color: var(--primary-maroon, #7a1a1a);
-        }
-
-        .testimonial-card-modern:hover .testi-name-modern {
-            color: var(--primary-maroon, #7a1a1a);
-        }
-
-        .testimonial-card-modern:hover .testi-role-modern {
-            color: var(--text-dark, #111);
-        }
-
-        .testimonial-card-modern:hover .testi-text-modern {
-            color: var(--text-dark, #111);
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-
-            .product-grid-elegant,
-            .package-grid-elegant,
-            .reason-grid {
-                grid-template-columns: 1fr !important;
-            }
-
-            .category-card,
-            .reason-card,
-            .testimonial-card-modern {
-                padding: 1.5rem 1rem;
-            }
-
-            .category-card .category-icon,
-            .reason-card .reason-icon {
-                width: 50px;
-                height: 50px;
-                font-size: 1.2rem;
-            }
-
-            .value-card {
-                padding: 1.25rem 1rem;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
-
-            .value-card .value-icon {
-                width: 44px;
-                height: 44px;
-                font-size: 1rem;
-            }
-
-            .category-card:hover,
-            .reason-card:hover,
-            .testimonial-card-modern:hover {
-                transform: translateY(-6px) scale(1.01);
-            }
-
-            .value-card:hover {
-                transform: translateY(-4px);
-            }
-        }
-
-        @media (max-width: 480px) {
-
-            .product-grid-elegant,
-            .package-grid-elegant,
-            .reason-grid {
-                grid-template-columns: 1fr !important;
-            }
-
-            .category-card,
-            .reason-card,
-            .testimonial-card-modern {
-                padding: 1.25rem 0.75rem;
-            }
-
-            .category-card .category-icon,
-            .reason-card .reason-icon {
-                width: 44px;
-                height: 44px;
-                font-size: 1rem;
-            }
-
-            .category-card h3,
-            .reason-card h3 {
-                font-size: 0.95rem;
-            }
-
-            .testimonial-card-modern .testi-text-modern {
-                font-size: 0.88rem;
-            }
-        }
-    </style>
+    
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -634,7 +216,7 @@
     <nav class="navbar">
         <div class="container navbar-container">
             <a href="/" class="brand-logo brand-logo-wrap">
-                <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" />
+                <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" width="40" height="40" decoding="async" loading="lazy" />
                 <span class="logo-text brand-logo-text">MAROON <span class="text-maroon-primary">ATK</span></span>
             </a>
             <button class="hamburger" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
@@ -673,6 +255,9 @@
             </div>
         </div>
     </nav>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main id="main-content">
 
     <!-- ===== HERO SECTION (PREMIUM MODERN & ANIMATED) ===== -->
     <section class="hero-slider-section">
@@ -780,23 +365,23 @@
                             <div class="hero-slider-track" id="heroSliderTrack">
                                 <div class="hero-slide">
                                     <img src="assets/image/gambar_hero_beranda.webp" alt="Peralatan Kantor MAROON ATK"
-                                        loading="eager" />
+                                        loading="eager" width="1000" height="768" decoding="async" fetchpriority="high" />
                                 </div>
                                 <div class="hero-slide">
                                     <img src="assets/image/SET-SOFA-TAMU/Set-Sofa-Tamu-SLIDE-2.webp"
-                                        alt="Furniture Kantor dan Lemari Arsip" loading="lazy" />
+                                        alt="Furniture Kantor dan Lemari Arsip" loading="lazy" width="900" height="502" decoding="async" />
                                 </div>
                                 <div class="hero-slide">
                                     <img src="assets/image/PAKET/Paket-Kantor-Baru.webp"
-                                        alt="Ruang Kantor Modern dan Smart Board" loading="lazy" />
+                                        alt="Ruang Kantor Modern dan Smart Board" loading="lazy" width="900" height="502" decoding="async" />
                                 </div>
                                 <div class="hero-slide">
                                     <img src="assets/image/KURSI-DIREKTUR/Kursi-Direktur-SLIDE-1.webp"
-                                        alt="Meja Kerja Staf dan Kursi Ergonomis" loading="lazy" />
+                                        alt="Meja Kerja Staf dan Kursi Ergonomis" loading="lazy" width="900" height="502" decoding="async" />
                                 </div>
                                 <div class="hero-slide">
                                     <img src="assets/image/VIDEOTRON/Videotron-LED-SLIDE-1.webp"
-                                        alt="Penyedia Kebutuhan Kantor Terpadu" loading="lazy" />
+                                        alt="Penyedia Kebutuhan Kantor Terpadu" loading="lazy" width="900" height="502" decoding="async" />
                                 </div>
                             </div>
                             <div class="hero-slider-dots" id="heroSliderDots">
@@ -816,7 +401,7 @@
                                 <i class="fas fa-boxes-stacked"></i>
                             </div>
                             <div class="feat-info">
-                                <h4>Koleksi Lengkap</h4>
+                                <h2 class="feat-heading">Koleksi Lengkap</h2>
                                 <span>ATK, Furniture & Smart Display</span>
                             </div>
                         </div>
@@ -826,7 +411,7 @@
                                 <i class="fas fa-file-circle-check"></i>
                             </div>
                             <div class="feat-info">
-                                <h4>Legalitas Resmi</h4>
+                                <h2 class="feat-heading">Legalitas Resmi</h2>
                                 <span>SPK, Faktur Pajak & E-Katalog</span>
                             </div>
                         </div>
@@ -836,7 +421,7 @@
                                 <i class="fas fa-truck-fast"></i>
                             </div>
                             <div class="feat-info">
-                                <h4>Kirim Cepat</h4>
+                                <h2 class="feat-heading">Kirim Cepat</h2>
                                 <span>Layanan Seluruh Indonesia</span>
                             </div>
                         </div>
@@ -855,15 +440,15 @@
                         <div class="slider-track" id="aboutSliderTrack">
                             <div class="slider-slide">
                                 <img src="assets/image/herogeser-1.webp"
-                                    alt="Furniture Kantor dan Lemari Arsip MAROON ATK" loading="lazy" />
+                                    alt="Furniture Kantor dan Lemari Arsip MAROON ATK" loading="lazy" width="1000" height="558" decoding="async" />
                             </div>
                             <div class="slider-slide">
                                 <img src="assets/image/herogeser-2.webp" alt="Ruang Kantor Modern MAROON ATK"
-                                    loading="lazy" />
+                                    loading="lazy" width="1000" height="558" decoding="async" />
                             </div>
                             <div class="slider-slide">
                                 <img src="assets/image/herogeser-3.webp" alt="Meja Kerja Staf MAROON ATK"
-                                    loading="lazy" />
+                                    loading="lazy" width="1000" height="558" decoding="async" />
                             </div>
                         </div>
                         <div class="slider-dots" id="aboutSliderDots">
@@ -973,7 +558,7 @@
                     <div class="product-thumb">
                         <span class="badge-discount">15%</span>
                         <a href="/detail/kertas-hvs-a4-f4">
-                            <img src="assets/image/HVS/Kertas-HVS-SLIDE-1.webp" alt="Kertas HVS A4 F4" loading="lazy" />
+                            <img src="assets/image/HVS/Kertas-HVS-SLIDE-1.webp" alt="Kertas HVS A4 F4" loading="lazy" width="900" height="502" decoding="async" />
                         </a>
                     </div>
                     <div class="product-body">
@@ -999,7 +584,7 @@
                         <span class="badge-discount">12%</span>
                         <a href="/detail/meja-kerja-staf-m-120">
                             <img src="assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-1.webp" alt="Meja Kerja Staf"
-                                loading="lazy" />
+                                loading="lazy" width="900" height="502" decoding="async" />
                         </a>
                     </div>
                     <div class="product-body">
@@ -1025,7 +610,7 @@
                         <span class="badge-discount">20%</span>
                         <a href="/detail/kursi-direktur-executive-k-80">
                             <img src="assets/image/KURSI-DIREKTUR/Kursi-Direktur-SLIDE-1.webp" alt="Kursi Direktur"
-                                loading="lazy" />
+                                loading="lazy" width="900" height="502" decoding="async" />
                         </a>
                     </div>
                     <div class="product-body">
@@ -1051,7 +636,7 @@
                         <span class="badge-discount">18%</span>
                         <a href="/detail/lemari-arsip-besi-pintu-geser-kaca-l-180">
                             <img src="assets/image/LEMARI-ARSIP/Lemari-Arsip-SLIDE-1.webp" alt="Lemari Arsip"
-                                loading="lazy" />
+                                loading="lazy" width="900" height="502" decoding="async" />
                         </a>
                     </div>
                     <div class="product-body">
@@ -1077,7 +662,7 @@
                         <span class="badge-discount">10%</span>
                         <a href="/detail/videotron-led-indoor-p2">
                             <img src="assets/image/VIDEOTRON/Videotron-LED-SLIDE-1.webp" alt="Videotron LED"
-                                loading="lazy" />
+                                loading="lazy" width="900" height="502" decoding="async" />
                         </a>
                     </div>
                     <div class="product-body">
@@ -1103,7 +688,7 @@
                         <span class="badge-discount">14%</span>
                         <a href="/detail/interactive-flat-panel-65-inch-4k">
                             <img src="assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-1.webp"
-                                alt="Interactive Flat Panel" loading="lazy" />
+                                alt="Interactive Flat Panel" loading="lazy" width="900" height="502" decoding="async" />
                         </a>
                     </div>
                     <div class="product-body">
@@ -1129,7 +714,7 @@
                         <span class="badge-discount">22%</span>
                         <a href="/detail/digital-whiteboard-55-inch-portable">
                             <img src="assets/image/DIGITAL-WHITEBOARD/Digital-Whiteboard-SLIDE-1.webp"
-                                alt="Digital Whiteboard" loading="lazy" />
+                                alt="Digital Whiteboard" loading="lazy" width="900" height="502" decoding="async" />
                         </a>
                     </div>
                     <div class="product-body">
@@ -1155,7 +740,7 @@
                         <span class="badge-discount">30%</span>
                         <a href="/detail/set-sofa-tamu-kantor-leather-3-1-1">
                             <img src="assets/image/SET-SOFA-TAMU/Set-Sofa-Tamu-SLIDE-1.webp" alt="Sofa Tamu"
-                                loading="lazy" />
+                                loading="lazy" width="900" height="502" decoding="async" />
                         </a>
                     </div>
                     <div class="product-body">
@@ -1195,7 +780,7 @@
                 <div class="package-card-elegant">
                     <div class="package-thumb">
                         <img src="assets/image/PAKET/Paket-Kantor-Baru.webp" alt="Paket Kantor Baru MAROON ATK"
-                            loading="lazy" />
+                            loading="lazy" width="900" height="502" decoding="async" />
                     </div>
                     <div class="package-body">
                         <div class="package-icon-wrap">
@@ -1223,7 +808,7 @@
                         Populer</span>
                     <div class="package-thumb">
                         <img src="assets/image/PAKET/Paket-Smart-Meeting-Room.webp"
-                            alt="Paket Smart Meeting Room MAROON ATK" loading="lazy" />
+                            alt="Paket Smart Meeting Room MAROON ATK" loading="lazy" width="900" height="502" decoding="async" />
                     </div>
                     <div class="package-body">
                         <div class="package-icon-wrap">
@@ -1249,7 +834,7 @@
                 <div class="package-card-elegant">
                     <div class="package-thumb">
                         <img src="assets/image/PAKET/Paket-Pengadaan-ATK-Rutin.webp" alt="Paket ATK Rutin MAROON ATK"
-                            loading="lazy" />
+                            loading="lazy" width="900" height="502" decoding="async" />
                     </div>
                     <div class="package-body">
                         <div class="package-icon-wrap">
@@ -1387,7 +972,7 @@
                         cepat dan administrasi yang rapi. Sangat profesional!"</p>
                     <div class="testi-author-modern">
                         <img class="testi-avatar-modern" src="https://i.pravatar.cc/100?img=11" alt="Andi Wijaya"
-                            loading="lazy" />
+                            loading="lazy" decoding="async" width="44" height="44" />
                         <div>
                             <p class="testi-name-modern">Andi Wijaya</p>
                             <p class="testi-role-modern">Kepala Subbagian Umum, Pemda Kabupaten Malang</p>
@@ -1404,7 +989,7 @@
                         waktu, kualitas meja dan kursi sangat baik. Terima kasih MAROON!"</p>
                     <div class="testi-author-modern">
                         <img class="testi-avatar-modern" src="https://i.pravatar.cc/100?img=5" alt="Siti Rahma"
-                            loading="lazy" />
+                            loading="lazy" decoding="async" width="44" height="44" />
                         <div>
                             <p class="testi-name-modern">Siti Rahma, S.E.</p>
                             <p class="testi-role-modern">Manajer Operasional, PT Bina Karya Sejahtera</p>
@@ -1421,7 +1006,7 @@
                         lancar. Tim teknis MAROON ATK sangat sigap dan ramah."</p>
                     <div class="testi-author-modern">
                         <img class="testi-avatar-modern" src="https://i.pravatar.cc/100?img=33" alt="Dr. Budi Santoso"
-                            loading="lazy" />
+                            loading="lazy" decoding="async" width="44" height="44" />
                         <div>
                             <p class="testi-name-modern">Dr. Budi Santoso, M.Pd.</p>
                             <p class="testi-role-modern">Wakil Rektor Bidang Sarana, Universitas Merdeka Malang</p>
@@ -1438,7 +1023,7 @@
                         tampilan jernih dan pemasangan cepat. Rekomendasi!"</p>
                     <div class="testi-author-modern">
                         <img class="testi-avatar-modern" src="https://i.pravatar.cc/100?img=55" alt="Dian Permata"
-                            loading="lazy" />
+                            loading="lazy" decoding="async" width="44" height="44" />
                         <div>
                             <p class="testi-name-modern">Dian Permata, S.T.</p>
                             <p class="testi-role-modern">Facility Manager, PT Graha Mandiri Group</p>
@@ -1455,7 +1040,7 @@
                         kantor kami. Harga bersaing dan kualitas istimewa."</p>
                     <div class="testi-author-modern">
                         <img class="testi-avatar-modern" src="https://i.pravatar.cc/100?img=12" alt="Fajar Pratama"
-                            loading="lazy" />
+                            loading="lazy" decoding="async" width="44" height="44" />
                         <div>
                             <p class="testi-name-modern">Ir. Fajar Pratama</p>
                             <p class="testi-role-modern">Direktur Utama, PT Nusantara Jaya Abadi</p>
@@ -1472,7 +1057,7 @@
                         dinas kami. Layanan purna jual yang responsif."</p>
                     <div class="testi-author-modern">
                         <img class="testi-avatar-modern" src="https://i.pravatar.cc/100?img=25" alt="Retno Wulandari"
-                            loading="lazy" />
+                            loading="lazy" decoding="async" width="44" height="44" />
                         <div>
                             <p class="testi-name-modern">Dra. Retno Wulandari, M.Si.</p>
                             <p class="testi-role-modern">Kepala Bagian Perlengkapan, Dinas Pendidikan Provinsi Jawa
@@ -1644,12 +1229,14 @@
             </div>
         </div>
     </section> <!-- ===== FOOTER ===== -->
+    </main>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="/" class="brand-logo brand-logo-wrap-footer">
-                        <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" />
+                        <img src="assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" width="40" height="40" decoding="async" loading="lazy" />
                         <span class="logo-text brand-logo-text-footer">MAROON
                             <span class="text-maroon-primary">ATK</span></span>
                     </a>
@@ -1667,7 +1254,7 @@
                     </div>
                 </div>
                 <div class="footer-col">
-                    <h4>Kategori Produk</h4>
+                    <h3 class="footer-col-title">Kategori Produk</h3>
                     <ul class="footer-links">
                         <li><a href="/produk/atk">Alat Tulis Kantor (ATK)</a></li>
                         <li><a href="/produk/meja-kantor">Meja Kantor Executive &amp; Staf</a></li>
@@ -1678,7 +1265,7 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Navigasi Situs</h4>
+                    <h3 class="footer-col-title">Navigasi Situs</h3>
                     <ul class="footer-links">
                         <li><a href="/tentang-kami">Tentang Kami</a></li>
                         <li><a href="/produk">Katalog Produk</a></li>
@@ -1688,7 +1275,7 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Hubungi Kami</h4>
+                    <h3 class="footer-col-title">Hubungi Kami</h3>
                     <ul class="footer-contact-list">
                         <li><i class="fas fa-phone-alt"></i> <span>0889-8964-3555</span></li>
                         <li><i class="fab fa-whatsapp"></i> <span>0889-8964-3555 (WhatsApp)</span></li>
@@ -1787,8 +1374,9 @@
                     });
                 }
 
-                goToHeroSlide(0);
-                startHeroAutoplay();
+                window.addEventListener('load', function () {
+                    setTimeout(startHeroAutoplay, 3000);
+                });
 
                 document.addEventListener('visibilitychange', function () {
                     if (document.hidden) {
@@ -1802,79 +1390,84 @@
             // ===== SLIDER ABOUT - HALUS & SEMPURNA (GAMBAR LOKAL) =====
             const track = document.getElementById('aboutSliderTrack');
             const dots = document.querySelectorAll('#aboutSliderDots .dot');
-            let currentIndex = 0;
-            const totalSlides = dots.length;
-            let autoplayInterval = null;
-            const INTERVAL_TIME = 4000;
-            let isTransitioning = false;
+            if (track && dots.length > 0) {
+                let currentIndex = 0;
+                const totalSlides = dots.length;
+                let autoplayInterval = null;
+                const INTERVAL_TIME = 4000;
+                let isTransitioning = false;
 
-            function goToSlide(index) {
-                if (isTransitioning) return;
-                if (index < 0) index = totalSlides - 1;
-                if (index >= totalSlides) index = 0;
+                function goToSlide(index) {
+                    if (isTransitioning) return;
+                    if (index < 0) index = totalSlides - 1;
+                    if (index >= totalSlides) index = 0;
 
-                isTransitioning = true;
-                currentIndex = index;
+                    isTransitioning = true;
+                    currentIndex = index;
 
-                const offset = -currentIndex * 100;
-                track.style.transform = 'translate3d(' + offset + '%, 0, 0)';
+                    const offset = -currentIndex * 100;
+                    track.style.transform = 'translate3d(' + offset + '%, 0, 0)';
 
-                dots.forEach((dot, i) => {
-                    dot.classList.toggle('active', i === currentIndex);
-                });
+                    dots.forEach((dot, i) => {
+                        dot.classList.toggle('active', i === currentIndex);
+                    });
 
-                setTimeout(() => {
-                    isTransitioning = false;
-                }, 850);
-            }
+                    setTimeout(() => {
+                        isTransitioning = false;
+                    }, 850);
+                }
 
-            function nextSlide() {
-                goToSlide(currentIndex + 1);
-            }
+                function nextSlide() {
+                    goToSlide(currentIndex + 1);
+                }
 
-            function startAutoplay() {
-                if (autoplayInterval) clearInterval(autoplayInterval);
-                autoplayInterval = setInterval(nextSlide, INTERVAL_TIME);
-            }
+                function startAutoplay() {
+                    if (autoplayInterval) clearInterval(autoplayInterval);
+                    autoplayInterval = setInterval(nextSlide, INTERVAL_TIME);
+                }
 
-            function resetAutoplay() {
-                clearInterval(autoplayInterval);
-                startAutoplay();
-            }
-
-            dots.forEach((dot, index) => {
-                dot.addEventListener('click', function () {
-                    if (index === currentIndex) return;
-                    goToSlide(index);
-                    resetAutoplay();
-                });
-            });
-
-            const slider = document.getElementById('aboutSlider');
-            slider.addEventListener('mouseenter', function () {
-                clearInterval(autoplayInterval);
-            });
-            slider.addEventListener('mouseleave', function () {
-                startAutoplay();
-            });
-
-            slider.addEventListener('touchstart', function () {
-                clearInterval(autoplayInterval);
-            }, { passive: true });
-            slider.addEventListener('touchend', function () {
-                startAutoplay();
-            });
-
-            goToSlide(0);
-            startAutoplay();
-
-            document.addEventListener('visibilitychange', function () {
-                if (document.hidden) {
+                function resetAutoplay() {
                     clearInterval(autoplayInterval);
-                } else {
                     startAutoplay();
                 }
-            });
+
+                dots.forEach((dot, index) => {
+                    dot.addEventListener('click', function () {
+                        if (index === currentIndex) return;
+                        goToSlide(index);
+                        resetAutoplay();
+                    });
+                });
+
+                const slider = document.getElementById('aboutSlider');
+                if (slider) {
+                    slider.addEventListener('mouseenter', function () {
+                        clearInterval(autoplayInterval);
+                    });
+                    slider.addEventListener('mouseleave', function () {
+                        startAutoplay();
+                    });
+
+                    slider.addEventListener('touchstart', function () {
+                        clearInterval(autoplayInterval);
+                    }, { passive: true });
+                    slider.addEventListener('touchend', function () {
+                        startAutoplay();
+                    });
+                }
+
+                window.addEventListener('load', function () {
+                    setTimeout(startAutoplay, 4000);
+                });
+
+                document.addEventListener('visibilitychange', function () {
+                    if (document.hidden) {
+                        clearInterval(autoplayInterval);
+                    } else {
+                        startAutoplay();
+                    }
+                });
+            }
         });
     </script>
 </body>

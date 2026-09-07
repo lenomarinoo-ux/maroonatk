@@ -50,9 +50,11 @@
     <link rel="preload" href="../assets/image/blog/pengadaan-furniture-kantor-hero.webp" as="image">
 
     <!-- Fonts & Styles -->
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /></noscript>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /></noscript>
     <link rel="stylesheet" href="../assets/css/style.css">
 
     <!-- SEO / AEO: Schema Markup (Article) -->
@@ -150,7 +152,7 @@
     <nav class="navbar">
         <div class="container navbar-container">
             <a href="/" class="brand-logo brand-logo-wrap">
-                <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" />
+                <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" width="40" height="40" decoding="async" loading="lazy" />
                 <span class="logo-text brand-logo-text">MAROON <span class="text-maroon-primary">ATK</span></span>
             </a>
             <button class="hamburger" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
@@ -211,7 +213,7 @@
                         <div class="article-meta">
                             <div class="author-avatar">
                                 <img src="../assets/image/AUTHOR-ARTIKEL/author-artikel-arby-ardiansyah.webp"
-                                    alt="Arby Ardiansyah - Penulis MAROON ATK" loading="lazy">
+                                    alt="Arby Ardiansyah - Penulis MAROON ATK" loading="lazy" width="700" height="810" decoding="async">
                             </div>
                             <div class="author-info">
                                 <span class="author-name">Arby Ardiansyah</span>
@@ -224,7 +226,7 @@
                     <!-- HERO FEATURED IMAGE -->
                     <div class="article-featured-image">
                         <img src="../assets/image/blog/pengadaan-furniture-kantor-hero.webp"
-                            alt="SOP Pengadaan Furniture Kantor B2B - Maroon ATK" loading="eager">
+                            alt="SOP Pengadaan Furniture Kantor B2B - Maroon ATK" loading="eager" width="1000" height="558" decoding="async">
                     </div>
                     <p class="caption">Penerapan SOP pengadaan furniture kantor B2B yang tepat menjamin efisiensi
                         anggaran korporasi dan keabsahan akuntansi pajak.</p>
@@ -294,7 +296,7 @@
                             <div class="icon"><i class="fas fa-book-open"></i></div>
                             <div class="thumb">
                                 <img src="../assets/image/blog/harga-videotron-led-indoor-hero.webp"
-                                    alt="Harga Videotron LED Indoor" loading="lazy">
+                                    alt="Harga Videotron LED Indoor" loading="lazy" width="1000" height="558" decoding="async">
                             </div>
                             <div class="content">
                                 <div class="label">Baca Juga</div>
@@ -343,7 +345,7 @@
                         <!-- SUPPORTING IMAGE 1 -->
                         <div class="supporting-image">
                             <img src="../assets/image/blog/pengadaan-furniture-kantor-support-image-1.webp"
-                                alt="Uji Sampel Kursi Kantor Ergonomis B2B" loading="lazy">
+                                alt="Uji Sampel Kursi Kantor Ergonomis B2B" loading="lazy" width="900" height="502" decoding="async">
                             <p class="caption">Pengujian fisik sampel kursi kantor ergonomis oleh tim teknis untuk
                                 memverifikasi kualitas hidrolik BIFMA dan material mesh sebelum PO diterbitkan.</p>
                         </div>
@@ -363,7 +365,7 @@
                             <div class="icon"><i class="fas fa-book-open"></i></div>
                             <div class="thumb">
                                 <img src="../assets/image/blog/interactive-flat-panel-sekolah-hero.webp"
-                                    alt="Pengadaan IFP Sekolah" loading="lazy">
+                                    alt="Pengadaan IFP Sekolah" loading="lazy" width="1000" height="558" decoding="async">
                             </div>
                             <div class="content">
                                 <div class="label">Baca Juga</div>
@@ -423,7 +425,7 @@
                         <!-- SUPPORTING IMAGE 2 -->
                         <div class="supporting-image">
                             <img src="../assets/image/blog/pengadaan-furniture-kantor-support-image-3.webp"
-                                alt="Lemari Arsip Kantor B2B Plat Baja" loading="lazy">
+                                alt="Lemari Arsip Kantor B2B Plat Baja" loading="lazy" width="900" height="502" decoding="async">
                             <p class="caption">Pengadaan lemari arsip plat baja pintu sliding kaca untuk pengamanan
                                 dokumen fisik instansi dengan standar ketahanan jangka panjang.</p>
                         </div>
@@ -433,7 +435,7 @@
                             <div class="icon"><i class="fas fa-book-open"></i></div>
                             <div class="thumb">
                                 <img src="../assets/image/blog/panduan-memilih-supplier-atk-jakarta-terpercaya-hero.webp" alt="Panduan Memilih Supplier ATK Jakarta"
-                                    loading="lazy">
+                                    loading="lazy" width="1000" height="558" decoding="async">
                             </div>
                             <div class="content">
                                 <div class="label">Baca Juga</div>
@@ -557,7 +559,7 @@
                         <div class="author-bio">
                             <div class="avatar">
                                 <img src="../assets/image/AUTHOR-ARTIKEL/author-artikel-arby-ardiansyah.webp"
-                                    alt="Arby Ardiansyah" loading="lazy">
+                                    alt="Arby Ardiansyah" loading="lazy" width="700" height="810" decoding="async">
                             </div>
                             <div class="info">
                                 <h4>Arby Ardiansyah</h4>
@@ -593,7 +595,7 @@
                         <div class="related-item">
                             <div class="thumb">
                                 <img src="../assets/image/blog/harga-videotron-led-indoor-hero.webp"
-                                    alt="Harga Videotron LED" loading="lazy">
+                                    alt="Harga Videotron LED" loading="lazy" width="1000" height="558" decoding="async">
                             </div>
                             <div class="content">
                                 <h4><a href="/blog/harga-videotron-led-indoor">Harga Videotron LED Indoor per m2
@@ -605,7 +607,7 @@
                         <div class="related-item">
                             <div class="thumb">
                                 <img src="../assets/image/blog/interactive-flat-panel-sekolah-hero.webp"
-                                    alt="IFP Sekolah" loading="lazy">
+                                    alt="IFP Sekolah" loading="lazy" width="1000" height="558" decoding="async">
                             </div>
                             <div class="content">
                                 <h4><a href="/blog/interactive-flat-panel-sekolah">Pengadaan Interactive Flat Panel
@@ -617,7 +619,7 @@
                         <div class="related-item">
                             <div class="thumb">
                                 <img src="../assets/image/blog/panduan-memilih-supplier-atk-jakarta-terpercaya-hero.webp" alt="Panduan Memilih Supplier ATK Jakarta"
-                                    loading="lazy">
+                                    loading="lazy" width="1000" height="558" decoding="async">
                             </div>
                             <div class="content">
                                 <h4><a href="/blog/panduan-memilih-supplier-atk-jakarta-terpercaya">Panduan Memilih Supplier ATK Jakarta Terpercaya</a></h4>
@@ -659,7 +661,7 @@
                     <div class="recommend-item">
                         <div class="thumb">
                             <img src="../assets/image/KURSI-DIREKTUR/Kursi-Direktur-SLIDE-1.webp"
-                                alt="Kursi Kerja Ergonomis M-90" loading="lazy">
+                                alt="Kursi Kerja Ergonomis M-90" loading="lazy" width="900" height="502" decoding="async">
                         </div>
                         <div class="body">
                             <span class="prod-cat-label mb-025">Kursi
@@ -675,7 +677,7 @@
                     <div class="recommend-item">
                         <div class="thumb">
                             <img src="../assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-1.webp"
-                                alt="Meja Kerja Staf Modular M-120" loading="lazy">
+                                alt="Meja Kerja Staf Modular M-120" loading="lazy" width="900" height="502" decoding="async">
                         </div>
                         <div class="body">
                             <span class="prod-cat-label mb-025">Meja
@@ -691,7 +693,7 @@
                     <div class="recommend-item">
                         <div class="thumb">
                             <img src="../assets/image/LEMARI-ARSIP/Lemari-Arsip-SLIDE-1.webp"
-                                alt="Lemari Arsip Baja 2 Pintu Kaca" loading="lazy">
+                                alt="Lemari Arsip Baja 2 Pintu Kaca" loading="lazy" width="900" height="502" decoding="async">
                         </div>
                         <div class="body">
                             <span class="prod-cat-label mb-025">Lemari
@@ -730,7 +732,7 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="/" class="brand-logo brand-logo-wrap-footer">
-                        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" />
+                        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" width="40" height="40" decoding="async" loading="lazy" />
                         <span class="logo-text brand-logo-text-footer">MAROON
                             <span class="text-maroon-primary">ATK</span></span>
                     </a>
@@ -748,7 +750,7 @@
                     </div>
                 </div>
                 <div class="footer-col">
-                    <h4>Kategori Produk</h4>
+                    <h3 class="footer-col-title">Kategori Produk</h3>
                     <ul class="footer-links">
                         <li><a href="/produk/atk">Alat Tulis Kantor (ATK)</a></li>
                         <li><a href="/produk/meja-kantor">Meja Kantor Executive &amp; Staf</a></li>
@@ -760,7 +762,7 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Navigasi Situs</h4>
+                    <h3 class="footer-col-title">Navigasi Situs</h3>
                     <ul class="footer-links">
                         <li><a href="/tentang-kami">Tentang Kami</a></li>
                         <li><a href="/produk">Katalog Produk</a></li>
@@ -770,7 +772,7 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Hubungi Kami</h4>
+                    <h3 class="footer-col-title">Hubungi Kami</h3>
                     <ul class="footer-contact-list">
                         <li><i class="fas fa-phone-alt"></i> <span>0889-8964-3555</span></li>
                         <li><i class="fab fa-whatsapp"></i> <span>0889-8964-3555 (WhatsApp)</span></li>

@@ -16,9 +16,11 @@
     content="Meja direktur, meja staf, meja rapat, dan meja resepsionis berkualitas premium untuk kantor Anda." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /></noscript>
   <link rel="stylesheet" href="../assets/css/style.css" />
 
   <!-- JSON-LD Schema: Product Category with Aggregate Rating (Google Star Rating Rich Snippet) -->
@@ -344,7 +346,7 @@
   <nav class="navbar">
     <div class="container navbar-container">
       <a href="/" class="brand-logo brand-logo-wrap">
-        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" />
+        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" width="40" height="40" decoding="async" loading="lazy" />
         <span class="logo-text brand-logo-text">MAROON
           <span class="text-maroon-primary">ATK</span></span>
       </a>
@@ -381,6 +383,9 @@
       </div>
     </div>
   </nav>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main id="main-content">
 
   <!-- ===== BREADCRUMB ===== -->
   <div class="breadcrumb-container">
@@ -463,7 +468,7 @@
             <span class="badge-discount">15%</span>
             <a href="/detail/meja-kerja-staf-m-120" aria-label="Detail Meja Direktur Executive">
               <img src="../assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-5.webp"
-                alt="Meja Direktur Utama Executive M-180" loading="lazy" />
+                alt="Meja Direktur Utama Executive M-180" loading="lazy" width="900" height="502" decoding="async" />
             </a>
           </div>
           <div class="product-body">
@@ -491,7 +496,7 @@
             <span class="badge-discount">12%</span>
             <a href="/detail/meja-kerja-staf-m-120" aria-label="Detail Meja Staf Minimalis">
               <img src="../assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-4.webp"
-                alt="Meja Kerja Staf Minimalis Rangka Besi" loading="lazy" />
+                alt="Meja Kerja Staf Minimalis Rangka Besi" loading="lazy" width="900" height="502" decoding="async" />
             </a>
           </div>
           <div class="product-body">
@@ -519,7 +524,7 @@
             <span class="badge-discount">18%</span>
             <a href="/detail/meja-kerja-staf-m-120" aria-label="Detail Meja Rapat Conference">
               <img src="../assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-3.webp"
-                alt="Meja Rapat Conference Table 240cm" loading="lazy" />
+                alt="Meja Rapat Conference Table 240cm" loading="lazy" width="900" height="502" decoding="async" />
             </a>
           </div>
           <div class="product-body">
@@ -547,7 +552,7 @@
             <span class="badge-discount">10%</span>
             <a href="/detail/meja-kerja-staf-m-120" aria-label="Detail Meja Resepsionis Minimalis">
               <img src="../assets/image/MEJA-KERJA/Meja-Kerja-Staff-SLIDE-2.webp"
-                alt="Meja Resepsionis Minimalis Reception Desk" loading="lazy" />
+                alt="Meja Resepsionis Minimalis Reception Desk" loading="lazy" width="900" height="502" decoding="async" />
             </a>
           </div>
           <div class="product-body">
@@ -627,12 +632,14 @@
       </div>
     </div>
   </section> <!-- ===== FOOTER ===== -->
-  <footer class="footer">
+  </main>
+
+    <footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="/" class="brand-logo brand-logo-wrap-footer">
-            <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" />
+            <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" width="40" height="40" decoding="async" loading="lazy" />
             <span class="logo-text brand-logo-text-footer">MAROON <span class="text-maroon-primary">ATK</span></span>
           </a>
           <p class="text-footer-desc">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board
@@ -649,7 +656,7 @@
           </div>
         </div>
         <div class="footer-col">
-          <h4>Kategori Produk</h4>
+                    <h3 class="footer-col-title">Kategori Produk</h3>
           <ul class="footer-links">
             <li><a href="/produk/atk">Alat Tulis Kantor (ATK)</a></li>
             <li><a href="/produk/meja-kantor">Meja Kantor Executive &amp; Staf</a></li>
@@ -660,7 +667,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Navigasi Situs</h4>
+                    <h3 class="footer-col-title">Navigasi Situs</h3>
           <ul class="footer-links">
             <li><a href="/tentang-kami">Tentang Kami</a></li>
             <li><a href="/produk">Katalog Produk</a></li>
@@ -670,7 +677,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Hubungi Kami</h4>
+                    <h3 class="footer-col-title">Hubungi Kami</h3>
           <ul class="footer-contact-list">
             <li><i class="fas fa-phone-alt"></i> <span>0889-8964-3555</span></li>
             <li><i class="fab fa-whatsapp"></i> <span>0889-8964-3555 (WhatsApp)</span></li>

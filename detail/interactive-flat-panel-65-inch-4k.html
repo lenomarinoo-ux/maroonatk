@@ -11,9 +11,11 @@
   <link rel="icon" href="../assets/image/favicon-maroon-atk.webp" type="image/webp">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /></noscript>
   <link rel="stylesheet" href="../assets/css/style.css" />
 
   <style>
@@ -881,7 +883,7 @@
   <nav class="navbar">
     <div class="container navbar-container">
       <a href="/" class="brand-logo brand-logo-wrap">
-        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" />
+        <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img" width="40" height="40" decoding="async" loading="lazy" />
         <span class="logo-text brand-logo-text">MAROON
           <span class="text-maroon-primary">ATK</span></span>
       </a>
@@ -920,6 +922,9 @@
     </div>
   </nav>
 
+    <!-- ===== MAIN CONTENT ===== -->
+    <main id="main-content">
+
   <!-- ===== BREADCRUMB ===== -->
   <div class="breadcrumb-container">
     <div class="container">
@@ -951,28 +956,28 @@
               class="fas fa-chevron-right"></i></button>
           <!-- Gambar utama menggunakan path lokal -->
           <img id="mainImage" src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-1.webp"
-            alt="Interactive Flat Panel Smart Board 65 Inch" />
+            alt="Interactive Flat Panel Smart Board 65 Inch" width="900" height="502" decoding="async" loading="lazy" />
         </div>
 
         <div class="thumbnail-grid" id="thumbnailGrid">
           <!-- Semua thumbnail menggunakan gambar yang sama (hanya satu gambar di contoh) -->
           <div class="thumbnail-item active" data-index="0">
-            <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-1.webp" alt="Preview 1" />
+            <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-1.webp" alt="Preview 1" width="900" height="502" decoding="async" loading="lazy" />
           </div>
           <div class="thumbnail-item" data-index="1">
-            <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-2.webp" alt="Preview 2" />
+            <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-2.webp" alt="Preview 2" width="900" height="502" decoding="async" loading="lazy" />
           </div>
           <div class="thumbnail-item" data-index="2">
-            <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-3.webp" alt="Preview 3" />
+            <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-3.webp" alt="Preview 3" width="900" height="502" decoding="async" loading="lazy" />
           </div>
           <div class="thumbnail-item" data-index="3">
-            <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-4.webp" alt="Preview 4" />
+            <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-4.webp" alt="Preview 4" width="900" height="502" decoding="async" loading="lazy" />
           </div>
           <div class="thumbnail-item" data-index="4">
-            <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-5.webp" alt="Preview 5" />
+            <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-5.webp" alt="Preview 5" width="900" height="502" decoding="async" loading="lazy" />
           </div>
           <div class="thumbnail-item" data-index="5">
-            <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-6.webp" alt="Preview 6" />
+            <img src="../assets/image/SMARTBOARD/Interactif-Panel-Smart-Board-SLIDE-6.webp" alt="Preview 6" width="900" height="502" decoding="async" loading="lazy" />
           </div>
         </div>
       </div>
@@ -1020,11 +1025,11 @@
         <div class="share-section">
           <span class="share-label"><i class="fas fa-share-alt"></i> Share</span>
           <div class="share-icons">
-            <a href="#" title="Copy Link"><i class="fas fa-link"></i></a>
-            <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
-            <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-            <a href="#" title="Telegram"><i class="fab fa-telegram-plane"></i></a>
+            <a href="#" aria-label="Salin Tautan Produk" title="Copy Link"><i class="fas fa-link" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Bagikan ke Facebook" title="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Bagikan ke X Twitter" title="X (Twitter)"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Bagikan ke WhatsApp" title="WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Bagikan ke Telegram" title="Telegram"><i class="fab fa-telegram-plane" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
@@ -1040,15 +1045,17 @@
           class="fas fa-chevron-left"></i></button>
       <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Gambar berikutnya"><i
           class="fas fa-chevron-right"></i></button>
-      <img id="lightboxImage" src="" alt="Zoom" />
+      <img id="lightboxImage" src="" alt="Pratinjau Detail Gambar Produk" width="800" height="600" loading="lazy" decoding="async" />
     </div>
   </div>  <!-- ===== FOOTER ===== -->
-  <footer class="footer">
+  </main>
+
+    <footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="/" class="brand-logo brand-logo-wrap-footer">
-            <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" />
+            <img src="../assets/image/favicon-maroon-atk.webp" alt="MAROON ATK" class="logo-img brand-logo-img-footer" width="40" height="40" decoding="async" loading="lazy" />
             <span class="logo-text brand-logo-text-footer">MAROON <span class="text-maroon-primary">ATK</span></span>
           </a>
           <p class="text-footer-desc">Penyedia Peralatan Kantor, ATK, Furniture, Videotron, dan Smart Interactive Board Terpercaya untuk Instansi Pemerintah, Pendidikan, dan Swasta.</p>
@@ -1060,7 +1067,7 @@
           </div>
         </div>
         <div class="footer-col">
-          <h4>Kategori Produk</h4>
+                    <h3 class="footer-col-title">Kategori Produk</h3>
           <ul class="footer-links">
             <li><a href="/produk/atk">Alat Tulis Kantor (ATK)</a></li>
             <li><a href="/produk/meja-kantor">Meja Kantor Executive &amp; Staf</a></li>
@@ -1071,7 +1078,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Navigasi Situs</h4>
+                    <h3 class="footer-col-title">Navigasi Situs</h3>
           <ul class="footer-links">
             <li><a href="/tentang-kami">Tentang Kami</a></li>
             <li><a href="/produk">Katalog Produk</a></li>
@@ -1081,7 +1088,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Hubungi Kami</h4>
+                    <h3 class="footer-col-title">Hubungi Kami</h3>
           <ul class="footer-contact-list">
             <li><i class="fas fa-phone-alt"></i> <span>0889-8964-3555</span></li>
             <li><i class="fab fa-whatsapp"></i> <span>0889-8964-3555 (WhatsApp)</span></li>
