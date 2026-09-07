@@ -34,10 +34,9 @@
     <!-- Google Fonts & Font Awesome CDN (Asynchronous & Non-Blocking) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /></noscript>
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" /></noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'" />
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /></noscript>
     <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -365,23 +364,23 @@
                             <div class="hero-slider-track" id="heroSliderTrack">
                                 <div class="hero-slide">
                                     <img src="assets/image/gambar_hero_beranda.webp" alt="Peralatan Kantor MAROON ATK"
-                                        loading="eager" width="1000" height="768" decoding="async" fetchpriority="high" />
+                                        loading="eager" width="750" height="576" decoding="async" fetchpriority="high" />
                                 </div>
                                 <div class="hero-slide">
-                                    <img src="assets/image/SET-SOFA-TAMU/Set-Sofa-Tamu-SLIDE-2.webp"
-                                        alt="Furniture Kantor dan Lemari Arsip" loading="lazy" width="900" height="502" decoding="async" />
+                                    <img data-src="assets/image/SET-SOFA-TAMU/Set-Sofa-Tamu-SLIDE-2.webp"
+                                        alt="Furniture Kantor dan Lemari Arsip" loading="lazy" width="600" height="335" decoding="async" />
                                 </div>
                                 <div class="hero-slide">
-                                    <img src="assets/image/PAKET/Paket-Kantor-Baru.webp"
-                                        alt="Ruang Kantor Modern dan Smart Board" loading="lazy" width="900" height="502" decoding="async" />
+                                    <img data-src="assets/image/PAKET/Paket-Kantor-Baru.webp"
+                                        alt="Ruang Kantor Modern dan Smart Board" loading="lazy" width="600" height="335" decoding="async" />
                                 </div>
                                 <div class="hero-slide">
-                                    <img src="assets/image/KURSI-DIREKTUR/Kursi-Direktur-SLIDE-1.webp"
-                                        alt="Meja Kerja Staf dan Kursi Ergonomis" loading="lazy" width="900" height="502" decoding="async" />
+                                    <img data-src="assets/image/KURSI-DIREKTUR/Kursi-Direktur-SLIDE-1.webp"
+                                        alt="Meja Kerja Staf dan Kursi Ergonomis" loading="lazy" width="600" height="335" decoding="async" />
                                 </div>
                                 <div class="hero-slide">
-                                    <img src="assets/image/VIDEOTRON/Videotron-LED-SLIDE-1.webp"
-                                        alt="Penyedia Kebutuhan Kantor Terpadu" loading="lazy" width="900" height="502" decoding="async" />
+                                    <img data-src="assets/image/VIDEOTRON/Videotron-LED-SLIDE-1.webp"
+                                        alt="Penyedia Kebutuhan Kantor Terpadu" loading="lazy" width="600" height="335" decoding="async" />
                                 </div>
                             </div>
                             <div class="hero-slider-dots" id="heroSliderDots">
@@ -440,15 +439,15 @@
                         <div class="slider-track" id="aboutSliderTrack">
                             <div class="slider-slide">
                                 <img src="assets/image/herogeser-1.webp"
-                                    alt="Furniture Kantor dan Lemari Arsip MAROON ATK" loading="lazy" width="1000" height="558" decoding="async" />
+                                    alt="Furniture Kantor dan Lemari Arsip MAROON ATK" loading="lazy" width="640" height="357" decoding="async" />
                             </div>
                             <div class="slider-slide">
-                                <img src="assets/image/herogeser-2.webp" alt="Ruang Kantor Modern MAROON ATK"
-                                    loading="lazy" width="1000" height="558" decoding="async" />
+                                <img data-src="assets/image/herogeser-2.webp" alt="Ruang Kantor Modern MAROON ATK"
+                                    loading="lazy" width="640" height="357" decoding="async" />
                             </div>
                             <div class="slider-slide">
-                                <img src="assets/image/herogeser-3.webp" alt="Meja Kerja Staf MAROON ATK"
-                                    loading="lazy" width="1000" height="558" decoding="async" />
+                                <img data-src="assets/image/herogeser-3.webp" alt="Meja Kerja Staf MAROON ATK"
+                                    loading="lazy" width="640" height="357" decoding="async" />
                             </div>
                         </div>
                         <div class="slider-dots" id="aboutSliderDots">
@@ -1305,7 +1304,17 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            // ===== HERO SLIDER (SEPERTI SECTION TENTANG KAMI - SLIDING TRACK HALUS & ELEGAN) =====
+            // Utility to load lazy slide images
+            function loadAllSliderImages() {
+                document.querySelectorAll('.hero-slider img[data-src], .about-slider img[data-src]').forEach(function (img) {
+                    if (img.dataset.src) {
+                        img.src = img.dataset.src;
+                        img.removeAttribute('data-src');
+                    }
+                });
+            }
+
+            // ===== HERO SLIDER =====
             const heroTrack = document.getElementById('heroSliderTrack');
             const heroDots = document.querySelectorAll('#heroSliderDots .dot');
             if (heroTrack && heroDots.length > 0) {
@@ -1320,6 +1329,7 @@
                     if (index < 0) index = totalHeroSlides - 1;
                     if (index >= totalHeroSlides) index = 0;
 
+                    loadAllSliderImages();
                     isHeroTransitioning = true;
                     heroCurrentIndex = index;
 
@@ -1340,6 +1350,7 @@
                 }
 
                 function startHeroAutoplay() {
+                    loadAllSliderImages();
                     if (heroAutoplayInterval) clearInterval(heroAutoplayInterval);
                     heroAutoplayInterval = setInterval(nextHeroSlide, HERO_INTERVAL_TIME);
                 }
@@ -1375,7 +1386,10 @@
                 }
 
                 window.addEventListener('load', function () {
-                    setTimeout(startHeroAutoplay, 3000);
+                    setTimeout(function () {
+                        loadAllSliderImages();
+                        startHeroAutoplay();
+                    }, 3000);
                 });
 
                 document.addEventListener('visibilitychange', function () {
@@ -1387,7 +1401,7 @@
                 });
             }
 
-            // ===== SLIDER ABOUT - HALUS & SEMPURNA (GAMBAR LOKAL) =====
+            // ===== SLIDER ABOUT =====
             const track = document.getElementById('aboutSliderTrack');
             const dots = document.querySelectorAll('#aboutSliderDots .dot');
             if (track && dots.length > 0) {
@@ -1402,6 +1416,7 @@
                     if (index < 0) index = totalSlides - 1;
                     if (index >= totalSlides) index = 0;
 
+                    loadAllSliderImages();
                     isTransitioning = true;
                     currentIndex = index;
 
@@ -1422,6 +1437,7 @@
                 }
 
                 function startAutoplay() {
+                    loadAllSliderImages();
                     if (autoplayInterval) clearInterval(autoplayInterval);
                     autoplayInterval = setInterval(nextSlide, INTERVAL_TIME);
                 }
@@ -1457,7 +1473,10 @@
                 }
 
                 window.addEventListener('load', function () {
-                    setTimeout(startAutoplay, 4000);
+                    setTimeout(function () {
+                        loadAllSliderImages();
+                        startAutoplay();
+                    }, 4000);
                 });
 
                 document.addEventListener('visibilitychange', function () {
