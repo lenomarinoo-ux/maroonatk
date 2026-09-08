@@ -47,7 +47,7 @@
   <!-- Blog & Panduan Kantor -->
   <url>
     <loc>https://maroonatk.web.id/blog</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -1112,6 +1112,69 @@
       <image:loc>https://maroonatk.web.id/assets/image/blog/portfolio-custom-furniture-kantor-executive-hero.webp</image:loc>
       <image:title>Portfolio Pengerjaan Custom Furniture Kantor Executive di Segitiga Emas Jakarta - MAROON ATK</image:title>
       <image:caption>Ruang kerja eksekutif di kawasan perkantoran premium memerlukan rancangan custom furniture presisi tinggi guna mencerminkan kredibilitas institusi.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Inspirasi Penggunaan Videotron LED untuk Meeting Room Skala Besar -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/inspirasi-videotron-led-meeting-room</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-08</news:publication_date>
+      <news:title>Inspirasi Penggunaan Videotron LED untuk Meeting Room Skala Besar</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/inspirasi-videotron-led-meeting-room-hero.webp</image:loc>
+      <image:title>Inspirasi Penggunaan Videotron LED untuk Meeting Room Skala Besar - MAROON ATK</image:title>
+      <image:caption>Panduan implementasi videotron LED pada ruang rapat direksi dan conference room skala besar untuk mendukung presentasi beresolusi tinggi dan konferensi hybrid.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Cara Memilih Jasa Custom Furniture Kantor Jakarta dengan Layanan Desain 3D -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/jasa-custom-furniture-kantor-desain-3d</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-08</news:publication_date>
+      <news:title>Cara Memilih Jasa Custom Furniture Kantor Jakarta dengan Layanan Desain 3D</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/jasa-custom-furniture-kantor-desain-3d-hero.webp</image:loc>
+      <image:title>Cara Memilih Jasa Custom Furniture Kantor Jakarta dengan Layanan Desain 3D - MAROON ATK</image:title>
+      <image:caption>Panduan memilih vendor custom furniture kantor profesional di Jakarta dengan visualisasi 3D render presisi guna mengoptimalkan layout ruang kerja dan estetika korporat.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- SOP Pengadaan ATK Kantor Swasta: Alur Pembelian dan Pembayaran Tempo -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/sop-pengadaan-atk-kantor-swasta</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-08</news:publication_date>
+      <news:title>SOP Pengadaan ATK Kantor Swasta: Alur Pembelian dan Pembayaran Tempo</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/sop-pengadaan-atk-kantor-swasta-hero.webp</image:loc>
+      <image:title>SOP Pengadaan ATK Kantor Swasta: Alur Pembelian dan Pembayaran Tempo - MAROON ATK</image:title>
+      <image:caption>Standar operasional prosedur pengadaan ATK kantor swasta terstruktur mulai dari alur purchase requisition, verifikasi 3-way matching, hingga fasilitas pembayaran tempo B2B.</image:caption>
     </image:image>
   </url>
 
