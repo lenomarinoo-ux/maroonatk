@@ -1304,4 +1304,67 @@
     </image:image>
   </url>
 
+  <!-- Cara Menghitung Kebutuhan ATK Kantor dengan Formula Excel -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/formula-excel-kebutuhan-atk-kantor</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-11</news:publication_date>
+      <news:title>Cara Menghitung Kebutuhan ATK Kantor dengan Formula Excel</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/formula-excel-kebutuhan-atk-kantor.webp</image:loc>
+      <image:title>Cara Menghitung Kebutuhan ATK Kantor dengan Formula Excel - MAROON ATK</image:title>
+      <image:caption>Panduan menghitung kebutuhan ATK kantor menggunakan rumus inventaris, safety stock, dan re-order point, lengkap dengan contoh per kategori barang.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Rincian Biaya Harga Paket Furniture Kantor untuk Perusahaan Skala Menengah -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/rincian-biaya-paket-furniture-kantor</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-11</news:publication_date>
+      <news:title>Rincian Biaya Harga Paket Furniture Kantor untuk Perusahaan Skala Menengah</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/paket-furniture-kantor-workstation.webp</image:loc>
+      <image:title>Rincian Biaya Harga Paket Furniture Kantor untuk Perusahaan Skala Menengah - MAROON ATK</image:title>
+      <image:caption>Rincian faktor yang memengaruhi harga paket furniture kantor di lima kota besar, lengkap dengan hal yang perlu diverifikasi sebelum menyetujui penawaran vendor.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Pengalaman Instalasi Interactive Flat Panel 86 Inch di Korporat Jakarta -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/pengalaman-instalasi-ifp-korporat-jakarta</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-11</news:publication_date>
+      <news:title>Pengalaman Instalasi Interactive Flat Panel 86 Inch di Korporat Jakarta</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/interactive-flat-panel-86-inch-korporat.webp</image:loc>
+      <image:title>Pengalaman Instalasi Interactive Flat Panel 86 Inch di Korporat Jakarta - MAROON ATK</image:title>
+      <image:caption>Studi kasus instalasi interactive flat panel 86 inch di ruang konferensi korporat Jakarta, lengkap dengan cara memesan IFP di lima kota layanan MAROON ATK.</image:caption>
+    </image:image>
+  </url>
+
 </urlset>
