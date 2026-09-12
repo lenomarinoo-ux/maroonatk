@@ -1367,4 +1367,67 @@
     </image:image>
   </url>
 
+  <!-- Formula Excel Menghitung Kebutuhan ATK Kantor Akurat (12 Sep 2026) -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/formula-excel-kebutuhan-atk-kantor-akurat</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-12</news:publication_date>
+      <news:title>Template &amp; Formula Excel Kebutuhan ATK Kantor Divisi Operasional</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/1-Staf-profesional-sedang-menghitung-estimasi-kebutuhan-ATK.webp</image:loc>
+      <image:title>Template &amp; Formula Excel Kebutuhan ATK Kantor Divisi Operasional - MAROON ATK</image:title>
+      <image:caption>Panduan praktis menghitung estimasi kebutuhan ATK kantor bulanan menggunakan formula Excel sederhana agar stok tidak kurang maupun berlebih.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Rincian Biaya Paket Furniture Kantor Perusahaan Menengah (12 Sep 2026) -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/rincian-biaya-paket-furniture-kantor-menengah</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-12</news:publication_date>
+      <news:title>Rincian Biaya &amp; Estimasi Paket Furniture Kantor Menengah 2026</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/1-Manajer-operasional.webp</image:loc>
+      <image:title>Rincian Biaya &amp; Estimasi Paket Furniture Kantor Menengah 2026 - MAROON ATK</image:title>
+      <image:caption>Panduan memahami faktor yang memengaruhi harga paket furniture kantor dan cara menyusun anggaran ekspansi ruangan agar tidak overbudget.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Studi Kasus Instalasi Interactive Flat Panel 86 Inch di Korporat Jakarta (12 Sep 2026) -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/studi-kasus-instalasi-ifp-korporat-jakarta</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-12</news:publication_date>
+      <news:title>Studi Kasus: Instalasi Interactive Flat Panel 86 Inch Korporat Jakarta</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/1-Suasana-rapat-hybrid-di-ruang-rapat-korporat-modern-menggunakan-Interactive-Flat-Panel-86-inch.webp</image:loc>
+      <image:title>Studi Kasus: Instalasi Interactive Flat Panel 86 Inch Korporat Jakarta - MAROON ATK</image:title>
+      <image:caption>Studi kasus proses instalasi dan integrasi interactive flat panel 86 inch di ruang rapat korporat Jakarta, termasuk konfigurasi dengan Zoom dan Microsoft Teams.</image:caption>
+    </image:image>
+  </url>
+
 </urlset>
