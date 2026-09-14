@@ -47,7 +47,7 @@
   <!-- Blog & Panduan Kantor -->
   <url>
     <loc>https://maroonatk.web.id/blog</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -1427,6 +1427,69 @@
       <image:loc>https://maroonatk.web.id/assets/image/blog/1-Suasana-rapat-hybrid-di-ruang-rapat-korporat-modern-menggunakan-Interactive-Flat-Panel-86-inch.webp</image:loc>
       <image:title>Studi Kasus: Instalasi Interactive Flat Panel 86 Inch Korporat Jakarta - MAROON ATK</image:title>
       <image:caption>Studi kasus proses instalasi dan integrasi interactive flat panel 86 inch di ruang rapat korporat Jakarta, termasuk konfigurasi dengan Zoom dan Microsoft Teams.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Videotron LED Indoor vs Outdoor: Beda Teknis Lengkap (14 Sep 2026) -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/perbedaan-videotron-led-indoor-vs-outdoor</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-14</news:publication_date>
+      <news:title>Videotron LED Indoor vs Outdoor: Beda Teknis Lengkap</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/videotron-led-indoor-lobi-kantor.webp</image:loc>
+      <image:title>Videotron LED Indoor vs Outdoor: Beda Teknis Lengkap - MAROON ATK</image:title>
+      <image:caption>Panduan teknis membandingkan videotron LED indoor dan outdoor dari sisi pixel pitch, brightness, dan konstruksi agar IT manager tidak salah pilih spesifikasi.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Negosiasi SLA Kontrak Paket Pengadaan ATK di 5 Kota (14 Sep 2026) -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/negosiasi-sla-kontrak-paket-pengadaan-atk</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-14</news:publication_date>
+      <news:title>Negosiasi SLA Kontrak Paket Pengadaan ATK di 5 Kota</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/sla-kontrak-paket-pengadaan-atk.webp</image:loc>
+      <image:title>Negosiasi SLA Kontrak Paket Pengadaan ATK di 5 Kota - MAROON ATK</image:title>
+      <image:caption>Panduan komersial mengenai klausul SLA yang wajib dinegosiasikan dalam kontrak paket pengadaan alat tulis kantor, disesuaikan dengan konteks lima kota besar di Indonesia.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Checklist Beralih ke Supplier ATK Maroon di 5 Kota (14 Sep 2026) -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/checklist-beralih-supplier-atk-maroon</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-14</news:publication_date>
+      <news:title>Checklist Beralih ke Supplier ATK Maroon di 5 Kota</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/checklist-migrasi-supplier-atk.webp</image:loc>
+      <image:title>Checklist Beralih ke Supplier ATK Maroon di 5 Kota - MAROON ATK</image:title>
+      <image:caption>Checklist transaksional langkah demi langkah untuk beralih ke supplier ATK MAROON ATK tanpa mengganggu operasional harian kantor di lima kota besar.</image:caption>
     </image:image>
   </url>
 
