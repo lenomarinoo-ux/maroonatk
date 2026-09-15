@@ -1493,4 +1493,67 @@
     </image:image>
   </url>
 
+  <!-- Cara Menyusun Paket Pengadaan ATK Sesuai Jumlah Staf (15 Sep 2026) -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/menyusun-paket-pengadaan-atk-staf</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-15</news:publication_date>
+      <news:title>Cara Menyusun Paket Pengadaan ATK Sesuai Jumlah Staf</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/paket-pengadaan-atk-jumlah-staf.webp</image:loc>
+      <image:title>Cara Menyusun Paket Pengadaan ATK Sesuai Jumlah Staf - MAROON ATK</image:title>
+      <image:caption>Panduan menyusun paket pengadaan ATK kantor berdasarkan jumlah staf agar alokasi barang lebih tepat dan tidak terjadi kelebihan atau kekurangan stok.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- SOP dan Alur Persetujuan Pengajuan Pengadaan ATK B2B (15 Sep 2026) -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/sop-alur-persetujuan-pengadaan-atk</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-15</news:publication_date>
+      <news:title>SOP dan Alur Persetujuan Pengajuan Pengadaan ATK B2B</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/sop-alur-persetujuan-pengadaan-atk.webp</image:loc>
+      <image:title>SOP dan Alur Persetujuan Pengajuan Pengadaan ATK B2B - MAROON ATK</image:title>
+      <image:caption>Panduan SOP dan alur persetujuan pengajuan pengadaan ATK kantor B2B agar proses birokrasi internal berjalan lebih efisien dan tidak berlarut-larut.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Studi Kasus Pengadaan Furniture Kantor 150 Staf Jakarta (15 Sep 2026) -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/studi-kasus-pengadaan-furniture-jakarta-pusat</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-15</news:publication_date>
+      <news:title>Studi Kasus Pengadaan Furniture Kantor 150 Staf Jakarta</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/studi-kasus-furniture-kantor-jakarta-pusat.webp</image:loc>
+      <image:title>Studi Kasus Pengadaan Furniture Kantor 150 Staf Jakarta - MAROON ATK</image:title>
+      <image:caption>Studi kasus tahapan perencanaan, pengiriman, dan instalasi project pengadaan furniture kantor skala besar untuk 150 staf di Jakarta Pusat.</image:caption>
+    </image:image>
+  </url>
+
 </urlset>
