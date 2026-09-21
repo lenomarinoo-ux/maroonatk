@@ -1724,4 +1724,25 @@
     </image:image>
   </url>
 
+  <!-- Cara Menyusun RFQ Pengadaan ATK Kantor Instansi (21 Sep 2026) -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/menyusun-rfq-pengadaan-atk-kantor-instansi</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-21</news:publication_date>
+      <news:title>Cara Menyusun Dokumen RFQ Pengadaan ATK Kantor untuk Instansi Pemerintah</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/dokumen-rfq-pengadaan-atk-kantor.webp</image:loc>
+      <image:title>Cara Menyusun Dokumen RFQ Pengadaan ATK Kantor untuk Instansi Pemerintah - MAROON ATK</image:title>
+      <image:caption>Panduan praktis menyusun spesifikasi teknis dan dokumen RFQ pengadaan ATK kantor untuk instansi pemerintah di lima kota besar.</image:caption>
+    </image:image>
+  </url>
+
 </urlset>
