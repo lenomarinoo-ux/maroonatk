@@ -47,7 +47,7 @@
   <!-- Blog & Panduan Kantor -->
   <url>
     <loc>https://maroonatk.web.id/blog</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -1742,6 +1742,27 @@
       <image:loc>https://maroonatk.web.id/assets/image/blog/dokumen-rfq-pengadaan-atk-kantor.webp</image:loc>
       <image:title>Cara Menyusun Dokumen RFQ Pengadaan ATK Kantor untuk Instansi Pemerintah - MAROON ATK</image:title>
       <image:caption>Panduan praktis menyusun spesifikasi teknis dan dokumen RFQ pengadaan ATK kantor untuk instansi pemerintah di lima kota besar.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Langkah Desain Custom Furniture Kantor Sesuai Brand (22 Sep 2026) -->
+  <url>
+    <loc>https://maroonatk.web.id/blog/langkah-desain-custom-furniture-kantor-brand</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <news:news>
+      <news:publication>
+        <news:name>MAROON ATK Blog</news:name>
+        <news:language>id</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22</news:publication_date>
+      <news:title>Langkah Desain Custom Furniture Kantor Sesuai Brand</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://maroonatk.web.id/assets/image/blog/Detail-close-up-meja-kantor-custom-menampilkan-material-kayu-premium-pegangan-laci-unik-dan-ukiran-logo-perusahaan.webp</image:loc>
+      <image:title>Langkah Desain Custom Furniture Kantor Sesuai Brand - MAROON ATK</image:title>
+      <image:caption>Panduan langkah demi langkah merancang desain custom furniture kantor yang mencerminkan brand identity perusahaan untuk startup dinamis.</image:caption>
     </image:image>
   </url>
 
